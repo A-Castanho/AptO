@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<xmItems:BaseShell xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:viewModel="clr-namespace:AppAptO.ViewModels.Flyout"
+             xmlns:xmItems="clr-namespace:AppAptO.XamarinItems"
+             xmlns:viewsContas="clr-namespace:AppAptO.Views.Conta"
+             xmlns:header="clr-namespace:AppAptO.Views.Flyout"
+             xmlns:viewsOfertas="clr-namespace:AppAptO.Views.Ofertas"
+             xmlns:viewsPedidos="clr-namespace:AppAptO.Views.Pedidos"
+             xmlns:viewsChats="clr-namespace:AppAptO.Areas.ParticipanteNoVoluntariado.Chats"
+             xmlns:viewsConfiguracoes="clr-namespace:AppAptO.Areas.Geral.Configuracoes"
+             xmlns:local="clr-namespace:AppAptO"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:viewsMinhaArea="clr-namespace:AppAptO.Views.Conta.MeuVoluntariado.MeuPedido"
+             mc:Ignorable="d"
+             BackgroundColor="{x:DynamicResource PrimaryDark}"
+             ForegroundColor="White"
+             TitleColor="White"
+             DisabledColor="#B4FFFFFF"
+             UnselectedColor="#95FFFFFF"
+             x:Class="AppAptO.Areas.ParticipanteNoVoluntariado.Flyout.ApoiadoOrganizacaoShell">
+    <xmItems:BaseShell.BindingContext>
+        <viewModel:AppShellViewModel/>
+    </xmItems:BaseShell.BindingContext>
+    <xmItems:BaseShell.FlyoutHeader>
+        <header:Header/>
+    </xmItems:BaseShell.FlyoutHeader>
+    <ShellContent Title="Meus Pedidos" ContentTemplate="{DataTemplate viewsMinhaArea:MeusPedidosPage}"/>
+    <ShellContent Title="Chats" ContentTemplate="{DataTemplate viewsChats:MeusChatsPage}"/>
+    <ShellContent Title="Ofertas de Apoio" ContentTemplate="{DataTemplate viewsOfertas:OfertasMainPage}"/>
+    <ShellContent Title="Pedidos de Apoio" ContentTemplate="{DataTemplate viewsPedidos:PedidosMainPage}"/>
+    <ShellContent Title="Utilizadores" ContentTemplate="{DataTemplate viewsContas:ListagemContasPage}"/>
+    <ShellContent Title="Definições" ContentTemplate="{DataTemplate viewsConfiguracoes:MainConfigPage}"/>
+
+</xmItems:BaseShell>

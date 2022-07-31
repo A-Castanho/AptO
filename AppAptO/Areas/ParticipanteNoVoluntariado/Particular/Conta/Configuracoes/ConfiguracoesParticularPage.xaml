@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:input="clr-namespace:Plugin.InputKit.Shared.Controls;assembly=Plugin.InputKit"
+             xmlns:viewModel="clr-namespace:AppAptO.ViewModels.Conta"
+             x:Class="AppAptO.Views.Conta.ConfiguracoesParticularPage"
+             Title="{Binding Title}">
+    <ContentPage.BindingContext>
+        <viewModel:ConfiguracoesParticularViewModel/>
+    </ContentPage.BindingContext>
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Dados Conta" 
+                     Order="Secondary"
+                     Command="{Binding SelecionarViewCommand}" 
+                     CommandParameter="Dados Pessoais"/>
+        <ToolbarItem Text="Aptidões" 
+                     Order="Secondary"
+                     Command="{Binding SelecionarViewCommand}" 
+                     CommandParameter="Aptidoes"/>
+        <ToolbarItem Text="Disponibilidde" 
+                     Order="Secondary"
+                     Command="{Binding SelecionarViewCommand}" 
+                     CommandParameter="Disponibilidade"/>
+    </ContentPage.ToolbarItems>
+    <ContentPage.Content>
+        <StackLayout>
+            <ContentView Content="{Binding ViewAtual}" VerticalOptions="StartAndExpand"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

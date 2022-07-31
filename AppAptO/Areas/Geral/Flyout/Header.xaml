@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:viewModel="clr-namespace:AppAptO.ViewModels.Flyout"
+             xmlns:imagens="clr-namespace:AppAptO.Models.AppHelpers;assembly=AppAptO" 
+             x:Class="AppAptO.Views.Flyout.Header">
+    <ContentView.BindingContext>
+        <viewModel:AppShellViewModel/>
+    </ContentView.BindingContext>
+    <ContentView.Content>
+        <StackLayout Margin="0,0,0,10">
+            <Frame>
+                <Grid ColumnDefinitions="30,*" RowDefinitions="30,*">
+                    <Frame Style="{StaticResource MolduraCircular}" Grid.RowSpan="2" Grid.ColumnSpan="2">
+                        <Image Source="{Binding Utilizador.Object.FotoUrl}"
+                       BackgroundColor="Black"
+                       WidthRequest="170"
+                       HeightRequest="170">
+                            <Image.GestureRecognizers>
+                                <TapGestureRecognizer Command="{Binding CommandGoToPerfil}"/>
+                            </Image.GestureRecognizers>
+                        </Image>
+                    </Frame>
+                    <ImageButton HeightRequest="50" WidthRequest="50"
+                                 Command="{Binding CommandLogout}"
+                                 Source="{imagens:ImageResource logout.png}"/>
+                </Grid>
+            </Frame>
+            <BoxView Style="{StaticResource LinhaHorizontal}"/>
+            <Frame IsVisible="{Binding VisibilidadeNotificacoes}">
+                <Frame.GestureRecognizers>
+                    <TapGestureRecognizer Command="{Binding CommandGoToNotificacoes}"/>
+                </Frame.GestureRecognizers>
+                <StackLayout Orientation="Horizontal">
+                    <Image Source="{imagens:ImageResource 'notification.png'}" 
+                           HeightRequest="30" 
+                           WidthRequest="30"/>
+                    <Label Text="Ver novas notificações" VerticalOptions="CenterAndExpand"/>
+                </StackLayout>
+            </Frame>
+            <Frame Padding="18" BorderColor="{DynamicResource PrimaryDark}" IsVisible="{Binding VisibilidadeOrgArea}">
+                <Frame.GestureRecognizers>
+                    <TapGestureRecognizer Command="{Binding CommandGoToOrgArea}"/>
+                </Frame.GestureRecognizers>
+                <StackLayout Orientation="Horizontal">
+
+                    <Label Text="Consultar Área Organização" TextColor="Black" FontAttributes="Bold" 
+                           HorizontalOptions="CenterAndExpand"/>
+                </StackLayout>
+            </Frame>
+        </StackLayout>
+    </ContentView.Content>
+</ContentView>

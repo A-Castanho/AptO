@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ResourceDictionary xmlns="http://xamarin.com/schemas/2014/forms"
+ xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+ x:Class="AppAptO.Themes.AdminTheme">
+
+    <Color x:Key="Primary">#636363</Color>
+
+    <Color x:Key="PrimaryLightest">#c7c7c7</Color>
+
+    <Color x:Key="PrimaryDark">#1c1c1c</Color>
+
+    <Color x:Key="PrimaryDarkest">#000000</Color>
+
+    <Color x:Key="Accent">#1c2530</Color>
+</ResourceDictionary>

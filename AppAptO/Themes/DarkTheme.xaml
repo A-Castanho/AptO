@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ResourceDictionary xmlns="http://xamarin.com/schemas/2014/forms"
+ xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+ x:Class="AppAptO.Themes.DarkTheme">
+    <Color x:Key="TextColor">#ffffff</Color>
+    <Color x:Key="LightTextColor">#cfcfcf</Color>
+    <Color x:Key="InverseTextColor">#000000</Color>
+    <Color x:Key="LightInverseTextColor">#3d3d3d</Color>
+</ResourceDictionary>

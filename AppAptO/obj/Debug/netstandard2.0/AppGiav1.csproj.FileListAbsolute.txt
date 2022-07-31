@@ -1,0 +1,988 @@
+C:\Users\alina\source\repos\PAP\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\AppGiav1.csprojAssemblyReference.cache
+C:\Users\alina\source\repos\PAP\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\alina\source\repos\PAP\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\alina\source\repos\PAP\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Views\PageAutenticacao.xaml.g.cs
+C:\Users\alina\source\repos\PAP\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\AppGiav1.AssemblyInfoInputs.cache
+C:\Users\alina\source\repos\PAP\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\AppGiav1.AssemblyInfo.cs
+C:\Users\alina\source\repos\PAP\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\AppGiav1.csproj.CoreCompileInputs.cache
+C:\Users\alina\source\repos\PAP\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\AppGiav1.dll
+C:\Users\alina\source\repos\PAP\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\ref\AppGiav1.dll
+C:\Users\alina\source\repos\PAP\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\AppGiav1.pdb
+C:\Users\alina\source\repos\PAP\AppGiav1\AppGiav1\bin\Debug\netstandard2.0\AppGiav1.deps.json
+C:\Users\alina\source\repos\PAP\AppGiav1\AppGiav1\bin\Debug\netstandard2.0\AppGiav1.dll
+C:\Users\alina\source\repos\PAP\AppGiav1\AppGiav1\bin\Debug\netstandard2.0\ref\AppGiav1.dll
+C:\Users\alina\source\repos\PAP\AppGiav1\AppGiav1\bin\Debug\netstandard2.0\AppGiav1.pdb
+C:\Users\alina\source\repos\PAP\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\alina\source\repos\PAP\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Views\Page1.xaml.g.cs
+E:\AppGiav1\AppGiav1\bin\Debug\netstandard2.0\AppGiav1.deps.json
+E:\AppGiav1\AppGiav1\bin\Debug\netstandard2.0\AppGiav1.dll
+E:\AppGiav1\AppGiav1\bin\Debug\netstandard2.0\ref\AppGiav1.dll
+E:\AppGiav1\AppGiav1\bin\Debug\netstandard2.0\AppGiav1.pdb
+E:\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\AppGiav1.csprojAssemblyReference.cache
+E:\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\App.xaml.g.cs
+E:\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+E:\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Views\PageAutenticacao.xaml.g.cs
+E:\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\AppGiav1.AssemblyInfoInputs.cache
+E:\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\AppGiav1.AssemblyInfo.cs
+E:\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\AppGiav1.csproj.CoreCompileInputs.cache
+E:\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\XamlC.stamp
+E:\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\AppGiav1.dll
+E:\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\ref\AppGiav1.dll
+E:\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\AppGiav1.pdb
+E:\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Views\PageListaOfertas.xaml.g.cs
+E:\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Views\PageAdiconar_Oferta.xaml.g.cs
+E:\1.2.2\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\AppGiav1.csprojAssemblyReference.cache
+E:\1.2.2\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\AppGiav1.dll
+E:\1.2.2\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\ref\AppGiav1.dll
+E:\1.2.2\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\AppGiav1.pdb
+E:\1.2.2\AppGiav1\AppGiav1\bin\Debug\netstandard2.0\AppGiav1.deps.json
+E:\1.2.2\AppGiav1\AppGiav1\bin\Debug\netstandard2.0\AppGiav1.dll
+E:\1.2.2\AppGiav1\AppGiav1\bin\Debug\netstandard2.0\ref\AppGiav1.dll
+E:\1.2.2\AppGiav1\AppGiav1\bin\Debug\netstandard2.0\AppGiav1.pdb
+E:\1.2.2\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\App.xaml.g.cs
+E:\1.2.2\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+E:\1.2.2\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Views\PageAdiconar_Oferta.xaml.g.cs
+E:\1.2.2\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Views\PageAutenticacao.xaml.g.cs
+E:\1.2.2\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Views\PageListaOfertas.xaml.g.cs
+E:\1.2.2\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\AppGiav1.AssemblyInfoInputs.cache
+E:\1.2.2\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\AppGiav1.AssemblyInfo.cs
+E:\1.2.2\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\AppGiav1.csproj.CoreCompileInputs.cache
+E:\1.2.2\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\alina\OneDrive\Documentos\PAP versions\0.1\AppGiav1\AppGiav1\bin\Debug\netstandard2.0\AppGiav1.deps.json
+C:\Users\alina\OneDrive\Documentos\PAP versions\0.1\AppGiav1\AppGiav1\bin\Debug\netstandard2.0\AppGiav1.dll
+C:\Users\alina\OneDrive\Documentos\PAP versions\0.1\AppGiav1\AppGiav1\bin\Debug\netstandard2.0\ref\AppGiav1.dll
+C:\Users\alina\OneDrive\Documentos\PAP versions\0.1\AppGiav1\AppGiav1\bin\Debug\netstandard2.0\AppGiav1.pdb
+C:\Users\alina\OneDrive\Documentos\PAP versions\0.1\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\AppGiav1.csprojAssemblyReference.cache
+C:\Users\alina\OneDrive\Documentos\PAP versions\0.1\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\alina\OneDrive\Documentos\PAP versions\0.1\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\alina\OneDrive\Documentos\PAP versions\0.1\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Views\PageAdiconar_Oferta.xaml.g.cs
+C:\Users\alina\OneDrive\Documentos\PAP versions\0.1\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Views\PageAutenticacao.xaml.g.cs
+C:\Users\alina\OneDrive\Documentos\PAP versions\0.1\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Views\PageListaOfertas.xaml.g.cs
+C:\Users\alina\OneDrive\Documentos\PAP versions\0.1\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\AppGiav1.AssemblyInfoInputs.cache
+C:\Users\alina\OneDrive\Documentos\PAP versions\0.1\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\AppGiav1.AssemblyInfo.cs
+C:\Users\alina\OneDrive\Documentos\PAP versions\0.1\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\AppGiav1.csproj.CoreCompileInputs.cache
+C:\Users\alina\OneDrive\Documentos\PAP versions\0.1\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\alina\OneDrive\Documentos\PAP versions\0.1\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\AppGiav1.dll
+C:\Users\alina\OneDrive\Documentos\PAP versions\0.1\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\ref\AppGiav1.dll
+C:\Users\alina\OneDrive\Documentos\PAP versions\0.1\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\AppGiav1.pdb
+E:\1.4\AppGiav1\AppGiav1\bin\Debug\netstandard2.0\AppGiav1.deps.json
+E:\1.4\AppGiav1\AppGiav1\bin\Debug\netstandard2.0\AppGiav1.dll
+E:\1.4\AppGiav1\AppGiav1\bin\Debug\netstandard2.0\ref\AppGiav1.dll
+E:\1.4\AppGiav1\AppGiav1\bin\Debug\netstandard2.0\AppGiav1.pdb
+E:\1.4\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\AppGiav1.csprojAssemblyReference.cache
+E:\1.4\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\App.xaml.g.cs
+E:\1.4\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+E:\1.4\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Views\PageAdiconar_Oferta.xaml.g.cs
+E:\1.4\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Views\PageAutenticacao.xaml.g.cs
+E:\1.4\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Views\PageListaOfertas.xaml.g.cs
+E:\1.4\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Views\PageRegisto.xaml.g.cs
+E:\1.4\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\AppGiav1.AssemblyInfoInputs.cache
+E:\1.4\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\AppGiav1.AssemblyInfo.cs
+E:\1.4\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\AppGiav1.csproj.CoreCompileInputs.cache
+E:\1.4\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\XamlC.stamp
+E:\1.4\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\AppGiav1.dll
+E:\1.4\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\ref\AppGiav1.dll
+E:\1.4\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\AppGiav1.pdb
+E:\1.4\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Views\PageTeste.xaml.g.cs
+E:\1.5\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\AppGiav1.csprojAssemblyReference.cache
+E:\1.5\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\App.xaml.g.cs
+E:\1.5\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+E:\1.5\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Views\PageAdiconar_Oferta.xaml.g.cs
+E:\1.5\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Views\PageAutenticacao.xaml.g.cs
+E:\1.5\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Views\PageListaOfertas.xaml.g.cs
+E:\1.5\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Views\PageTeste.xaml.g.cs
+E:\1.5\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\AppGiav1.AssemblyInfoInputs.cache
+E:\1.5\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\AppGiav1.AssemblyInfo.cs
+E:\1.5\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\AppGiav1.csproj.CoreCompileInputs.cache
+E:\1.5\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\AppGiav1.dll
+E:\1.5\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\ref\AppGiav1.dll
+E:\1.5\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\AppGiav1.pdb
+E:\1.5\AppGiav1\AppGiav1\bin\Debug\netstandard2.0\AppGiav1.deps.json
+E:\1.5\AppGiav1\AppGiav1\bin\Debug\netstandard2.0\AppGiav1.dll
+E:\1.5\AppGiav1\AppGiav1\bin\Debug\netstandard2.0\ref\AppGiav1.dll
+E:\1.5\AppGiav1\AppGiav1\bin\Debug\netstandard2.0\AppGiav1.pdb
+E:\1.5\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\XamlC.stamp
+E:\1.5\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Views\PageNovaConta.xaml.g.cs
+E:\1.5\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Views\PageOfertaApoio.xaml.g.cs
+C:\Users\alina\OneDrive\Documentos\PAP versions\1.5.7\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\AppGiav1.csprojAssemblyReference.cache
+C:\Users\alina\OneDrive\Documentos\PAP versions\1.5.7\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\alina\OneDrive\Documentos\PAP versions\1.5.7\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\alina\OneDrive\Documentos\PAP versions\1.5.7\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Views\PageAdiconar_Oferta.xaml.g.cs
+C:\Users\alina\OneDrive\Documentos\PAP versions\1.5.7\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Views\PageAutenticacao.xaml.g.cs
+C:\Users\alina\OneDrive\Documentos\PAP versions\1.5.7\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Views\PageListaOfertas.xaml.g.cs
+C:\Users\alina\OneDrive\Documentos\PAP versions\1.5.7\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Views\PageNovaConta.xaml.g.cs
+C:\Users\alina\OneDrive\Documentos\PAP versions\1.5.7\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Views\PageOfertaApoio.xaml.g.cs
+C:\Users\alina\OneDrive\Documentos\PAP versions\1.5.7\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Views\PageTeste.xaml.g.cs
+C:\Users\alina\OneDrive\Documentos\PAP versions\1.5.7\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\AppGiav1.AssemblyInfoInputs.cache
+C:\Users\alina\OneDrive\Documentos\PAP versions\1.5.7\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\AppGiav1.AssemblyInfo.cs
+C:\Users\alina\OneDrive\Documentos\PAP versions\1.5.7\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\AppGiav1.csproj.CoreCompileInputs.cache
+C:\Users\alina\OneDrive\Documentos\PAP versions\1.5.7\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\AppGiav1.dll
+C:\Users\alina\OneDrive\Documentos\PAP versions\1.5.7\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\ref\AppGiav1.dll
+C:\Users\alina\OneDrive\Documentos\PAP versions\1.5.7\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\AppGiav1.pdb
+C:\Users\alina\OneDrive\Documentos\PAP versions\1.5.7\AppGiav1\AppGiav1\bin\Debug\netstandard2.0\AppGiav1.deps.json
+C:\Users\alina\OneDrive\Documentos\PAP versions\1.5.7\AppGiav1\AppGiav1\bin\Debug\netstandard2.0\AppGiav1.dll
+C:\Users\alina\OneDrive\Documentos\PAP versions\1.5.7\AppGiav1\AppGiav1\bin\Debug\netstandard2.0\ref\AppGiav1.dll
+C:\Users\alina\OneDrive\Documentos\PAP versions\1.5.7\AppGiav1\AppGiav1\bin\Debug\netstandard2.0\AppGiav1.pdb
+C:\Users\alina\OneDrive\Documentos\PAP versions\1.5.7\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\XamlC.stamp
+E:\PAP\App 5.8\AppGiav1\AppGiav1\bin\Debug\netstandard2.0\AppGiav1.deps.json
+E:\PAP\App 5.8\AppGiav1\AppGiav1\bin\Debug\netstandard2.0\AppGiav1.dll
+E:\PAP\App 5.8\AppGiav1\AppGiav1\bin\Debug\netstandard2.0\ref\AppGiav1.dll
+E:\PAP\App 5.8\AppGiav1\AppGiav1\bin\Debug\netstandard2.0\AppGiav1.pdb
+E:\PAP\App 5.8\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\AppGiav1.csprojAssemblyReference.cache
+E:\PAP\App 5.8\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\App.xaml.g.cs
+E:\PAP\App 5.8\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+E:\PAP\App 5.8\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Views\PageAdiconar_Oferta.xaml.g.cs
+E:\PAP\App 5.8\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Views\PageAutenticacao.xaml.g.cs
+E:\PAP\App 5.8\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Views\PageListaOfertas.xaml.g.cs
+E:\PAP\App 5.8\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Views\PageOfertaApoio.xaml.g.cs
+E:\PAP\App 5.8\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\AppGiav1.AssemblyInfoInputs.cache
+E:\PAP\App 5.8\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\AppGiav1.AssemblyInfo.cs
+E:\PAP\App 5.8\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\AppGiav1.csproj.CoreCompileInputs.cache
+E:\PAP\App 5.8\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\XamlC.stamp
+E:\PAP\App 5.8\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\AppGiav1.dll
+E:\PAP\App 5.8\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\ref\AppGiav1.dll
+E:\PAP\App 5.8\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\AppGiav1.pdb
+E:\PAP\App 5.8\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Views\Shell\AppShell.xaml.g.cs
+E:\PAP\App 5.8\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Views\PageAdicionar_Pedido.xaml.g.cs
+E:\PAP\App 5.8\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Views\PageListaPedidos.xaml.g.cs
+E:\PAP\App 5.8\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Views\PagePerfil.xaml.g.cs
+C:\Users\alina\OneDrive\Documentos\PAP versions\11-22\AppGiav1\AppGiav1\bin\Debug\netstandard2.0\AppGiav1.deps.json
+C:\Users\alina\OneDrive\Documentos\PAP versions\11-22\AppGiav1\AppGiav1\bin\Debug\netstandard2.0\AppGiav1.dll
+C:\Users\alina\OneDrive\Documentos\PAP versions\11-22\AppGiav1\AppGiav1\bin\Debug\netstandard2.0\ref\AppGiav1.dll
+C:\Users\alina\OneDrive\Documentos\PAP versions\11-22\AppGiav1\AppGiav1\bin\Debug\netstandard2.0\AppGiav1.pdb
+C:\Users\alina\OneDrive\Documentos\PAP versions\11-22\AppGiav1\AppGiav1\bin\Debug\netstandard2.0\Mono.Android.dll
+C:\Users\alina\OneDrive\Documentos\PAP versions\11-22\AppGiav1\AppGiav1\bin\Debug\netstandard2.0\Mono.Android.pdb
+C:\Users\alina\OneDrive\Documentos\PAP versions\11-22\AppGiav1\AppGiav1\bin\Debug\netstandard2.0\Mono.Android.xml
+C:\Users\alina\OneDrive\Documentos\PAP versions\11-22\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\AppGiav1.csprojAssemblyReference.cache
+C:\Users\alina\OneDrive\Documentos\PAP versions\11-22\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\alina\OneDrive\Documentos\PAP versions\11-22\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\alina\OneDrive\Documentos\PAP versions\11-22\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Views\PageAdicionar_Pedido.xaml.g.cs
+C:\Users\alina\OneDrive\Documentos\PAP versions\11-22\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Views\PageAdiconar_Oferta.xaml.g.cs
+C:\Users\alina\OneDrive\Documentos\PAP versions\11-22\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Views\PageAutenticacao.xaml.g.cs
+C:\Users\alina\OneDrive\Documentos\PAP versions\11-22\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Views\PageListaOfertas.xaml.g.cs
+C:\Users\alina\OneDrive\Documentos\PAP versions\11-22\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Views\PageListaPedidos.xaml.g.cs
+C:\Users\alina\OneDrive\Documentos\PAP versions\11-22\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Views\PageOfertaApoio.xaml.g.cs
+C:\Users\alina\OneDrive\Documentos\PAP versions\11-22\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Views\PagePerfil.xaml.g.cs
+C:\Users\alina\OneDrive\Documentos\PAP versions\11-22\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Views\Shell\AppShell.xaml.g.cs
+C:\Users\alina\OneDrive\Documentos\PAP versions\11-22\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\AppGiav1.AssemblyInfoInputs.cache
+C:\Users\alina\OneDrive\Documentos\PAP versions\11-22\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\AppGiav1.AssemblyInfo.cs
+C:\Users\alina\OneDrive\Documentos\PAP versions\11-22\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\AppGiav1.csproj.CoreCompileInputs.cache
+C:\Users\alina\OneDrive\Documentos\PAP versions\11-22\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\alina\OneDrive\Documentos\PAP versions\11-22\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\AppGiav1.csproj.CopyComplete
+C:\Users\alina\OneDrive\Documentos\PAP versions\11-22\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\AppGiav1.dll
+C:\Users\alina\OneDrive\Documentos\PAP versions\11-22\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\ref\AppGiav1.dll
+C:\Users\alina\OneDrive\Documentos\PAP versions\11-22\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\AppGiav1.pdb
+E:\PAP\AppGiav_11_25\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\AppGiav1.csprojAssemblyReference.cache
+E:\PAP\AppGiav_11_25\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\App.xaml.g.cs
+E:\PAP\AppGiav_11_25\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+E:\PAP\AppGiav_11_25\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Views\PageAdicionar_Pedido.xaml.g.cs
+E:\PAP\AppGiav_11_25\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Views\PageAdiconar_Oferta.xaml.g.cs
+E:\PAP\AppGiav_11_25\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Views\PageAutenticacao.xaml.g.cs
+E:\PAP\AppGiav_11_25\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Views\PageListaOfertas.xaml.g.cs
+E:\PAP\AppGiav_11_25\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Views\PageListaPedidos.xaml.g.cs
+E:\PAP\AppGiav_11_25\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Views\PageOfertaApoio.xaml.g.cs
+E:\PAP\AppGiav_11_25\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Views\PagePerfil.xaml.g.cs
+E:\PAP\AppGiav_11_25\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Views\Shell\AppShell.xaml.g.cs
+E:\PAP\AppGiav_11_25\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\AppGiav1.AssemblyInfoInputs.cache
+E:\PAP\AppGiav_11_25\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\AppGiav1.AssemblyInfo.cs
+E:\PAP\AppGiav_11_25\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\AppGiav1.csproj.CoreCompileInputs.cache
+E:\PAP\AppGiav_11_25\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\AppGiav1.dll
+E:\PAP\AppGiav_11_25\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\ref\AppGiav1.dll
+E:\PAP\AppGiav_11_25\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\AppGiav1.pdb
+E:\PAP\AppGiav_11_25\AppGiav1\AppGiav1\bin\Debug\netstandard2.0\AppGiav1.deps.json
+E:\PAP\AppGiav_11_25\AppGiav1\AppGiav1\bin\Debug\netstandard2.0\AppGiav1.dll
+E:\PAP\AppGiav_11_25\AppGiav1\AppGiav1\bin\Debug\netstandard2.0\ref\AppGiav1.dll
+E:\PAP\AppGiav_11_25\AppGiav1\AppGiav1\bin\Debug\netstandard2.0\AppGiav1.pdb
+E:\PAP\AppGiav_11_25\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\XamlC.stamp
+E:\PAP\AppGiav_11_25\AppGiav1\AppGiav1\bin\Debug\netstandard2.0\System.Drawing.Common.dll
+E:\PAP\AppGiav_11_25\AppGiav1\AppGiav1\bin\Debug\netstandard2.0\System.Drawing.Common.pdb
+E:\PAP\AppGiav_11_25\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\AppGiav1.csproj.CopyComplete
+C:\Users\alina\OneDrive\Documentos\PAP versions\AppGiav1_11_27\AppGiav1\AppGiav1\bin\Debug\netstandard2.0\AppGiav1.deps.json
+C:\Users\alina\OneDrive\Documentos\PAP versions\AppGiav1_11_27\AppGiav1\AppGiav1\bin\Debug\netstandard2.0\AppGiav1.dll
+C:\Users\alina\OneDrive\Documentos\PAP versions\AppGiav1_11_27\AppGiav1\AppGiav1\bin\Debug\netstandard2.0\ref\AppGiav1.dll
+C:\Users\alina\OneDrive\Documentos\PAP versions\AppGiav1_11_27\AppGiav1\AppGiav1\bin\Debug\netstandard2.0\AppGiav1.pdb
+C:\Users\alina\OneDrive\Documentos\PAP versions\AppGiav1_11_27\AppGiav1\AppGiav1\bin\Debug\netstandard2.0\Mono.Android.dll
+C:\Users\alina\OneDrive\Documentos\PAP versions\AppGiav1_11_27\AppGiav1\AppGiav1\bin\Debug\netstandard2.0\System.Drawing.Common.dll
+C:\Users\alina\OneDrive\Documentos\PAP versions\AppGiav1_11_27\AppGiav1\AppGiav1\bin\Debug\netstandard2.0\Mono.Android.pdb
+C:\Users\alina\OneDrive\Documentos\PAP versions\AppGiav1_11_27\AppGiav1\AppGiav1\bin\Debug\netstandard2.0\Mono.Android.xml
+C:\Users\alina\OneDrive\Documentos\PAP versions\AppGiav1_11_27\AppGiav1\AppGiav1\bin\Debug\netstandard2.0\System.Drawing.Common.pdb
+C:\Users\alina\OneDrive\Documentos\PAP versions\AppGiav1_11_27\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\AppGiav1.csprojAssemblyReference.cache
+C:\Users\alina\OneDrive\Documentos\PAP versions\AppGiav1_11_27\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\alina\OneDrive\Documentos\PAP versions\AppGiav1_11_27\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\alina\OneDrive\Documentos\PAP versions\AppGiav1_11_27\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Views\PageAdicionar_Pedido.xaml.g.cs
+C:\Users\alina\OneDrive\Documentos\PAP versions\AppGiav1_11_27\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Views\PageAdiconar_Oferta.xaml.g.cs
+C:\Users\alina\OneDrive\Documentos\PAP versions\AppGiav1_11_27\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Views\PageAutenticacao.xaml.g.cs
+C:\Users\alina\OneDrive\Documentos\PAP versions\AppGiav1_11_27\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Views\PageListaOfertas.xaml.g.cs
+C:\Users\alina\OneDrive\Documentos\PAP versions\AppGiav1_11_27\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Views\PageListaPedidos.xaml.g.cs
+C:\Users\alina\OneDrive\Documentos\PAP versions\AppGiav1_11_27\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Views\PageOfertaApoio.xaml.g.cs
+C:\Users\alina\OneDrive\Documentos\PAP versions\AppGiav1_11_27\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Views\PagePerfil.xaml.g.cs
+C:\Users\alina\OneDrive\Documentos\PAP versions\AppGiav1_11_27\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Views\Shell\AppShell.xaml.g.cs
+C:\Users\alina\OneDrive\Documentos\PAP versions\AppGiav1_11_27\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\AppGiav1.AssemblyInfoInputs.cache
+C:\Users\alina\OneDrive\Documentos\PAP versions\AppGiav1_11_27\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\AppGiav1.AssemblyInfo.cs
+C:\Users\alina\OneDrive\Documentos\PAP versions\AppGiav1_11_27\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\AppGiav1.csproj.CoreCompileInputs.cache
+C:\Users\alina\OneDrive\Documentos\PAP versions\AppGiav1_11_27\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\alina\OneDrive\Documentos\PAP versions\AppGiav1_11_27\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\AppGiav1.csproj.CopyComplete
+C:\Users\alina\OneDrive\Documentos\PAP versions\AppGiav1_11_27\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\AppGiav1.dll
+C:\Users\alina\OneDrive\Documentos\PAP versions\AppGiav1_11_27\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\ref\AppGiav1.dll
+C:\Users\alina\OneDrive\Documentos\PAP versions\AppGiav1_11_27\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\AppGiav1.pdb
+E:\PAP\AppGiav1_11_29\AppGiav1\AppGiav1\bin\Debug\netstandard2.0\AppGiav1.deps.json
+E:\PAP\AppGiav1_11_29\AppGiav1\AppGiav1\bin\Debug\netstandard2.0\AppGiav1.dll
+E:\PAP\AppGiav1_11_29\AppGiav1\AppGiav1\bin\Debug\netstandard2.0\ref\AppGiav1.dll
+E:\PAP\AppGiav1_11_29\AppGiav1\AppGiav1\bin\Debug\netstandard2.0\AppGiav1.pdb
+E:\PAP\AppGiav1_11_29\AppGiav1\AppGiav1\bin\Debug\netstandard2.0\System.Drawing.Common.dll
+E:\PAP\AppGiav1_11_29\AppGiav1\AppGiav1\bin\Debug\netstandard2.0\System.Drawing.Common.pdb
+E:\PAP\AppGiav1_11_29\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\AppGiav1.csprojAssemblyReference.cache
+E:\PAP\AppGiav1_11_29\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\App.xaml.g.cs
+E:\PAP\AppGiav1_11_29\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+E:\PAP\AppGiav1_11_29\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Views\PageAdicionar_Pedido.xaml.g.cs
+E:\PAP\AppGiav1_11_29\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Views\PageAdiconar_Oferta.xaml.g.cs
+E:\PAP\AppGiav1_11_29\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Views\PageAutenticacao.xaml.g.cs
+E:\PAP\AppGiav1_11_29\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Views\PageListaOfertas.xaml.g.cs
+E:\PAP\AppGiav1_11_29\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Views\PageListaPedidos.xaml.g.cs
+E:\PAP\AppGiav1_11_29\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Views\PageOfertaApoio.xaml.g.cs
+E:\PAP\AppGiav1_11_29\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Views\PagePerfil.xaml.g.cs
+E:\PAP\AppGiav1_11_29\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Views\Shell\AppShell.xaml.g.cs
+E:\PAP\AppGiav1_11_29\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\AppGiav1.AssemblyInfoInputs.cache
+E:\PAP\AppGiav1_11_29\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\AppGiav1.AssemblyInfo.cs
+E:\PAP\AppGiav1_11_29\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\AppGiav1.csproj.CoreCompileInputs.cache
+E:\PAP\AppGiav1_11_29\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\XamlC.stamp
+E:\PAP\AppGiav1_11_29\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\AppGiav1.csproj.CopyComplete
+E:\PAP\AppGiav1_11_29\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\AppGiav1.dll
+E:\PAP\AppGiav1_11_29\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\ref\AppGiav1.dll
+E:\PAP\AppGiav1_11_29\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\AppGiav1.pdb
+C:\Users\alina\OneDrive\Documentos\PAP versions\AppGiav1_11_29-2\AppGiav1_11_29\AppGiav1\AppGiav1\bin\Debug\netstandard2.0\AppGiav1.deps.json
+C:\Users\alina\OneDrive\Documentos\PAP versions\AppGiav1_11_29-2\AppGiav1_11_29\AppGiav1\AppGiav1\bin\Debug\netstandard2.0\AppGiav1.dll
+C:\Users\alina\OneDrive\Documentos\PAP versions\AppGiav1_11_29-2\AppGiav1_11_29\AppGiav1\AppGiav1\bin\Debug\netstandard2.0\ref\AppGiav1.dll
+C:\Users\alina\OneDrive\Documentos\PAP versions\AppGiav1_11_29-2\AppGiav1_11_29\AppGiav1\AppGiav1\bin\Debug\netstandard2.0\AppGiav1.pdb
+C:\Users\alina\OneDrive\Documentos\PAP versions\AppGiav1_11_29-2\AppGiav1_11_29\AppGiav1\AppGiav1\bin\Debug\netstandard2.0\System.Drawing.Common.dll
+C:\Users\alina\OneDrive\Documentos\PAP versions\AppGiav1_11_29-2\AppGiav1_11_29\AppGiav1\AppGiav1\bin\Debug\netstandard2.0\System.Drawing.Common.pdb
+C:\Users\alina\OneDrive\Documentos\PAP versions\AppGiav1_11_29-2\AppGiav1_11_29\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\AppGiav1.csprojAssemblyReference.cache
+C:\Users\alina\OneDrive\Documentos\PAP versions\AppGiav1_11_29-2\AppGiav1_11_29\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\alina\OneDrive\Documentos\PAP versions\AppGiav1_11_29-2\AppGiav1_11_29\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\alina\OneDrive\Documentos\PAP versions\AppGiav1_11_29-2\AppGiav1_11_29\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Views\PageAdicionar_Pedido.xaml.g.cs
+C:\Users\alina\OneDrive\Documentos\PAP versions\AppGiav1_11_29-2\AppGiav1_11_29\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Views\PageAdiconar_Oferta.xaml.g.cs
+C:\Users\alina\OneDrive\Documentos\PAP versions\AppGiav1_11_29-2\AppGiav1_11_29\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Views\PageAutenticacao.xaml.g.cs
+C:\Users\alina\OneDrive\Documentos\PAP versions\AppGiav1_11_29-2\AppGiav1_11_29\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Views\PageListaOfertas.xaml.g.cs
+C:\Users\alina\OneDrive\Documentos\PAP versions\AppGiav1_11_29-2\AppGiav1_11_29\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Views\PageListaPedidos.xaml.g.cs
+C:\Users\alina\OneDrive\Documentos\PAP versions\AppGiav1_11_29-2\AppGiav1_11_29\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Views\PageOfertaApoio.xaml.g.cs
+C:\Users\alina\OneDrive\Documentos\PAP versions\AppGiav1_11_29-2\AppGiav1_11_29\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Views\PagePerfil.xaml.g.cs
+C:\Users\alina\OneDrive\Documentos\PAP versions\AppGiav1_11_29-2\AppGiav1_11_29\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Views\Shell\AppShell.xaml.g.cs
+C:\Users\alina\OneDrive\Documentos\PAP versions\AppGiav1_11_29-2\AppGiav1_11_29\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\AppGiav1.AssemblyInfoInputs.cache
+C:\Users\alina\OneDrive\Documentos\PAP versions\AppGiav1_11_29-2\AppGiav1_11_29\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\AppGiav1.AssemblyInfo.cs
+C:\Users\alina\OneDrive\Documentos\PAP versions\AppGiav1_11_29-2\AppGiav1_11_29\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\AppGiav1.csproj.CoreCompileInputs.cache
+C:\Users\alina\OneDrive\Documentos\PAP versions\AppGiav1_11_29-2\AppGiav1_11_29\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\alina\OneDrive\Documentos\PAP versions\AppGiav1_11_29-2\AppGiav1_11_29\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\AppGiav1.csproj.CopyComplete
+C:\Users\alina\OneDrive\Documentos\PAP versions\AppGiav1_11_29-2\AppGiav1_11_29\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\AppGiav1.dll
+C:\Users\alina\OneDrive\Documentos\PAP versions\AppGiav1_11_29-2\AppGiav1_11_29\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\ref\AppGiav1.dll
+C:\Users\alina\OneDrive\Documentos\PAP versions\AppGiav1_11_29-2\AppGiav1_11_29\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\AppGiav1.pdb
+E:\PAP\2\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\AppGiav1.csprojAssemblyReference.cache
+E:\PAP\2\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\AppGiav1.dll
+E:\PAP\2\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\ref\AppGiav1.dll
+E:\PAP\2\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\AppGiav1.pdb
+E:\PAP\2\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\App.xaml.g.cs
+E:\PAP\2\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+E:\PAP\2\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Views\PageAutenticacao.xaml.g.cs
+E:\PAP\2\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Views\PagePerfil.xaml.g.cs
+E:\PAP\2\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\AppGiav1.AssemblyInfoInputs.cache
+E:\PAP\2\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\AppGiav1.AssemblyInfo.cs
+E:\PAP\2\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\AppGiav1.csproj.CoreCompileInputs.cache
+E:\PAP\2\AppGiav1\AppGiav1\bin\Debug\netstandard2.0\AppGiav1.deps.json
+E:\PAP\2\AppGiav1\AppGiav1\bin\Debug\netstandard2.0\AppGiav1.dll
+E:\PAP\2\AppGiav1\AppGiav1\bin\Debug\netstandard2.0\ref\AppGiav1.dll
+E:\PAP\2\AppGiav1\AppGiav1\bin\Debug\netstandard2.0\AppGiav1.pdb
+E:\PAP\2\AppGiav1\AppGiav1\bin\Debug\netstandard2.0\System.Drawing.Common.dll
+E:\PAP\2\AppGiav1\AppGiav1\bin\Debug\netstandard2.0\System.Drawing.Common.pdb
+E:\PAP\2\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\XamlC.stamp
+E:\PAP\2\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\AppGiav1.csproj.CopyComplete
+E:\PAP\2\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Views\Flyout\AppShell.xaml.g.cs
+E:\PAP\2\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Views\Ofertas\PageAdiconar_Oferta.xaml.g.cs
+E:\PAP\2\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Views\Ofertas\PageListaOfertas.xaml.g.cs
+E:\PAP\2\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Views\Ofertas\PageOfertaApoio.xaml.g.cs
+E:\PAP\2\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Views\Pedidos\PageAdicionar_Pedido.xaml.g.cs
+E:\PAP\2\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Views\Pedidos\PageListaPedidos.xaml.g.cs
+E:\PAP\2\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Views\Ofertas\OfertasMainPage.xaml.g.cs
+E:\PAP\2\de novo\AppGiav1\AppGiav1\bin\Debug\netstandard2.0\AppGiav1.deps.json
+E:\PAP\2\de novo\AppGiav1\AppGiav1\bin\Debug\netstandard2.0\AppGiav1.dll
+E:\PAP\2\de novo\AppGiav1\AppGiav1\bin\Debug\netstandard2.0\ref\AppGiav1.dll
+E:\PAP\2\de novo\AppGiav1\AppGiav1\bin\Debug\netstandard2.0\AppGiav1.pdb
+E:\PAP\2\de novo\AppGiav1\AppGiav1\bin\Debug\netstandard2.0\System.Drawing.Common.dll
+E:\PAP\2\de novo\AppGiav1\AppGiav1\bin\Debug\netstandard2.0\System.Drawing.Common.pdb
+E:\PAP\2\de novo\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\AppGiav1.csprojAssemblyReference.cache
+E:\PAP\2\de novo\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\App.xaml.g.cs
+E:\PAP\2\de novo\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+E:\PAP\2\de novo\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Views\Flyout\AppShell.xaml.g.cs
+E:\PAP\2\de novo\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Views\Ofertas\OfertasMainPage.xaml.g.cs
+E:\PAP\2\de novo\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\AppGiav1.AssemblyInfoInputs.cache
+E:\PAP\2\de novo\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\AppGiav1.AssemblyInfo.cs
+E:\PAP\2\de novo\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\AppGiav1.csproj.CoreCompileInputs.cache
+E:\PAP\2\de novo\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\XamlC.stamp
+E:\PAP\2\de novo\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\AppGiav1.csproj.CopyComplete
+E:\PAP\2\de novo\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\AppGiav1.dll
+E:\PAP\2\de novo\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\ref\AppGiav1.dll
+E:\PAP\2\de novo\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\AppGiav1.pdb
+E:\PAP\2\de novo\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Views\Conta\AutenticacaoPage.xaml.g.cs
+E:\PAP\2\de novo\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Views\Conta\PerfilPage.xaml.g.cs
+E:\PAP\2\de novo\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Views\Ofertas\AdicionarOfertaPage.xaml.g.cs
+E:\PAP\2\de novo\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Views\Ofertas\OfertaApoioPage.xaml.g.cs
+E:\PAP\2\de novo\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Views\Pedidos\AdicionarPedidoPage.xaml.g.cs
+E:\PAP\2\de novo\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Views\Pedidos\PedidosMainPage.xaml.g.cs
+E:\PAP\2\de novo\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Views\Erro\SemInternetPage.xaml.g.cs
+E:\PAP\2\de novo\2\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\AppGiav1.csprojAssemblyReference.cache
+E:\PAP\2\de novo\2\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\App.xaml.g.cs
+E:\PAP\2\de novo\2\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+E:\PAP\2\de novo\2\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Views\Conta\AutenticacaoPage.xaml.g.cs
+E:\PAP\2\de novo\2\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Views\Conta\PerfilPage.xaml.g.cs
+E:\PAP\2\de novo\2\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Views\Erro\SemInternetPage.xaml.g.cs
+E:\PAP\2\de novo\2\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Views\Flyout\AppShell.xaml.g.cs
+E:\PAP\2\de novo\2\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Views\Ofertas\AdicionarOfertaPage.xaml.g.cs
+E:\PAP\2\de novo\2\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Views\Ofertas\OfertaApoioPage.xaml.g.cs
+E:\PAP\2\de novo\2\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Views\Ofertas\OfertasMainPage.xaml.g.cs
+E:\PAP\2\de novo\2\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Views\Pedidos\AdicionarPedidoPage.xaml.g.cs
+E:\PAP\2\de novo\2\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Views\Pedidos\PedidosMainPage.xaml.g.cs
+E:\PAP\2\de novo\2\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\AppGiav1.AssemblyInfoInputs.cache
+E:\PAP\2\de novo\2\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\AppGiav1.AssemblyInfo.cs
+E:\PAP\2\de novo\2\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\AppGiav1.csproj.CoreCompileInputs.cache
+E:\PAP\2\de novo\2\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\AppGiav1.dll
+E:\PAP\2\de novo\2\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\ref\AppGiav1.dll
+E:\PAP\2\de novo\2\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\AppGiav1.pdb
+E:\PAP\2\de novo\2\AppGiav1\AppGiav1\bin\Debug\netstandard2.0\AppGiav1.deps.json
+E:\PAP\2\de novo\2\AppGiav1\AppGiav1\bin\Debug\netstandard2.0\AppGiav1.dll
+E:\PAP\2\de novo\2\AppGiav1\AppGiav1\bin\Debug\netstandard2.0\ref\AppGiav1.dll
+E:\PAP\2\de novo\2\AppGiav1\AppGiav1\bin\Debug\netstandard2.0\AppGiav1.pdb
+E:\PAP\2\de novo\2\AppGiav1\AppGiav1\bin\Debug\netstandard2.0\System.Drawing.Common.dll
+E:\PAP\2\de novo\2\AppGiav1\AppGiav1\bin\Debug\netstandard2.0\System.Drawing.Common.pdb
+E:\PAP\2\de novo\2\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\XamlC.stamp
+E:\PAP\2\de novo\2\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\AppGiav1.csproj.CopyComplete
+E:\Escola\PAP\Projeto Visual Studio\AppGiav1\AppGiav1\bin\Debug\netstandard2.0\AppGiav1.deps.json
+E:\Escola\PAP\Projeto Visual Studio\AppGiav1\AppGiav1\bin\Debug\netstandard2.0\AppGiav1.dll
+E:\Escola\PAP\Projeto Visual Studio\AppGiav1\AppGiav1\bin\Debug\netstandard2.0\ref\AppGiav1.dll
+E:\Escola\PAP\Projeto Visual Studio\AppGiav1\AppGiav1\bin\Debug\netstandard2.0\AppGiav1.pdb
+E:\Escola\PAP\Projeto Visual Studio\AppGiav1\AppGiav1\bin\Debug\netstandard2.0\System.Drawing.Common.dll
+E:\Escola\PAP\Projeto Visual Studio\AppGiav1\AppGiav1\bin\Debug\netstandard2.0\System.Drawing.Common.pdb
+E:\Escola\PAP\Projeto Visual Studio\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\App.xaml.g.cs
+E:\Escola\PAP\Projeto Visual Studio\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+E:\Escola\PAP\Projeto Visual Studio\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Views\Conta\AutenticacaoPage.xaml.g.cs
+E:\Escola\PAP\Projeto Visual Studio\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Views\Conta\PerfilPage.xaml.g.cs
+E:\Escola\PAP\Projeto Visual Studio\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Views\Erro\SemInternetPage.xaml.g.cs
+E:\Escola\PAP\Projeto Visual Studio\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Views\Flyout\AppShell.xaml.g.cs
+E:\Escola\PAP\Projeto Visual Studio\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Views\Ofertas\AdicionarOfertaPage.xaml.g.cs
+E:\Escola\PAP\Projeto Visual Studio\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Views\Ofertas\OfertaApoioPage.xaml.g.cs
+E:\Escola\PAP\Projeto Visual Studio\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Views\Ofertas\OfertasMainPage.xaml.g.cs
+E:\Escola\PAP\Projeto Visual Studio\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Views\Pedidos\AdicionarPedidoPage.xaml.g.cs
+E:\Escola\PAP\Projeto Visual Studio\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Views\Pedidos\PedidosMainPage.xaml.g.cs
+E:\Escola\PAP\Projeto Visual Studio\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\AppGiav1.AssemblyInfoInputs.cache
+E:\Escola\PAP\Projeto Visual Studio\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\AppGiav1.AssemblyInfo.cs
+E:\Escola\PAP\Projeto Visual Studio\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\AppGiav1.csproj.CoreCompileInputs.cache
+E:\Escola\PAP\Projeto Visual Studio\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\XamlC.stamp
+E:\Escola\PAP\Projeto Visual Studio\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\AppGiav1.csproj.CopyComplete
+E:\Escola\PAP\Projeto Visual Studio\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\AppGiav1.dll
+E:\Escola\PAP\Projeto Visual Studio\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\ref\AppGiav1.dll
+E:\Escola\PAP\Projeto Visual Studio\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\AppGiav1.pdb
+E:\Escola\PAP\Projeto Visual Studio\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\PartialViews\Conta\DadosContaView.xaml.g.cs
+E:\Escola\PAP\Projeto Visual Studio\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\AppGiav1.csproj.AssemblyReference.cache
+E:\Escola\PAP\Projeto Visual Studio\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\AppGiav1.GeneratedMSBuildEditorConfig.editorconfig
+E:\Escola\PAP\Projeto Visual Studio\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\PartialViews\Ofertas\_ListaOfertasView.xaml.g.cs
+E:\Escola\PAP\Projeto Visual Studio\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\PartialViews\Conta\OfertasPessoaisView.xaml.g.cs
+E:\Escola\PAP\Projeto Visual Studio\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Views\Ofertas\EditarOfertaPage.xaml.g.cs
+E:\Escola\PAP\Projeto Visual Studio\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Views\Aplicacao\TituloPage.xaml.g.cs
+E:\Escola\PAP\Projeto Visual Studio\AppGiav1_23-12\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\AppGiav1.csproj.AssemblyReference.cache
+E:\Escola\PAP\Projeto Visual Studio\AppGiav1_23-12\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\AppGiav1.GeneratedMSBuildEditorConfig.editorconfig
+E:\Escola\PAP\Projeto Visual Studio\AppGiav1_23-12\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\App.xaml.g.cs
+E:\Escola\PAP\Projeto Visual Studio\AppGiav1_23-12\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+E:\Escola\PAP\Projeto Visual Studio\AppGiav1_23-12\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Views\Aplicacao\TituloPage.xaml.g.cs
+E:\Escola\PAP\Projeto Visual Studio\AppGiav1_23-12\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Views\Conta\AutenticacaoPage.xaml.g.cs
+E:\Escola\PAP\Projeto Visual Studio\AppGiav1_23-12\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Views\Conta\PerfilPage.xaml.g.cs
+E:\Escola\PAP\Projeto Visual Studio\AppGiav1_23-12\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Views\Erro\SemInternetPage.xaml.g.cs
+E:\Escola\PAP\Projeto Visual Studio\AppGiav1_23-12\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Views\Flyout\AppShell.xaml.g.cs
+E:\Escola\PAP\Projeto Visual Studio\AppGiav1_23-12\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Views\Ofertas\OfertaApoioPage.xaml.g.cs
+E:\Escola\PAP\Projeto Visual Studio\AppGiav1_23-12\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Views\Ofertas\OfertasMainPage.xaml.g.cs
+E:\Escola\PAP\Projeto Visual Studio\AppGiav1_23-12\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\AppGiav1.AssemblyInfoInputs.cache
+E:\Escola\PAP\Projeto Visual Studio\AppGiav1_23-12\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\AppGiav1.AssemblyInfo.cs
+E:\Escola\PAP\Projeto Visual Studio\AppGiav1_23-12\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\AppGiav1.csproj.CoreCompileInputs.cache
+E:\Escola\PAP\Projeto Visual Studio\AppGiav1_23-12\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\AppGiav1.dll
+E:\Escola\PAP\Projeto Visual Studio\AppGiav1_23-12\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\ref\AppGiav1.dll
+E:\Escola\PAP\Projeto Visual Studio\AppGiav1_23-12\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\AppGiav1.pdb
+E:\Escola\PAP\Projeto Visual Studio\AppGiav1_23-12\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Views\Ofertas\CrudOfertaPage.xaml.g.cs
+E:\Escola\PAP\Projeto Visual Studio\AppGiav1_23-12\AppGiav1\AppGiav1\bin\Debug\netstandard2.0\AppGiav1.deps.json
+E:\Escola\PAP\Projeto Visual Studio\AppGiav1_23-12\AppGiav1\AppGiav1\bin\Debug\netstandard2.0\AppGiav1.dll
+E:\Escola\PAP\Projeto Visual Studio\AppGiav1_23-12\AppGiav1\AppGiav1\bin\Debug\netstandard2.0\ref\AppGiav1.dll
+E:\Escola\PAP\Projeto Visual Studio\AppGiav1_23-12\AppGiav1\AppGiav1\bin\Debug\netstandard2.0\AppGiav1.pdb
+E:\Escola\PAP\Projeto Visual Studio\AppGiav1_23-12\AppGiav1\AppGiav1\bin\Debug\netstandard2.0\System.Drawing.Common.dll
+E:\Escola\PAP\Projeto Visual Studio\AppGiav1_23-12\AppGiav1\AppGiav1\bin\Debug\netstandard2.0\System.Drawing.Common.pdb
+E:\Escola\PAP\Projeto Visual Studio\AppGiav1_23-12\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\XamlC.stamp
+E:\Escola\PAP\Projeto Visual Studio\AppGiav1_23-12\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\AppGiav1.csproj.CopyComplete
+E:\Escola\PAP\Projeto Visual Studio\AppGiav1_23-12\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\ViewsPartial\Conta\DadosContaView.xaml.g.cs
+E:\Escola\PAP\Projeto Visual Studio\AppGiav1_23-12\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\ViewsPartial\Conta\OfertasPessoaisView.xaml.g.cs
+E:\Escola\PAP\Projeto Visual Studio\AppGiav1_23-12\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Views\Pedidos\PedidosMainPage.xaml.g.cs
+E:\Escola\PAP\Projeto Visual Studio\AppGiav1_23-12\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Views\Conta\ConfiguracoesParticularPage.xaml.g.cs
+E:\Escola\PAP\Projeto Visual Studio\AppGiav1_23-12\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\ViewsPartial\Conta\Configuracoes\EditarDisponibilidadeView.xaml.g.cs
+E:\Escola\PAP\Projeto Visual Studio\AppGiav1_23-12\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\ViewsPartial\Conta\Configuracoes\EditarParticularView.xaml.g.cs
+E:\Escola\PAP\Projeto Visual Studio\AppGiav1_23-12\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Views\Pedidos\CrudPedidoPage.xaml.g.cs
+E:\Escola\PAP\Projeto Visual Studio\AppGiav1_23-12\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Views\Pedidos\PedidoApoioPage.xaml.g.cs
+E:\Escola\PAP\Projeto Visual Studio\AppGiav1_23-12\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\ViewsPartial\Apoios\Pedidos\ListagemTarefasView.xaml.g.cs
+E:\Escola\PAP\Projeto Visual Studio\AppGiav1_23-12\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Views\Pedidos\CrudTarefaPage.xaml.g.cs
+E:\Escola\PAP\Projeto Visual Studio\AppGiav1_23-12\AppGiav1-4\AppGiav1\AppGiav1\bin\Debug\netstandard2.0\AppGiav1.deps.json
+E:\Escola\PAP\Projeto Visual Studio\AppGiav1_23-12\AppGiav1-4\AppGiav1\AppGiav1\bin\Debug\netstandard2.0\AppGiav1.dll
+E:\Escola\PAP\Projeto Visual Studio\AppGiav1_23-12\AppGiav1-4\AppGiav1\AppGiav1\bin\Debug\netstandard2.0\ref\AppGiav1.dll
+E:\Escola\PAP\Projeto Visual Studio\AppGiav1_23-12\AppGiav1-4\AppGiav1\AppGiav1\bin\Debug\netstandard2.0\AppGiav1.pdb
+E:\Escola\PAP\Projeto Visual Studio\AppGiav1_23-12\AppGiav1-4\AppGiav1\AppGiav1\bin\Debug\netstandard2.0\System.Drawing.Common.dll
+E:\Escola\PAP\Projeto Visual Studio\AppGiav1_23-12\AppGiav1-4\AppGiav1\AppGiav1\bin\Debug\netstandard2.0\System.Drawing.Common.pdb
+E:\Escola\PAP\Projeto Visual Studio\AppGiav1_23-12\AppGiav1-4\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\AppGiav1.csproj.AssemblyReference.cache
+E:\Escola\PAP\Projeto Visual Studio\AppGiav1_23-12\AppGiav1-4\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\AppGiav1.GeneratedMSBuildEditorConfig.editorconfig
+E:\Escola\PAP\Projeto Visual Studio\AppGiav1_23-12\AppGiav1-4\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\App.xaml.g.cs
+E:\Escola\PAP\Projeto Visual Studio\AppGiav1_23-12\AppGiav1-4\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+E:\Escola\PAP\Projeto Visual Studio\AppGiav1_23-12\AppGiav1-4\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\ViewsPartial\Apoios\Pedidos\ListagemTarefasView.xaml.g.cs
+E:\Escola\PAP\Projeto Visual Studio\AppGiav1_23-12\AppGiav1-4\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\ViewsPartial\Conta\Configuracoes\EditarDisponibilidadeView.xaml.g.cs
+E:\Escola\PAP\Projeto Visual Studio\AppGiav1_23-12\AppGiav1-4\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\ViewsPartial\Conta\Configuracoes\EditarParticularView.xaml.g.cs
+E:\Escola\PAP\Projeto Visual Studio\AppGiav1_23-12\AppGiav1-4\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\ViewsPartial\Conta\DadosContaView.xaml.g.cs
+E:\Escola\PAP\Projeto Visual Studio\AppGiav1_23-12\AppGiav1-4\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\ViewsPartial\Conta\OfertasPessoaisView.xaml.g.cs
+E:\Escola\PAP\Projeto Visual Studio\AppGiav1_23-12\AppGiav1-4\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Views\Aplicacao\TituloPage.xaml.g.cs
+E:\Escola\PAP\Projeto Visual Studio\AppGiav1_23-12\AppGiav1-4\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Views\Conta\AutenticacaoPage.xaml.g.cs
+E:\Escola\PAP\Projeto Visual Studio\AppGiav1_23-12\AppGiav1-4\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Views\Conta\ConfiguracoesParticularPage.xaml.g.cs
+E:\Escola\PAP\Projeto Visual Studio\AppGiav1_23-12\AppGiav1-4\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Views\Conta\PerfilPage.xaml.g.cs
+E:\Escola\PAP\Projeto Visual Studio\AppGiav1_23-12\AppGiav1-4\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Views\Erro\SemInternetPage.xaml.g.cs
+E:\Escola\PAP\Projeto Visual Studio\AppGiav1_23-12\AppGiav1-4\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Views\Flyout\AppShell.xaml.g.cs
+E:\Escola\PAP\Projeto Visual Studio\AppGiav1_23-12\AppGiav1-4\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Views\Ofertas\CrudOfertaPage.xaml.g.cs
+E:\Escola\PAP\Projeto Visual Studio\AppGiav1_23-12\AppGiav1-4\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Views\Ofertas\OfertaApoioPage.xaml.g.cs
+E:\Escola\PAP\Projeto Visual Studio\AppGiav1_23-12\AppGiav1-4\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Views\Ofertas\OfertasMainPage.xaml.g.cs
+E:\Escola\PAP\Projeto Visual Studio\AppGiav1_23-12\AppGiav1-4\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Views\Pedidos\CrudPedidoPage.xaml.g.cs
+E:\Escola\PAP\Projeto Visual Studio\AppGiav1_23-12\AppGiav1-4\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Views\Pedidos\CrudTarefaPage.xaml.g.cs
+E:\Escola\PAP\Projeto Visual Studio\AppGiav1_23-12\AppGiav1-4\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Views\Pedidos\PedidoApoioPage.xaml.g.cs
+E:\Escola\PAP\Projeto Visual Studio\AppGiav1_23-12\AppGiav1-4\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Views\Pedidos\PedidosMainPage.xaml.g.cs
+E:\Escola\PAP\Projeto Visual Studio\AppGiav1_23-12\AppGiav1-4\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\AppGiav1.AssemblyInfoInputs.cache
+E:\Escola\PAP\Projeto Visual Studio\AppGiav1_23-12\AppGiav1-4\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\AppGiav1.AssemblyInfo.cs
+E:\Escola\PAP\Projeto Visual Studio\AppGiav1_23-12\AppGiav1-4\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\AppGiav1.csproj.CoreCompileInputs.cache
+E:\Escola\PAP\Projeto Visual Studio\AppGiav1_23-12\AppGiav1-4\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\XamlC.stamp
+E:\Escola\PAP\Projeto Visual Studio\AppGiav1_23-12\AppGiav1-4\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\AppGiav1.csproj.CopyComplete
+E:\Escola\PAP\Projeto Visual Studio\AppGiav1_23-12\AppGiav1-4\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\AppGiav1.dll
+E:\Escola\PAP\Projeto Visual Studio\AppGiav1_23-12\AppGiav1-4\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\ref\AppGiav1.dll
+E:\Escola\PAP\Projeto Visual Studio\AppGiav1_23-12\AppGiav1-4\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\AppGiav1.pdb
+E:\Escola\PAP\Projeto Visual Studio\AppGiav1_23-12\AppGiav1-4\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\PopUps\Crud\CrudTarefaPopUp.xaml.g.cs
+C:\Users\aeal\Documents\Visual Studio 2022\Projects\PAP\AppGiav1-bemrar\AppGiav1-4\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\AppGiav1.csproj.AssemblyReference.cache
+C:\Users\aeal\Documents\Visual Studio 2022\Projects\PAP\AppGiav1-bemrar\AppGiav1-4\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\AppGiav1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aeal\Documents\Visual Studio 2022\Projects\PAP\AppGiav1-bemrar\AppGiav1-4\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\aeal\Documents\Visual Studio 2022\Projects\PAP\AppGiav1-bemrar\AppGiav1-4\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\aeal\Documents\Visual Studio 2022\Projects\PAP\AppGiav1-bemrar\AppGiav1-4\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\PopUps\Crud\CrudTarefaPopUp.xaml.g.cs
+C:\Users\aeal\Documents\Visual Studio 2022\Projects\PAP\AppGiav1-bemrar\AppGiav1-4\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\ViewsPartial\Apoios\Pedidos\ListagemTarefasView.xaml.g.cs
+C:\Users\aeal\Documents\Visual Studio 2022\Projects\PAP\AppGiav1-bemrar\AppGiav1-4\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\ViewsPartial\Conta\Configuracoes\EditarDisponibilidadeView.xaml.g.cs
+C:\Users\aeal\Documents\Visual Studio 2022\Projects\PAP\AppGiav1-bemrar\AppGiav1-4\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\ViewsPartial\Conta\Configuracoes\EditarParticularView.xaml.g.cs
+C:\Users\aeal\Documents\Visual Studio 2022\Projects\PAP\AppGiav1-bemrar\AppGiav1-4\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\ViewsPartial\Conta\DadosContaView.xaml.g.cs
+C:\Users\aeal\Documents\Visual Studio 2022\Projects\PAP\AppGiav1-bemrar\AppGiav1-4\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\ViewsPartial\Conta\OfertasPessoaisView.xaml.g.cs
+C:\Users\aeal\Documents\Visual Studio 2022\Projects\PAP\AppGiav1-bemrar\AppGiav1-4\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Views\Aplicacao\TituloPage.xaml.g.cs
+C:\Users\aeal\Documents\Visual Studio 2022\Projects\PAP\AppGiav1-bemrar\AppGiav1-4\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Views\Conta\AutenticacaoPage.xaml.g.cs
+C:\Users\aeal\Documents\Visual Studio 2022\Projects\PAP\AppGiav1-bemrar\AppGiav1-4\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Views\Conta\ConfiguracoesParticularPage.xaml.g.cs
+C:\Users\aeal\Documents\Visual Studio 2022\Projects\PAP\AppGiav1-bemrar\AppGiav1-4\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Views\Conta\PerfilPage.xaml.g.cs
+C:\Users\aeal\Documents\Visual Studio 2022\Projects\PAP\AppGiav1-bemrar\AppGiav1-4\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Views\Erro\SemInternetPage.xaml.g.cs
+C:\Users\aeal\Documents\Visual Studio 2022\Projects\PAP\AppGiav1-bemrar\AppGiav1-4\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Views\Flyout\AppShell.xaml.g.cs
+C:\Users\aeal\Documents\Visual Studio 2022\Projects\PAP\AppGiav1-bemrar\AppGiav1-4\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Views\Ofertas\CrudOfertaPage.xaml.g.cs
+C:\Users\aeal\Documents\Visual Studio 2022\Projects\PAP\AppGiav1-bemrar\AppGiav1-4\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Views\Ofertas\OfertaApoioPage.xaml.g.cs
+C:\Users\aeal\Documents\Visual Studio 2022\Projects\PAP\AppGiav1-bemrar\AppGiav1-4\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Views\Ofertas\OfertasMainPage.xaml.g.cs
+C:\Users\aeal\Documents\Visual Studio 2022\Projects\PAP\AppGiav1-bemrar\AppGiav1-4\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Views\Pedidos\CrudPedidoPage.xaml.g.cs
+C:\Users\aeal\Documents\Visual Studio 2022\Projects\PAP\AppGiav1-bemrar\AppGiav1-4\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Views\Pedidos\CrudTarefaPage.xaml.g.cs
+C:\Users\aeal\Documents\Visual Studio 2022\Projects\PAP\AppGiav1-bemrar\AppGiav1-4\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Views\Pedidos\PedidoApoioPage.xaml.g.cs
+C:\Users\aeal\Documents\Visual Studio 2022\Projects\PAP\AppGiav1-bemrar\AppGiav1-4\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Views\Pedidos\PedidosMainPage.xaml.g.cs
+C:\Users\aeal\Documents\Visual Studio 2022\Projects\PAP\AppGiav1-bemrar\AppGiav1-4\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\AppGiav1.AssemblyInfoInputs.cache
+C:\Users\aeal\Documents\Visual Studio 2022\Projects\PAP\AppGiav1-bemrar\AppGiav1-4\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\AppGiav1.AssemblyInfo.cs
+C:\Users\aeal\Documents\Visual Studio 2022\Projects\PAP\AppGiav1-bemrar\AppGiav1-4\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\AppGiav1.csproj.CoreCompileInputs.cache
+C:\Users\aeal\Documents\Visual Studio 2022\Projects\PAP\AppGiav1-bemrar\AppGiav1-4\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\AppGiav1.dll
+C:\Users\aeal\Documents\Visual Studio 2022\Projects\PAP\AppGiav1-bemrar\AppGiav1-4\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\ref\AppGiav1.dll
+C:\Users\aeal\Documents\Visual Studio 2022\Projects\PAP\AppGiav1-bemrar\AppGiav1-4\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\AppGiav1.pdb
+C:\Users\aeal\Documents\Visual Studio 2022\Projects\PAP\AppGiav1-bemrar\AppGiav1-4\AppGiav1\AppGiav1\bin\Debug\netstandard2.0\AppGiav1.deps.json
+C:\Users\aeal\Documents\Visual Studio 2022\Projects\PAP\AppGiav1-bemrar\AppGiav1-4\AppGiav1\AppGiav1\bin\Debug\netstandard2.0\AppGiav1.dll
+C:\Users\aeal\Documents\Visual Studio 2022\Projects\PAP\AppGiav1-bemrar\AppGiav1-4\AppGiav1\AppGiav1\bin\Debug\netstandard2.0\ref\AppGiav1.dll
+C:\Users\aeal\Documents\Visual Studio 2022\Projects\PAP\AppGiav1-bemrar\AppGiav1-4\AppGiav1\AppGiav1\bin\Debug\netstandard2.0\AppGiav1.pdb
+C:\Users\aeal\Documents\Visual Studio 2022\Projects\PAP\AppGiav1-bemrar\AppGiav1-4\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\aeal\Documents\Visual Studio 2022\Projects\PAP\AppGiav1-bemrar\AppGiav1-4\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Views\Flyout\Header.xaml.g.cs
+C:\Users\aeal\Documents\Visual Studio 2022\Projects\PAP\AppGiav1-bemrar\AppGiav1-4\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Views\Flyout\Particular\VoluntarioParticularShell.xaml.g.cs
+C:\Users\aeal\Documents\Visual Studio 2022\Projects\PAP\AppGiav1-bemrar\AppGiav1-4\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\ViewsPartial\Conta\DadosDisponibilidadeView.xaml.g.cs
+C:\Users\aeal\Documents\Visual Studio 2022\Projects\PAP\AppGiav1-bemrar\AppGiav1-4\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Views\Flyout\Particular\ApoiadoParticularShell.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\2022-01-18\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\AppGiav1.csproj.AssemblyReference.cache
+C:\Users\Administrador\Documents\PAP\2022-01-18\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\AppGiav1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrador\Documents\PAP\2022-01-18\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\2022-01-18\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\2022-01-18\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\PopUps\Crud\CrudTarefaPopUp.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\2022-01-18\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\ViewsPartial\Apoios\Pedidos\ListagemTarefasView.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\2022-01-18\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\ViewsPartial\Conta\Configuracoes\EditarDisponibilidadeView.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\2022-01-18\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\ViewsPartial\Conta\Configuracoes\EditarParticularView.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\2022-01-18\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\ViewsPartial\Conta\DadosContaView.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\2022-01-18\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\ViewsPartial\Conta\DadosDisponibilidadeView.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\2022-01-18\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\ViewsPartial\Conta\OfertasPessoaisView.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\2022-01-18\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Views\Aplicacao\TituloPage.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\2022-01-18\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Views\Conta\AutenticacaoPage.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\2022-01-18\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Views\Conta\ConfiguracoesParticularPage.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\2022-01-18\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Views\Conta\PerfilPage.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\2022-01-18\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Views\Erro\SemInternetPage.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\2022-01-18\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Views\Flyout\AppShell.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\2022-01-18\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Views\Flyout\Header.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\2022-01-18\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Views\Flyout\Particular\ApoiadoParticularShell.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\2022-01-18\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Views\Flyout\Particular\VoluntarioParticularShell.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\2022-01-18\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Views\Ofertas\CrudOfertaPage.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\2022-01-18\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Views\Ofertas\OfertaApoioPage.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\2022-01-18\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Views\Ofertas\OfertasMainPage.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\2022-01-18\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Views\Pedidos\CrudPedidoPage.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\2022-01-18\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Views\Pedidos\CrudTarefaPage.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\2022-01-18\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Views\Pedidos\PedidoApoioPage.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\2022-01-18\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Views\Pedidos\PedidosMainPage.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\2022-01-18\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\AppGiav1.AssemblyInfoInputs.cache
+C:\Users\Administrador\Documents\PAP\2022-01-18\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\AppGiav1.AssemblyInfo.cs
+C:\Users\Administrador\Documents\PAP\2022-01-18\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\AppGiav1.csproj.CoreCompileInputs.cache
+C:\Users\Administrador\Documents\PAP\2022-01-18\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\AppGiav1.dll
+C:\Users\Administrador\Documents\PAP\2022-01-18\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\ref\AppGiav1.dll
+C:\Users\Administrador\Documents\PAP\2022-01-18\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\AppGiav1.pdb
+C:\Users\Administrador\Documents\PAP\2022-01-18\AppGiav1\AppGiav1\bin\Debug\netstandard2.0\AppGiav1.deps.json
+C:\Users\Administrador\Documents\PAP\2022-01-18\AppGiav1\AppGiav1\bin\Debug\netstandard2.0\AppGiav1.dll
+C:\Users\Administrador\Documents\PAP\2022-01-18\AppGiav1\AppGiav1\bin\Debug\netstandard2.0\ref\AppGiav1.dll
+C:\Users\Administrador\Documents\PAP\2022-01-18\AppGiav1\AppGiav1\bin\Debug\netstandard2.0\AppGiav1.pdb
+C:\Users\Administrador\Documents\PAP\2022-01-18\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Administrador\Documents\PAP\2022-01-18\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\PopUps\Convites\AceitarApoiadoPopUp.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\2022-01-18\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\PopUps\Convites\AceitarVoluntarioPopUp.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\2022-01-18\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Views\Conta\ListagemContasPage.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\2022-01-18\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Views\Convites\ConvitesApoiadoPage.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\2022-01-18\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Views\Convites\ConvitesVoluntarioPage.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\2022-01-18\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\PopUps\MensagemPopUp.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\2022-01-18\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Views\Conta\ListaNotificacoesPage.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\2022-01-18\24-01-22_11-39\AppGiav1\AppGiav1\bin\Debug\netstandard2.0\AppGiav1.deps.json
+C:\Users\Administrador\Documents\PAP\2022-01-18\24-01-22_11-39\AppGiav1\AppGiav1\bin\Debug\netstandard2.0\AppGiav1.dll
+C:\Users\Administrador\Documents\PAP\2022-01-18\24-01-22_11-39\AppGiav1\AppGiav1\bin\Debug\netstandard2.0\ref\AppGiav1.dll
+C:\Users\Administrador\Documents\PAP\2022-01-18\24-01-22_11-39\AppGiav1\AppGiav1\bin\Debug\netstandard2.0\AppGiav1.pdb
+C:\Users\Administrador\Documents\PAP\2022-01-18\24-01-22_11-39\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\AppGiav1.csproj.AssemblyReference.cache
+C:\Users\Administrador\Documents\PAP\2022-01-18\24-01-22_11-39\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\AppGiav1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrador\Documents\PAP\2022-01-18\24-01-22_11-39\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\2022-01-18\24-01-22_11-39\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\PopUps\Crud\CrudTarefaPopUp.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\2022-01-18\24-01-22_11-39\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\AppGiav1.AssemblyInfoInputs.cache
+C:\Users\Administrador\Documents\PAP\2022-01-18\24-01-22_11-39\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\AppGiav1.AssemblyInfo.cs
+C:\Users\Administrador\Documents\PAP\2022-01-18\24-01-22_11-39\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\AppGiav1.csproj.CoreCompileInputs.cache
+C:\Users\Administrador\Documents\PAP\2022-01-18\24-01-22_11-39\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Administrador\Documents\PAP\2022-01-18\24-01-22_11-39\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\AppGiav1.dll
+C:\Users\Administrador\Documents\PAP\2022-01-18\24-01-22_11-39\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\ref\AppGiav1.dll
+C:\Users\Administrador\Documents\PAP\2022-01-18\24-01-22_11-39\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\AppGiav1.pdb
+C:\Users\Administrador\Documents\PAP\2022-01-18\24-01-22_11-39\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\PopUps\Select\SelectUtilizadorPopUp.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\2022-01-18\24-01-22_11-39\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\PopUps\Select\SelectPedidoPopUp.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\2022-01-18\24-01-22_11-39\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\PopUps\Convites\AceitarAjudaPopUp.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\2022-01-18\24-01-22_11-39\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\PopUps\Convites\AceitarPedidoPopUp.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\2022-01-18\24-01-22_11-39\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\Empresas\Flyout\EmpresaShell.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\2022-01-18\24-01-22_11-39\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\Geral\AutenticacaoPage.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\2022-01-18\24-01-22_11-39\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\Geral\Flyout\Header.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\2022-01-18\24-01-22_11-39\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\Geral\Listagens\ListagemContasPage.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\2022-01-18\24-01-22_11-39\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\Geral\Listagens\OfertasMainPage.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\2022-01-18\24-01-22_11-39\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\Geral\Listagens\PedidosMainPage.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\2022-01-18\24-01-22_11-39\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\Geral\SemInternetPage.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\2022-01-18\24-01-22_11-39\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\ParticipanteNoVoluntariado\Apoios\Ofertas\CrudOfertaPage.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\2022-01-18\24-01-22_11-39\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\ParticipanteNoVoluntariado\Apoios\Ofertas\OfertaApoioPage.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\2022-01-18\24-01-22_11-39\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\ParticipanteNoVoluntariado\Apoios\Pedidos\CrudPedidoPage.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\2022-01-18\24-01-22_11-39\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\ParticipanteNoVoluntariado\Apoios\Pedidos\CrudTarefaPage.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\2022-01-18\24-01-22_11-39\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\ParticipanteNoVoluntariado\Apoios\Pedidos\Gestao\GestaoParticipantesView.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\2022-01-18\24-01-22_11-39\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\ParticipanteNoVoluntariado\Apoios\Pedidos\Gestao\GestaoPedidoPage.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\2022-01-18\24-01-22_11-39\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\ParticipanteNoVoluntariado\Apoios\Pedidos\Gestao\GestaoTarefasView.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\2022-01-18\24-01-22_11-39\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\ParticipanteNoVoluntariado\Apoios\Pedidos\PedidoApoioPage.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\2022-01-18\24-01-22_11-39\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\ParticipanteNoVoluntariado\Conta\Configuracoes\ConfiguracoesOrganizacaoPage.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\2022-01-18\24-01-22_11-39\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\ParticipanteNoVoluntariado\Conta\Configuracoes\ConfiguracoesParticularPage.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\2022-01-18\24-01-22_11-39\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\ParticipanteNoVoluntariado\Conta\MeuVoluntariado\Voluntario\MinhaAcaoPage.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\2022-01-18\24-01-22_11-39\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\ParticipanteNoVoluntariado\Conta\MeuVoluntariado\Voluntario\MinhaAcaoTarefaPage.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\2022-01-18\24-01-22_11-39\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\ParticipanteNoVoluntariado\Conta\MeuVoluntariado\Voluntario\MinhasAcoesPage.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\2022-01-18\24-01-22_11-39\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\ParticipanteNoVoluntariado\Conta\MeuVoluntariado\Voluntario\ParticipantesMinhaAcaoView.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\2022-01-18\24-01-22_11-39\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\ParticipanteNoVoluntariado\Conta\MeuVoluntariado\Voluntario\SobreMinhaAcaoView.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\2022-01-18\24-01-22_11-39\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\ParticipanteNoVoluntariado\Conta\MeuVoluntariado\Voluntario\TarefasMinhaAcaoView.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\2022-01-18\24-01-22_11-39\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\ParticipanteNoVoluntariado\Flyout\ApoiadoParticularShell.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\2022-01-18\24-01-22_11-39\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\ParticipanteNoVoluntariado\Flyout\VoluntarioParticularShell.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\2022-01-18\24-01-22_11-39\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\ParticipanteNoVoluntariado\Notificacoes\ConvitesApoiadoPage.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\2022-01-18\24-01-22_11-39\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\ParticipanteNoVoluntariado\Notificacoes\ConvitesVoluntarioPage.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\2022-01-18\24-01-22_11-39\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\ParticipanteNoVoluntariado\Notificacoes\ListaNotificacoesPage.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\2022-01-18\24-01-22_11-39\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\ParticipanteNoVoluntariado\UtilizadorOrganizacao\Conta\Configuracoes\EditarOrganizacaoView.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\2022-01-18\24-01-22_11-39\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\ParticipanteNoVoluntariado\UtilizadorParticular\Conta\Configuracoes\EditarDisponibilidadeView.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\2022-01-18\24-01-22_11-39\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\ParticipanteNoVoluntariado\UtilizadorParticular\Conta\Configuracoes\EditarParticularView.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\2022-01-18\24-01-22_11-39\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\PopUps\Mensagens\EscolhaPopUp.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\2022-01-18\24-01-22_11-39\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\PopUps\Mensagens\MensagemPopUp.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\2022-01-18\24-01-22_11-39\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\Geral\Perfil\PerfilPage.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\2022-01-18\24-01-22_11-39\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\Geral\Testes\MainPage.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\2022-01-18\24-01-22_11-39\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\Geral\TituloPage.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\2022-01-18\24-01-22_11-39\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\ParticipanteNoVoluntariado\Conta\MeuVoluntariado\Apoiado\MeusPedidosPage.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\2022-01-18\24-01-22_11-39\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\ParticipanteNoVoluntariado\UtilizadorParticular\Perfil\DadosContaView.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\2022-01-18\24-01-22_11-39\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\ParticipanteNoVoluntariado\UtilizadorParticular\Perfil\DadosDisponibilidadeView.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\2022-01-18\24-01-22_11-39\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\ParticipanteNoVoluntariado\UtilizadorParticular\Perfil\OfertasPessoaisView.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\2022-01-18\24-01-22_11-39\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\PopUps\Select\SelectAndSearchPopUp.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\2022-01-18\24-01-22_11-39\AppGiav1_NovoSistemaLocalidades\AppGiav1\AppGiav1\bin\Debug\netstandard2.0\AppGiav1.deps.json
+C:\Users\Administrador\Documents\PAP\2022-01-18\24-01-22_11-39\AppGiav1_NovoSistemaLocalidades\AppGiav1\AppGiav1\bin\Debug\netstandard2.0\AppGiav1.dll
+C:\Users\Administrador\Documents\PAP\2022-01-18\24-01-22_11-39\AppGiav1_NovoSistemaLocalidades\AppGiav1\AppGiav1\bin\Debug\netstandard2.0\ref\AppGiav1.dll
+C:\Users\Administrador\Documents\PAP\2022-01-18\24-01-22_11-39\AppGiav1_NovoSistemaLocalidades\AppGiav1\AppGiav1\bin\Debug\netstandard2.0\AppGiav1.pdb
+C:\Users\Administrador\Documents\PAP\2022-01-18\24-01-22_11-39\AppGiav1_NovoSistemaLocalidades\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\AppGiav1.csproj.AssemblyReference.cache
+C:\Users\Administrador\Documents\PAP\2022-01-18\24-01-22_11-39\AppGiav1_NovoSistemaLocalidades\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\AppGiav1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrador\Documents\PAP\2022-01-18\24-01-22_11-39\AppGiav1_NovoSistemaLocalidades\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\2022-01-18\24-01-22_11-39\AppGiav1_NovoSistemaLocalidades\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\Empresas\Flyout\EmpresaShell.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\2022-01-18\24-01-22_11-39\AppGiav1_NovoSistemaLocalidades\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\Geral\AutenticacaoPage.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\2022-01-18\24-01-22_11-39\AppGiav1_NovoSistemaLocalidades\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\Geral\Flyout\Header.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\2022-01-18\24-01-22_11-39\AppGiav1_NovoSistemaLocalidades\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\Geral\Listagens\ListagemContasPage.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\2022-01-18\24-01-22_11-39\AppGiav1_NovoSistemaLocalidades\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\Geral\Listagens\OfertasMainPage.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\2022-01-18\24-01-22_11-39\AppGiav1_NovoSistemaLocalidades\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\Geral\Listagens\PedidosMainPage.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\2022-01-18\24-01-22_11-39\AppGiav1_NovoSistemaLocalidades\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\Geral\Perfil\PerfilPage.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\2022-01-18\24-01-22_11-39\AppGiav1_NovoSistemaLocalidades\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\Geral\SemInternetPage.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\2022-01-18\24-01-22_11-39\AppGiav1_NovoSistemaLocalidades\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\Geral\Testes\MainPage.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\2022-01-18\24-01-22_11-39\AppGiav1_NovoSistemaLocalidades\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\Geral\TituloPage.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\2022-01-18\24-01-22_11-39\AppGiav1_NovoSistemaLocalidades\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\ParticipanteNoVoluntariado\Apoios\Ofertas\CrudOfertaPage.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\2022-01-18\24-01-22_11-39\AppGiav1_NovoSistemaLocalidades\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\ParticipanteNoVoluntariado\Apoios\Ofertas\OfertaApoioPage.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\2022-01-18\24-01-22_11-39\AppGiav1_NovoSistemaLocalidades\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\ParticipanteNoVoluntariado\Apoios\Pedidos\CrudPedidoPage.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\2022-01-18\24-01-22_11-39\AppGiav1_NovoSistemaLocalidades\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\ParticipanteNoVoluntariado\Apoios\Pedidos\CrudTarefaPage.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\2022-01-18\24-01-22_11-39\AppGiav1_NovoSistemaLocalidades\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\ParticipanteNoVoluntariado\Apoios\Pedidos\Gestao\GestaoParticipantesView.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\2022-01-18\24-01-22_11-39\AppGiav1_NovoSistemaLocalidades\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\ParticipanteNoVoluntariado\Apoios\Pedidos\Gestao\GestaoPedidoPage.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\2022-01-18\24-01-22_11-39\AppGiav1_NovoSistemaLocalidades\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\ParticipanteNoVoluntariado\Apoios\Pedidos\Gestao\GestaoTarefasView.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\2022-01-18\24-01-22_11-39\AppGiav1_NovoSistemaLocalidades\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\ParticipanteNoVoluntariado\Apoios\Pedidos\PedidoApoioPage.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\2022-01-18\24-01-22_11-39\AppGiav1_NovoSistemaLocalidades\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\ParticipanteNoVoluntariado\Conta\Configuracoes\ConfiguracoesOrganizacaoPage.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\2022-01-18\24-01-22_11-39\AppGiav1_NovoSistemaLocalidades\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\ParticipanteNoVoluntariado\Conta\Configuracoes\ConfiguracoesParticularPage.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\2022-01-18\24-01-22_11-39\AppGiav1_NovoSistemaLocalidades\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\ParticipanteNoVoluntariado\Conta\MeuVoluntariado\Apoiado\MeusPedidosPage.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\2022-01-18\24-01-22_11-39\AppGiav1_NovoSistemaLocalidades\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\ParticipanteNoVoluntariado\Conta\MeuVoluntariado\Voluntario\MinhaAcaoPage.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\2022-01-18\24-01-22_11-39\AppGiav1_NovoSistemaLocalidades\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\ParticipanteNoVoluntariado\Conta\MeuVoluntariado\Voluntario\MinhaAcaoTarefaPage.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\2022-01-18\24-01-22_11-39\AppGiav1_NovoSistemaLocalidades\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\ParticipanteNoVoluntariado\Conta\MeuVoluntariado\Voluntario\MinhasAcoesPage.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\2022-01-18\24-01-22_11-39\AppGiav1_NovoSistemaLocalidades\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\ParticipanteNoVoluntariado\Conta\MeuVoluntariado\Voluntario\ParticipantesMinhaAcaoView.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\2022-01-18\24-01-22_11-39\AppGiav1_NovoSistemaLocalidades\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\ParticipanteNoVoluntariado\Conta\MeuVoluntariado\Voluntario\SobreMinhaAcaoView.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\2022-01-18\24-01-22_11-39\AppGiav1_NovoSistemaLocalidades\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\ParticipanteNoVoluntariado\Conta\MeuVoluntariado\Voluntario\TarefasMinhaAcaoView.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\2022-01-18\24-01-22_11-39\AppGiav1_NovoSistemaLocalidades\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\ParticipanteNoVoluntariado\Flyout\ApoiadoParticularShell.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\2022-01-18\24-01-22_11-39\AppGiav1_NovoSistemaLocalidades\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\ParticipanteNoVoluntariado\Flyout\VoluntarioParticularShell.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\2022-01-18\24-01-22_11-39\AppGiav1_NovoSistemaLocalidades\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\ParticipanteNoVoluntariado\Notificacoes\ConvitesApoiadoPage.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\2022-01-18\24-01-22_11-39\AppGiav1_NovoSistemaLocalidades\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\ParticipanteNoVoluntariado\Notificacoes\ConvitesVoluntarioPage.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\2022-01-18\24-01-22_11-39\AppGiav1_NovoSistemaLocalidades\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\ParticipanteNoVoluntariado\Notificacoes\ListaNotificacoesPage.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\2022-01-18\24-01-22_11-39\AppGiav1_NovoSistemaLocalidades\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\ParticipanteNoVoluntariado\UtilizadorOrganizacao\Conta\Configuracoes\EditarOrganizacaoView.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\2022-01-18\24-01-22_11-39\AppGiav1_NovoSistemaLocalidades\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\ParticipanteNoVoluntariado\UtilizadorParticular\Conta\Configuracoes\EditarDisponibilidadeView.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\2022-01-18\24-01-22_11-39\AppGiav1_NovoSistemaLocalidades\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\ParticipanteNoVoluntariado\UtilizadorParticular\Conta\Configuracoes\EditarParticularView.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\2022-01-18\24-01-22_11-39\AppGiav1_NovoSistemaLocalidades\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\ParticipanteNoVoluntariado\UtilizadorParticular\Perfil\DadosContaView.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\2022-01-18\24-01-22_11-39\AppGiav1_NovoSistemaLocalidades\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\ParticipanteNoVoluntariado\UtilizadorParticular\Perfil\DadosDisponibilidadeView.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\2022-01-18\24-01-22_11-39\AppGiav1_NovoSistemaLocalidades\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\ParticipanteNoVoluntariado\UtilizadorParticular\Perfil\OfertasPessoaisView.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\2022-01-18\24-01-22_11-39\AppGiav1_NovoSistemaLocalidades\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\PopUps\Convites\AceitarAjudaPopUp.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\2022-01-18\24-01-22_11-39\AppGiav1_NovoSistemaLocalidades\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\PopUps\Convites\AceitarPedidoPopUp.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\2022-01-18\24-01-22_11-39\AppGiav1_NovoSistemaLocalidades\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\PopUps\Crud\CrudTarefaPopUp.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\2022-01-18\24-01-22_11-39\AppGiav1_NovoSistemaLocalidades\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\PopUps\Mensagens\EscolhaPopUp.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\2022-01-18\24-01-22_11-39\AppGiav1_NovoSistemaLocalidades\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\PopUps\Mensagens\MensagemPopUp.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\2022-01-18\24-01-22_11-39\AppGiav1_NovoSistemaLocalidades\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\PopUps\Select\SelectAndSearchPopUp.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\2022-01-18\24-01-22_11-39\AppGiav1_NovoSistemaLocalidades\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\PopUps\Select\SelectPedidoPopUp.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\2022-01-18\24-01-22_11-39\AppGiav1_NovoSistemaLocalidades\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\PopUps\Select\SelectUtilizadorPopUp.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\2022-01-18\24-01-22_11-39\AppGiav1_NovoSistemaLocalidades\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\AppGiav1.AssemblyInfoInputs.cache
+C:\Users\Administrador\Documents\PAP\2022-01-18\24-01-22_11-39\AppGiav1_NovoSistemaLocalidades\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\AppGiav1.AssemblyInfo.cs
+C:\Users\Administrador\Documents\PAP\2022-01-18\24-01-22_11-39\AppGiav1_NovoSistemaLocalidades\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\AppGiav1.csproj.CoreCompileInputs.cache
+C:\Users\Administrador\Documents\PAP\2022-01-18\24-01-22_11-39\AppGiav1_NovoSistemaLocalidades\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Administrador\Documents\PAP\2022-01-18\24-01-22_11-39\AppGiav1_NovoSistemaLocalidades\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\AppGiav1.dll
+C:\Users\Administrador\Documents\PAP\2022-01-18\24-01-22_11-39\AppGiav1_NovoSistemaLocalidades\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\ref\AppGiav1.dll
+C:\Users\Administrador\Documents\PAP\2022-01-18\24-01-22_11-39\AppGiav1_NovoSistemaLocalidades\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\AppGiav1.pdb
+C:\Users\Administrador\Documents\PAP\03-02\AppGiav1\AppGiav1\bin\Debug\netstandard2.0\AppGiav1.deps.json
+C:\Users\Administrador\Documents\PAP\03-02\AppGiav1\AppGiav1\bin\Debug\netstandard2.0\AppGiav1.dll
+C:\Users\Administrador\Documents\PAP\03-02\AppGiav1\AppGiav1\bin\Debug\netstandard2.0\ref\AppGiav1.dll
+C:\Users\Administrador\Documents\PAP\03-02\AppGiav1\AppGiav1\bin\Debug\netstandard2.0\AppGiav1.pdb
+C:\Users\Administrador\Documents\PAP\03-02\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\AppGiav1.csproj.AssemblyReference.cache
+C:\Users\Administrador\Documents\PAP\03-02\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\AppGiav1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrador\Documents\PAP\03-02\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\Empresas\Flyout\EmpresaShell.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\Geral\AutenticacaoPage.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\Geral\Flyout\Header.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\Geral\Listagens\ListagemContasPage.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\Geral\Listagens\OfertasMainPage.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\Geral\Listagens\PedidosMainPage.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\Geral\Perfil\PerfilPage.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\Geral\SemInternetPage.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\Geral\Testes\MainPage.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\Geral\TituloPage.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\ParticipanteNoVoluntariado\Apoios\Ofertas\CrudOfertaPage.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\ParticipanteNoVoluntariado\Apoios\Ofertas\OfertaApoioPage.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\ParticipanteNoVoluntariado\Apoios\Pedidos\CrudPedidoPage.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\ParticipanteNoVoluntariado\Apoios\Pedidos\CrudTarefaPage.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\ParticipanteNoVoluntariado\Apoios\Pedidos\Gestao\GestaoParticipantesView.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\ParticipanteNoVoluntariado\Apoios\Pedidos\Gestao\GestaoPedidoPage.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\ParticipanteNoVoluntariado\Apoios\Pedidos\Gestao\GestaoTarefasView.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\ParticipanteNoVoluntariado\Apoios\Pedidos\PedidoApoioPage.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\ParticipanteNoVoluntariado\Conta\MeuVoluntariado\Apoiado\MeusPedidosPage.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\ParticipanteNoVoluntariado\Conta\MeuVoluntariado\Voluntario\MinhaAcaoPage.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\ParticipanteNoVoluntariado\Conta\MeuVoluntariado\Voluntario\MinhaAcaoTarefaPage.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\ParticipanteNoVoluntariado\Conta\MeuVoluntariado\Voluntario\MinhasAcoesPage.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\ParticipanteNoVoluntariado\Conta\MeuVoluntariado\Voluntario\SobreMinhaAcaoView.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\ParticipanteNoVoluntariado\Flyout\ApoiadoParticularShell.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\ParticipanteNoVoluntariado\Flyout\VoluntarioParticularShell.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\ParticipanteNoVoluntariado\Notificacoes\ConvitesApoiadoPage.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\ParticipanteNoVoluntariado\Notificacoes\ConvitesVoluntarioPage.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\ParticipanteNoVoluntariado\Notificacoes\ListaNotificacoesPage.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\PopUps\Convites\AceitarAjudaPopUp.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\PopUps\Convites\AceitarPedidoPopUp.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\PopUps\Crud\CrudTarefaPopUp.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\PopUps\Mensagens\EscolhaPopUp.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\PopUps\Mensagens\MensagemPopUp.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\PopUps\Select\SelectAndSearchPopUp.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\PopUps\Select\SelectPedidoPopUp.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\PopUps\Select\SelectUtilizadorPopUp.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\AppGiav1.AssemblyInfoInputs.cache
+C:\Users\Administrador\Documents\PAP\03-02\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\AppGiav1.AssemblyInfo.cs
+C:\Users\Administrador\Documents\PAP\03-02\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\AppGiav1.csproj.CoreCompileInputs.cache
+C:\Users\Administrador\Documents\PAP\03-02\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Administrador\Documents\PAP\03-02\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\AppGiav1.dll
+C:\Users\Administrador\Documents\PAP\03-02\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\ref\AppGiav1.dll
+C:\Users\Administrador\Documents\PAP\03-02\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\AppGiav1.pdb
+C:\Users\Administrador\Documents\PAP\03-02\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\ParticipanteNoVoluntariado\Flyout\VoluntarioOrganizacaoShell.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\ParticipanteNoVoluntariado\Flyout\ApoiadoOrganizacaoShell.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\PopUps\Mensagens\CodOrganizacaoPopUp.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\ParticipanteNoVoluntariado\Organizacao\Conta\Configuracoes\ConfiguracoesOrganizacaoPage.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\ParticipanteNoVoluntariado\Organizacao\Conta\Configuracoes\EditarMembrosOrganizacaoView.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\ParticipanteNoVoluntariado\Organizacao\Conta\Configuracoes\EditarOrganizacaoView.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\ParticipanteNoVoluntariado\Organizacao\Perfil\DadosOrganizacaoView.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\ParticipanteNoVoluntariado\Particular\Conta\Configuracoes\ConfiguracoesParticularPage.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\ParticipanteNoVoluntariado\Particular\Conta\Configuracoes\EditarDisponibilidadeView.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\ParticipanteNoVoluntariado\Particular\Conta\Configuracoes\EditarParticularView.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\ParticipanteNoVoluntariado\Particular\Perfil\DadosDisponibilidadeView.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\ParticipanteNoVoluntariado\Particular\Perfil\DadosParticularView.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\ParticipanteNoVoluntariado\Particular\Perfil\OfertasPessoaisView.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\ParticipanteNoVoluntariado\Particular\Perfil\PedidosPessoaisView.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\ParticipanteNoVoluntariado\Organizacao\Perfil\MembrosOrganizacaoView.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\PopUps\Mensagens\InserirCodOrgPopUp.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\ParticipanteNoVoluntariado\Conta\MeuVoluntariado\Apoiado\ParticipantesMinhaAcaoView.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\ParticipanteNoVoluntariado\Conta\MeuVoluntariado\Apoiado\TarefasMinhaAcaoView.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\ParticipanteNoVoluntariado\Chats\ChatPage.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Helpers\Chat\IncomingViewCell.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Helpers\Chat\OutgoingViewCell.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\ParticipanteNoVoluntariado\Chats\ChatInputBarView.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1\AppGiav1\bin\Debug\netstandard2.0\AppGiav1.deps.json
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1\AppGiav1\bin\Debug\netstandard2.0\AppGiav1.dll
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1\AppGiav1\bin\Debug\netstandard2.0\ref\AppGiav1.dll
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1\AppGiav1\bin\Debug\netstandard2.0\AppGiav1.pdb
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\AppGiav1.csproj.AssemblyReference.cache
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\AppGiav1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\Empresas\Flyout\EmpresaShell.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\Geral\AutenticacaoPage.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\Geral\Flyout\Header.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\Geral\Listagens\ListagemContasPage.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\Geral\Listagens\OfertasMainPage.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\Geral\Listagens\PedidosMainPage.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\Geral\Perfil\PerfilPage.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\Geral\SemInternetPage.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\Geral\Testes\MainPage.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\Geral\TituloPage.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\ParticipanteNoVoluntariado\Apoios\Ofertas\CrudOfertaPage.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\ParticipanteNoVoluntariado\Apoios\Ofertas\OfertaApoioPage.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\ParticipanteNoVoluntariado\Apoios\Pedidos\CrudPedidoPage.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\ParticipanteNoVoluntariado\Apoios\Pedidos\CrudTarefaPage.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\ParticipanteNoVoluntariado\Apoios\Pedidos\Gestao\GestaoParticipantesView.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\ParticipanteNoVoluntariado\Apoios\Pedidos\Gestao\GestaoPedidoPage.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\ParticipanteNoVoluntariado\Apoios\Pedidos\Gestao\GestaoTarefasView.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\ParticipanteNoVoluntariado\Apoios\Pedidos\PedidoApoioPage.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\ParticipanteNoVoluntariado\Chats\ChatInputBarView.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\ParticipanteNoVoluntariado\Chats\ChatPage.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\ParticipanteNoVoluntariado\Conta\MeuVoluntariado\Apoiado\MeusPedidosPage.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\ParticipanteNoVoluntariado\Conta\MeuVoluntariado\Apoiado\ParticipantesMinhaAcaoView.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\ParticipanteNoVoluntariado\Conta\MeuVoluntariado\Apoiado\TarefasMinhaAcaoView.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\ParticipanteNoVoluntariado\Conta\MeuVoluntariado\Voluntario\MinhaAcaoPage.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\ParticipanteNoVoluntariado\Conta\MeuVoluntariado\Voluntario\MinhaAcaoTarefaPage.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\ParticipanteNoVoluntariado\Conta\MeuVoluntariado\Voluntario\MinhasAcoesPage.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\ParticipanteNoVoluntariado\Conta\MeuVoluntariado\Voluntario\SobreMinhaAcaoView.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\ParticipanteNoVoluntariado\Flyout\ApoiadoOrganizacaoShell.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\ParticipanteNoVoluntariado\Flyout\ApoiadoParticularShell.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\ParticipanteNoVoluntariado\Flyout\VoluntarioOrganizacaoShell.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\ParticipanteNoVoluntariado\Flyout\VoluntarioParticularShell.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\ParticipanteNoVoluntariado\Notificacoes\ConvitesApoiadoPage.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\ParticipanteNoVoluntariado\Notificacoes\ConvitesVoluntarioPage.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\ParticipanteNoVoluntariado\Notificacoes\ListaNotificacoesPage.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\ParticipanteNoVoluntariado\Organizacao\Conta\Configuracoes\ConfiguracoesOrganizacaoPage.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\ParticipanteNoVoluntariado\Organizacao\Conta\Configuracoes\EditarMembrosOrganizacaoView.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\ParticipanteNoVoluntariado\Organizacao\Conta\Configuracoes\EditarOrganizacaoView.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\ParticipanteNoVoluntariado\Organizacao\Perfil\DadosOrganizacaoView.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\ParticipanteNoVoluntariado\Organizacao\Perfil\MembrosOrganizacaoView.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\ParticipanteNoVoluntariado\Particular\Conta\Configuracoes\ConfiguracoesParticularPage.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\ParticipanteNoVoluntariado\Particular\Conta\Configuracoes\EditarDisponibilidadeView.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\ParticipanteNoVoluntariado\Particular\Conta\Configuracoes\EditarParticularView.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\ParticipanteNoVoluntariado\Particular\Perfil\DadosDisponibilidadeView.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\ParticipanteNoVoluntariado\Particular\Perfil\DadosParticularView.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\ParticipanteNoVoluntariado\Particular\Perfil\OfertasPessoaisView.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\ParticipanteNoVoluntariado\Particular\Perfil\PedidosPessoaisView.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Helpers\Chat\IncomingViewCell.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Helpers\Chat\OutgoingViewCell.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\PopUps\Convites\AceitarAjudaPopUp.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\PopUps\Convites\AceitarPedidoPopUp.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\PopUps\Crud\CrudTarefaPopUp.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\PopUps\Mensagens\CodOrganizacaoPopUp.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\PopUps\Mensagens\EscolhaPopUp.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\PopUps\Mensagens\InserirCodOrgPopUp.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\PopUps\Mensagens\MensagemPopUp.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\PopUps\Select\SelectAndSearchPopUp.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\PopUps\Select\SelectPedidoPopUp.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\PopUps\Select\SelectUtilizadorPopUp.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\AppGiav1.AssemblyInfoInputs.cache
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\AppGiav1.AssemblyInfo.cs
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\AppGiav1.csproj.CoreCompileInputs.cache
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\AppGiav1.dll
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\ref\AppGiav1.dll
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\AppGiav1.pdb
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\ParticipanteNoVoluntariado\Chats\MeusChatsPage.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Helpers\Chat\InConviteViewCell.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Helpers\Chat\OutConviteViewCell.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\ParticipanteNoVoluntariado\Apoios\Pedidos\Gestao\LiderOrgChat.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\ParticipanteNoVoluntariado\Chats\ChatView.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1 (2)\AppGiav1\AppGiav1\bin\Debug\netstandard2.0\AppGiav1.deps.json
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1 (2)\AppGiav1\AppGiav1\bin\Debug\netstandard2.0\AppGiav1.dll
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1 (2)\AppGiav1\AppGiav1\bin\Debug\netstandard2.0\ref\AppGiav1.dll
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1 (2)\AppGiav1\AppGiav1\bin\Debug\netstandard2.0\AppGiav1.pdb
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1 (2)\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\AppGiav1.csproj.AssemblyReference.cache
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1 (2)\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\AppGiav1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1 (2)\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1 (2)\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\Geral\AutenticacaoPage.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1 (2)\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\Geral\Flyout\Header.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1 (2)\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\Geral\Listagens\ListagemContasPage.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1 (2)\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\Geral\Listagens\OfertasMainPage.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1 (2)\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\Geral\Listagens\PedidosMainPage.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1 (2)\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\Geral\Perfil\PerfilPage.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1 (2)\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\Geral\SemInternetPage.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1 (2)\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\Geral\Testes\MainPage.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1 (2)\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\Geral\TituloPage.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1 (2)\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\ParticipanteNoVoluntariado\Apoios\Ofertas\CrudOfertaPage.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1 (2)\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\ParticipanteNoVoluntariado\Apoios\Ofertas\OfertaApoioPage.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1 (2)\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\ParticipanteNoVoluntariado\Apoios\Pedidos\CrudPedidoPage.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1 (2)\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\ParticipanteNoVoluntariado\Apoios\Pedidos\CrudTarefaPage.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1 (2)\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\ParticipanteNoVoluntariado\Apoios\Pedidos\Gestao\GestaoParticipantesView.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1 (2)\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\ParticipanteNoVoluntariado\Apoios\Pedidos\Gestao\GestaoPedidoPage.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1 (2)\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\ParticipanteNoVoluntariado\Apoios\Pedidos\Gestao\GestaoTarefasView.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1 (2)\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\ParticipanteNoVoluntariado\Apoios\Pedidos\Gestao\LiderOrgChat.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1 (2)\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\ParticipanteNoVoluntariado\Apoios\Pedidos\PedidoApoioPage.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1 (2)\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\ParticipanteNoVoluntariado\Conta\MeuVoluntariado\Apoiado\MeusPedidosPage.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1 (2)\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\ParticipanteNoVoluntariado\Conta\MeuVoluntariado\Apoiado\ParticipantesMinhaAcaoView.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1 (2)\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\ParticipanteNoVoluntariado\Conta\MeuVoluntariado\Apoiado\TarefasMinhaAcaoView.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1 (2)\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\ParticipanteNoVoluntariado\Conta\MeuVoluntariado\Voluntario\MinhaAcaoPage.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1 (2)\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\ParticipanteNoVoluntariado\Conta\MeuVoluntariado\Voluntario\MinhaAcaoTarefaPage.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1 (2)\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\ParticipanteNoVoluntariado\Conta\MeuVoluntariado\Voluntario\MinhasAcoesPage.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1 (2)\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\ParticipanteNoVoluntariado\Conta\MeuVoluntariado\Voluntario\SobreMinhaAcaoView.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1 (2)\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\ParticipanteNoVoluntariado\Flyout\ApoiadoOrganizacaoShell.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1 (2)\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\ParticipanteNoVoluntariado\Flyout\ApoiadoParticularShell.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1 (2)\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\ParticipanteNoVoluntariado\Flyout\VoluntarioOrganizacaoShell.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1 (2)\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\ParticipanteNoVoluntariado\Flyout\VoluntarioParticularShell.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1 (2)\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\ParticipanteNoVoluntariado\Notificacoes\ConvitesApoiadoPage.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1 (2)\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\ParticipanteNoVoluntariado\Notificacoes\ConvitesVoluntarioPage.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1 (2)\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\ParticipanteNoVoluntariado\Notificacoes\ListaNotificacoesPage.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1 (2)\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\ParticipanteNoVoluntariado\Organizacao\Conta\Configuracoes\ConfiguracoesOrganizacaoPage.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1 (2)\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\ParticipanteNoVoluntariado\Organizacao\Conta\Configuracoes\EditarMembrosOrganizacaoView.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1 (2)\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\ParticipanteNoVoluntariado\Organizacao\Conta\Configuracoes\EditarOrganizacaoView.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1 (2)\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\ParticipanteNoVoluntariado\Organizacao\Perfil\DadosOrganizacaoView.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1 (2)\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\ParticipanteNoVoluntariado\Organizacao\Perfil\MembrosOrganizacaoView.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1 (2)\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\ParticipanteNoVoluntariado\Particular\Conta\Configuracoes\ConfiguracoesParticularPage.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1 (2)\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\ParticipanteNoVoluntariado\Particular\Conta\Configuracoes\EditarDisponibilidadeView.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1 (2)\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\ParticipanteNoVoluntariado\Particular\Conta\Configuracoes\EditarParticularView.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1 (2)\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\ParticipanteNoVoluntariado\Particular\Perfil\DadosDisponibilidadeView.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1 (2)\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\ParticipanteNoVoluntariado\Particular\Perfil\DadosParticularView.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1 (2)\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\ParticipanteNoVoluntariado\Particular\Perfil\OfertasPessoaisView.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1 (2)\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\ParticipanteNoVoluntariado\Particular\Perfil\PedidosPessoaisView.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1 (2)\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Helpers\Chat\IncomingViewCell.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1 (2)\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Helpers\Chat\InConviteViewCell.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1 (2)\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Helpers\Chat\OutConviteViewCell.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1 (2)\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Helpers\Chat\OutgoingViewCell.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1 (2)\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\PopUps\Convites\AceitarAjudaPopUp.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1 (2)\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\PopUps\Convites\AceitarPedidoPopUp.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1 (2)\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\PopUps\Crud\CrudTarefaPopUp.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1 (2)\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\PopUps\Mensagens\CodOrganizacaoPopUp.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1 (2)\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\PopUps\Mensagens\EscolhaPopUp.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1 (2)\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\PopUps\Mensagens\InserirCodOrgPopUp.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1 (2)\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\PopUps\Mensagens\MensagemPopUp.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1 (2)\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\PopUps\Select\SelectAndSearchPopUp.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1 (2)\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\PopUps\Select\SelectPedidoPopUp.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1 (2)\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\PopUps\Select\SelectUtilizadorPopUp.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1 (2)\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\AppGiav1.AssemblyInfoInputs.cache
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1 (2)\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\AppGiav1.AssemblyInfo.cs
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1 (2)\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\AppGiav1.csproj.CoreCompileInputs.cache
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1 (2)\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1 (2)\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\AppGiav1.dll
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1 (2)\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\ref\AppGiav1.dll
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1 (2)\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\AppGiav1.pdb
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1 (2)\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\Admin\Apoios\Ofertas\AdminOfertaApoioPage.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1 (2)\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\Admin\Apoios\Ofertas\AdminOfertasMainPage.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1 (2)\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\Admin\Apoios\Pedidos\AdminPedidoApoioPage.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1 (2)\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\Admin\Apoios\Pedidos\AdminPedidosMainPage.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1 (2)\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\Admin\Apoios\Perfil\PerfilPage.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1 (2)\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\Admin\Shell\AdminShell.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1 (2)\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\PopUps\Mensagens\InserirTextoPopUp.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1 (2)\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\Geral\Chats\ChatInputBarView.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1 (2)\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\Geral\Chats\ChatPage.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1 (2)\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\Geral\Chats\ChatView.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1 (2)\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\Geral\Chats\MeusChatsPage.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1 (2)\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\Geral\Perfil\CartaoPessoalView.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1 (2)\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\PopUps\Autenticacao\EscolherExperienciaPopUp.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1 (2)\04-03-22\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\AppGiav1.csproj.AssemblyReference.cache
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1 (2)\04-03-22\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\AppGiav1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1 (2)\04-03-22\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\AppGiav1.dll
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1 (2)\04-03-22\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\ref\AppGiav1.dll
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1 (2)\04-03-22\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\AppGiav1.pdb
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1 (2)\04-03-22\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1 (2)\04-03-22\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\Admin\Apoios\Ofertas\AdminOfertaApoioPage.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1 (2)\04-03-22\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\Admin\Apoios\Ofertas\AdminOfertasMainPage.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1 (2)\04-03-22\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\Admin\Apoios\Pedidos\AdminPedidoApoioPage.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1 (2)\04-03-22\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\Admin\Apoios\Pedidos\AdminPedidosMainPage.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1 (2)\04-03-22\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\Admin\Apoios\Perfil\PerfilPage.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1 (2)\04-03-22\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\Admin\Shell\AdminShell.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1 (2)\04-03-22\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\Geral\AutenticacaoPage.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1 (2)\04-03-22\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\Geral\Chats\ChatInputBarView.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1 (2)\04-03-22\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\Geral\Chats\ChatPage.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1 (2)\04-03-22\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\Geral\Chats\ChatView.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1 (2)\04-03-22\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\Geral\Chats\MeusChatsPage.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1 (2)\04-03-22\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\Geral\Flyout\Header.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1 (2)\04-03-22\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\Geral\Listagens\ListagemContasPage.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1 (2)\04-03-22\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\Geral\Listagens\OfertasMainPage.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1 (2)\04-03-22\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\Geral\Listagens\PedidosMainPage.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1 (2)\04-03-22\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\Geral\Perfil\CartaoPessoalView.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1 (2)\04-03-22\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\Geral\Perfil\PerfilPage.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1 (2)\04-03-22\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\Geral\SemInternetPage.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1 (2)\04-03-22\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\Geral\Testes\MainPage.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1 (2)\04-03-22\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\Geral\TituloPage.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1 (2)\04-03-22\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\ParticipanteNoVoluntariado\Apoios\Ofertas\CrudOfertaPage.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1 (2)\04-03-22\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\ParticipanteNoVoluntariado\Apoios\Ofertas\OfertaApoioPage.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1 (2)\04-03-22\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\ParticipanteNoVoluntariado\Apoios\Pedidos\CrudPedidoPage.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1 (2)\04-03-22\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\ParticipanteNoVoluntariado\Apoios\Pedidos\CrudTarefaPage.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1 (2)\04-03-22\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\ParticipanteNoVoluntariado\Apoios\Pedidos\Gestao\GestaoParticipantesView.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1 (2)\04-03-22\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\ParticipanteNoVoluntariado\Apoios\Pedidos\Gestao\GestaoPedidoPage.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1 (2)\04-03-22\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\ParticipanteNoVoluntariado\Apoios\Pedidos\Gestao\GestaoTarefasView.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1 (2)\04-03-22\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\ParticipanteNoVoluntariado\Apoios\Pedidos\Gestao\LiderOrgChat.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1 (2)\04-03-22\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\ParticipanteNoVoluntariado\Apoios\Pedidos\PedidoApoioPage.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1 (2)\04-03-22\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\ParticipanteNoVoluntariado\Conta\MeuVoluntariado\Apoiado\MeusPedidosPage.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1 (2)\04-03-22\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\ParticipanteNoVoluntariado\Conta\MeuVoluntariado\Apoiado\ParticipantesMinhaAcaoView.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1 (2)\04-03-22\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\ParticipanteNoVoluntariado\Conta\MeuVoluntariado\Apoiado\TarefasMinhaAcaoView.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1 (2)\04-03-22\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\ParticipanteNoVoluntariado\Conta\MeuVoluntariado\Voluntario\MinhaAcaoPage.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1 (2)\04-03-22\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\ParticipanteNoVoluntariado\Conta\MeuVoluntariado\Voluntario\MinhaAcaoTarefaPage.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1 (2)\04-03-22\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\ParticipanteNoVoluntariado\Conta\MeuVoluntariado\Voluntario\MinhasAcoesPage.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1 (2)\04-03-22\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\ParticipanteNoVoluntariado\Conta\MeuVoluntariado\Voluntario\SobreMinhaAcaoView.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1 (2)\04-03-22\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\ParticipanteNoVoluntariado\Flyout\ApoiadoOrganizacaoShell.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1 (2)\04-03-22\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\ParticipanteNoVoluntariado\Flyout\ApoiadoParticularShell.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1 (2)\04-03-22\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\ParticipanteNoVoluntariado\Flyout\VoluntarioOrganizacaoShell.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1 (2)\04-03-22\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\ParticipanteNoVoluntariado\Flyout\VoluntarioParticularShell.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1 (2)\04-03-22\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\ParticipanteNoVoluntariado\Notificacoes\ConvitesApoiadoPage.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1 (2)\04-03-22\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\ParticipanteNoVoluntariado\Notificacoes\ConvitesVoluntarioPage.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1 (2)\04-03-22\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\ParticipanteNoVoluntariado\Notificacoes\ListaNotificacoesPage.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1 (2)\04-03-22\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\ParticipanteNoVoluntariado\Organizacao\Conta\Configuracoes\ConfiguracoesOrganizacaoPage.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1 (2)\04-03-22\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\ParticipanteNoVoluntariado\Organizacao\Conta\Configuracoes\EditarMembrosOrganizacaoView.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1 (2)\04-03-22\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\ParticipanteNoVoluntariado\Organizacao\Conta\Configuracoes\EditarOrganizacaoView.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1 (2)\04-03-22\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\ParticipanteNoVoluntariado\Organizacao\Perfil\DadosOrganizacaoView.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1 (2)\04-03-22\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\ParticipanteNoVoluntariado\Organizacao\Perfil\MembrosOrganizacaoView.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1 (2)\04-03-22\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\ParticipanteNoVoluntariado\Particular\Conta\Configuracoes\ConfiguracoesParticularPage.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1 (2)\04-03-22\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\ParticipanteNoVoluntariado\Particular\Conta\Configuracoes\EditarDisponibilidadeView.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1 (2)\04-03-22\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\ParticipanteNoVoluntariado\Particular\Conta\Configuracoes\EditarParticularView.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1 (2)\04-03-22\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\ParticipanteNoVoluntariado\Particular\Perfil\DadosDisponibilidadeView.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1 (2)\04-03-22\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\ParticipanteNoVoluntariado\Particular\Perfil\DadosParticularView.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1 (2)\04-03-22\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\ParticipanteNoVoluntariado\Particular\Perfil\OfertasPessoaisView.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1 (2)\04-03-22\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\ParticipanteNoVoluntariado\Particular\Perfil\PedidosPessoaisView.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1 (2)\04-03-22\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Helpers\AppHelpers\ExpandableViewCell.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1 (2)\04-03-22\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Helpers\Chat\IncomingViewCell.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1 (2)\04-03-22\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Helpers\Chat\InConviteViewCell.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1 (2)\04-03-22\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Helpers\Chat\OutConviteViewCell.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1 (2)\04-03-22\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Helpers\Chat\OutgoingViewCell.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1 (2)\04-03-22\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\PopUps\Autenticacao\EscolherExperienciaPage.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1 (2)\04-03-22\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\PopUps\Autenticacao\EscolherExperienciaPopUp.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1 (2)\04-03-22\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\PopUps\Convites\AceitarAjudaPopUp.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1 (2)\04-03-22\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\PopUps\Convites\AceitarPedidoPopUp.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1 (2)\04-03-22\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\PopUps\Crud\CrudTarefaPopUp.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1 (2)\04-03-22\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\PopUps\Mensagens\CodOrganizacaoPopUp.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1 (2)\04-03-22\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\PopUps\Mensagens\EscolhaPopUp.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1 (2)\04-03-22\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\PopUps\Mensagens\InserirCodOrgPopUp.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1 (2)\04-03-22\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\PopUps\Mensagens\InserirTextoPopUp.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1 (2)\04-03-22\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\PopUps\Mensagens\MensagemPopUp.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1 (2)\04-03-22\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\PopUps\Select\SelectAndSearchPopUp.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1 (2)\04-03-22\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\PopUps\Select\SelectPedidoPopUp.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1 (2)\04-03-22\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\PopUps\Select\SelectUtilizadorPopUp.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1 (2)\04-03-22\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\AppGiav1.AssemblyInfoInputs.cache
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1 (2)\04-03-22\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\AppGiav1.AssemblyInfo.cs
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1 (2)\04-03-22\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\AppGiav1.csproj.CoreCompileInputs.cache
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1 (2)\04-03-22\AppGiav1\AppGiav1\bin\Debug\netstandard2.0\AppGiav1.deps.json
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1 (2)\04-03-22\AppGiav1\AppGiav1\bin\Debug\netstandard2.0\AppGiav1.dll
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1 (2)\04-03-22\AppGiav1\AppGiav1\bin\Debug\netstandard2.0\AppGiav1.pdb
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1 (2)\04-03-22\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1 (2)\04-03-22\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\refint\AppGiav1.dll
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1 (2)\04-03-22\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\ParticipanteNoVoluntariado\Particular\Conta\Configuracoes\AptidoesView.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1 (2)\04-03-22\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\Geral\Configuracoes\AppConfigPage.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1 (2)\04-03-22\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\Geral\Configuracoes\AppContactosPage.xaml.g.cs
+C:\Users\Administrador\Documents\PAP\03-02\15-02-ChatVer2\AppGiav1 (2)\04-03-22\AppGiav1\AppGiav1\obj\Debug\netstandard2.0\Areas\Geral\Configuracoes\MainConfigPage.xaml.g.cs

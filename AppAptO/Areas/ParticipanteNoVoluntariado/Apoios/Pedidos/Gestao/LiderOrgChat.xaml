@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+            xmlns:viewModel="clr-namespace:AppAptO.Areas.ParticipanteNoVoluntariado.Apoios.Pedidos.Gestao"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:imagens="clr-namespace:AppAptO.Models.AppHelpers;assembly=AppAptO" 
+             x:Class="AppAptO.Areas.ParticipanteNoVoluntariado.Apoios.Pedidos.Gestao.LiderOrgChat">
+    <ContentPage.BindingContext>
+        <viewModel:LiderOrgChatViewModel/>
+    </ContentPage.BindingContext>
+    <ContentPage.Content>
+        <Grid>
+            <ContentView Content="{Binding ChatView}"/>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

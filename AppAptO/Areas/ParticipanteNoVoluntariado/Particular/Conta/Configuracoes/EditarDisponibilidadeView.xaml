@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:viewModel="clr-namespace:AppAptO.ViewModels.Conta.Configuracoes"
+             x:Class="AppAptO.ViewsPartial.Conta.Configuracoes.EditarDisponibilidadeView">
+    <ContentView.BindingContext>
+        <viewModel:EditarDisponibilidadeViewModel/>
+    </ContentView.BindingContext>
+    <ContentView.Resources>
+        <Style TargetType="TimePicker">
+            <Setter Property="Grid.Column" Value="1"/>
+        </Style>
+        <Style TargetType="Label">
+            <Setter Property="Grid.Column" Value="0"/>
+            <Setter Property="VerticalOptions" Value="Center"/>
+        </Style>
+    </ContentView.Resources>
+    <ContentView.Content>
+        <StackLayout>
+            <TableView Margin="5,0,5,0">
+                <TableRoot>
+                    <TableSection Title="Segunda-Feira">
+                        <ViewCell>
+                            <Grid ColumnDefinitions="*,3*">
+                                <Label Text="Início" />
+                                <TimePicker Time="{Binding Utilizador.Disponibilidade.Segunda.Inicio}"/>
+                            </Grid>
+                        </ViewCell>
+                        <ViewCell>
+                            <Grid ColumnDefinitions="*,3*">
+                                <Label Text="Fim" />
+                                <TimePicker Time="{Binding Utilizador.Disponibilidade.Segunda.Fim}"/>
+                            </Grid>
+                        </ViewCell>
+                    </TableSection>
+                    <TableSection Title="Terça-Feira">
+                        <ViewCell>
+                            <Grid ColumnDefinitions="*,3*">
+                                <Label Text="Início" />
+                                <TimePicker Time="{Binding Utilizador.Disponibilidade.Terca.Inicio}"/>
+                            </Grid>
+                        </ViewCell>
+                        <ViewCell>
+                            <Grid ColumnDefinitions="*,3*">
+                                <Label Text="Fim" />
+                                <TimePicker Time="{Binding Utilizador.Disponibilidade.Terca.Fim}"/>
+                            </Grid>
+                        </ViewCell>
+                    </TableSection>
+                    <TableSection Title="Quarta-Feira">
+                        <ViewCell>
+                            <Grid ColumnDefinitions="*,3*">
+                                <Label Text="Início" />
+                                <TimePicker Time="{Binding Utilizador.Disponibilidade.Quarta.Inicio}"/>
+                            </Grid>
+                        </ViewCell>
+                        <ViewCell>
+                            <Grid ColumnDefinitions="*,3*">
+                                <Label Text="Fim" />
+                                <TimePicker Time="{Binding Utilizador.Disponibilidade.Quarta.Fim}"/>
+                            </Grid>
+                        </ViewCell>
+                    </TableSection>
+                    <TableSection Title="Quinta-Feira">
+                        <ViewCell>
+                            <Grid ColumnDefinitions="*,3*">
+                                <Label Text="Início" />
+                                <TimePicker Time="{Binding Utilizador.Disponibilidade.Quinta.Inicio}"/>
+                            </Grid>
+                        </ViewCell>
+                        <ViewCell>
+                            <Grid ColumnDefinitions="*,3*">
+                                <Label Text="Fim" />
+                                <TimePicker Time="{Binding Utilizador.Disponibilidade.Quinta.Fim}"/>
+                            </Grid>
+                        </ViewCell>
+                    </TableSection>
+                    <TableSection Title="Sexta-Feira">
+                        <ViewCell>
+                            <Grid ColumnDefinitions="*,3*">
+                                <Label Text="Início" />
+                                <TimePicker Time="{Binding Utilizador.Disponibilidade.Sexta.Inicio}"/>
+                            </Grid>
+                        </ViewCell>
+                        <ViewCell>
+                            <Grid ColumnDefinitions="*,3*">
+                                <Label Text="Fim" />
+                                <TimePicker Time="{Binding Utilizador.Disponibilidade.Sexta.Fim}"/>
+                            </Grid>
+                        </ViewCell>
+                    </TableSection>
+                    <TableSection Title="Sábado">
+                        <ViewCell>
+                            <Grid ColumnDefinitions="*,3*">
+                                <Label Text="Início" />
+                                <TimePicker Time="{Binding Utilizador.Disponibilidade.Sabado.Inicio}"/>
+                            </Grid>
+                        </ViewCell>
+                        <ViewCell>
+                            <Grid ColumnDefinitions="*,3*">
+                                <Label Text="Fim" />
+                                <TimePicker Time="{Binding Utilizador.Disponibilidade.Sabado.Fim}"/>
+                            </Grid>
+                        </ViewCell>
+                    </TableSection>
+                    <TableSection Title="Domingo">
+                        <ViewCell>
+                            <Grid ColumnDefinitions="*,3*">
+                                <Label Text="Início" />
+                                <TimePicker Time="{Binding Utilizador.Disponibilidade.Domingo.Inicio}"/>
+                            </Grid>
+                        </ViewCell>
+                        <ViewCell>
+                            <Grid ColumnDefinitions="*,3*">
+                                <Label Text="Fim" />
+                                <TimePicker Time="{Binding Utilizador.Disponibilidade.Domingo.Fim}"/>
+                            </Grid>
+                        </ViewCell>
+                    </TableSection>
+                </TableRoot>
+            </TableView>
+            <Button Command="{Binding SubmeterCommand}" Text="Submeter"/>
+        </StackLayout>
+  </ContentView.Content>
+</ContentView>

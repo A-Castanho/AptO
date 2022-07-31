@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppAptO.Areas.Geral.Configuracoes.InstrucoesVoluntarioPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <Frame>
+                <Frame.GestureRecognizers>
+                    <TapGestureRecognizer/>
+                </Frame.GestureRecognizers>
+                <Label Text="Pedidos de Apoio"/>
+            </Frame>
+            <StackLayout IsVisible="{Binding VisibilidadePedidos}">
+                
+            </StackLayout>
+
+            <Frame>
+                <Frame.GestureRecognizers>
+                    <TapGestureRecognizer/>
+                </Frame.GestureRecognizers>
+                <Label Text="Área da ação de voluntariado"/>
+            </Frame>
+            <StackLayout IsVisible="{Binding VisibilidadeGestao}">
+
+            </StackLayout>
+            
+            <Frame>
+                <Frame.GestureRecognizers>
+                    <TapGestureRecognizer/>
+                </Frame.GestureRecognizers>
+                <Label Text="Ofertas de Apoio"/>
+            </Frame>
+            <StackLayout IsVisible="{Binding VisibilidadeOfertas}">
+                
+            </StackLayout>
+            
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

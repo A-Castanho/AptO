@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             Title="Publicidades"
+             xmlns:Imagens="clr-namespace:AppAptO.Models.AppHelpers;assembly=AppAptO" 
+             xmlns:input="clr-namespace:Plugin.InputKit.Shared.Controls;assembly=Plugin.InputKit"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:viewModel="clr-namespace:AppAptO.Areas.Admin.AreaAdmin.Publicidades"
+             x:Class="AppAptO.Areas.Admin.AreaAdmin.Publicidades.CrudPublicidade">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem IconImageSource="{Imagens:ImageResource down-arrow.png}"
+                     Command="{Binding CommandMudarVisParams}"/>
+    </ContentPage.ToolbarItems>
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Style TargetType="input:AdvancedEntry">
+                <Setter Property="CornerRadius" Value="0"/>
+                <Setter Property="TextColor" Value="Black"/>
+                <Setter Property="TextFontSize" Value="15"/>
+                <Setter Property="Padding" Value="0"/>
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    <ContentPage.BindingContext>
+        <viewModel:CrudPublicidadeViewModel/>
+    </ContentPage.BindingContext>
+    <ContentPage.Content>
+        <Grid RowDefinitions="Auto,*,Auto">
+            <StackLayout IsVisible="{Binding VisibilidadeParams}">
+                <Grid>
+
+                    <input:AdvancedEntry CornerRadius="0" TitleColor="Black"
+                   Text="{Binding TituloPublicidade}" Title="Título"/>
+                    <input:AdvancedEntry CornerRadius="0" TitleColor="Black" Grid.Column="1"
+                   Text="{Binding NomeEmpresa}" Title="Empresa"/>
+                </Grid>
+                <input:AdvancedEntry CornerRadius="0" TitleColor="Black"
+                   Text="{Binding LinkPublicidade}" Title="Link de Redirecionamento"/>
+                <Grid >
+                    <input:Dropdown  Title="Tipo" Grid.Column="0"
+                    x:Name="picker" CornerRadius="0" Padding="0" FontSize="Caption"
+                    SelectedItem="{Binding Tipo}" ItemsSource="{Binding Tipos}"/>
+                    <input:AdvancedSlider Title="Nível Prioridade" TextColor="Black"
+                        Value="{Binding NivelPrioridade}"  Grid.Column="1" DisplayMinMaxValue="False"
+                        MaxValue="3" MinValue="1"/>
+                </Grid>
+            </StackLayout>
+            <Grid Grid.Row="1">
+
+                <Image HeightRequest="{Binding ImageHeight}" VerticalOptions="Center"
+                WidthRequest="{Binding ImageWidth}" HorizontalOptions="Center"
+                Source="{Binding FotoSource}"
+                BackgroundColor="Gray">
+                    <Image.GestureRecognizers>
+                        <TapGestureRecognizer Command="{Binding CommandAdicionarImagem}"/>
+                    </Image.GestureRecognizers>
+                </Image>
+            </Grid>
+            <Grid VerticalOptions="EndAndExpand" x:Name="GridButtons" RowDefinitions="Auto" Grid.Row="2">
+                <Button Text="Submeter"  Command="{Binding CommandSubmeter}"/>
+                <Button Text="Eliminar" Command="{Binding CommandEliminar}" Grid.Column="1"
+                        IsVisible="{Binding VisibilidadeEliminar}"/>
+            </Grid>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

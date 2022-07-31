@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xct:Popup xmlns="http://xamarin.com/schemas/2014/forms"
+        xmlns:viewModel="clr-namespace:AppAptO.ViewModels.PopUps.Select"
+            xmlns:xct="clr-namespace:Xamarin.CommunityToolkit.UI.Views;assembly=Xamarin.CommunityToolkit"
+        x:TypeArguments="x:String"
+        xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+        x:Class="AppAptO.PopUps.Select.SelectPedidoPopUp"
+        Size="340,520">
+    <xct:Popup.BindingContext>
+        <viewModel:SelectPedidoViewModel/>
+    </xct:Popup.BindingContext>
+    <xct:Popup.Content>
+        <Frame BorderColor="{DynamicResource PrimaryDark}">
+            <StackLayout>
+                <Label Text="Selecione um dos seus pedidos"
+                   FontSize="Medium"
+                   Margin="10"
+                   HorizontalOptions="CenterAndExpand"/>
+                <ListView ItemsSource="{Binding Lista}" HasUnevenRows="True" 
+                          SelectedItem="{Binding PedidoSelecionado}">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <ViewCell>
+                                <Frame Style="{StaticResource ComponenteLista}" BackgroundColor="White" Margin="4">
+                                    <StackLayout Padding="10,15,10,15">
+                                        <Label Text="{Binding Object.Titulo}" 
+                                                Style="{StaticResource Descricao}"/>
+                                        <Label Text="{Binding Object.KeysUtilizadoresDisponiveis.Count,StringFormat='Voluntários: {0}'}"/>
+                                    </StackLayout>
+                                </Frame>
+                            </ViewCell>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+                <Grid ColumnDefinitions="*,*" RowDefinitions="50">
+                    <Button Text="Submeter" Clicked="Button_Clicked" HeightRequest="50" Grid.Column="0"/>
+                    <Button Text="Ver Pedido"
+                        Clicked="Button_Clicked_1"
+                        Command="{Binding CommandGoToPedido}" Grid.Column="1" HeightRequest="50"/>
+                </Grid>
+            </StackLayout>
+        </Frame>
+    </xct:Popup.Content>
+</xct:Popup>

@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:viewModel="clr-namespace:AppAptO.ViewModels.Conta.MeuVoluntariado.MeusPedido"
+             Title="{Binding Title}"
+             x:Class="AppAptO.Views.Conta.MeuVoluntariado.MeuPedido.MeusPedidosPage">
+    <ContentPage.BindingContext>
+        <viewModel:MeusPedidosViewModel/>
+    </ContentPage.BindingContext>
+    <ContentPage.Content>
+        <StackLayout VerticalOptions="StartAndExpand">
+            <ListView  ItemsSource="{Binding Lista}" HasUnevenRows="True"
+                       IsPullToRefreshEnabled="True" x:Name="Lista"
+                       ItemTapped="ListView_ItemTapped"
+                       RefreshCommand="{Binding CommandPesquisar}"
+                       IsRefreshing="{Binding ConteudoIniciado, Converter={StaticResource InverseBoolConverter}}"
+                       SelectedItem="{Binding AcaoSelecionada}">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <Frame Style="{StaticResource ComponenteLista}" Padding="0,10,0,10"
+                                   BorderColor="{DynamicResource PrimaryDark}"
+                                   BackgroundColor="White" >
+                                <StackLayout Padding="0">
+                                    <Frame HasShadow="False" Margin="5" BackgroundColor="White" BorderColor="AliceBlue">
+                                        <Label Text="{Binding Object.Titulo}" 
+                                                   Style="{StaticResource Descricao}"/>
+                                    </Frame>
+                                    <Grid ColumnDefinitions="*,0" VerticalOptions="EndAndExpand" Margin="0">
+                                        <StackLayout Orientation="Horizontal">
+                                            <Frame Style="{StaticResource FrameArea}" Grid.Column="0">
+                                                <Label Text="{Binding Object.Area}" 
+                                                            Style="{StaticResource Area}" />
+
+                                            </Frame>
+                                            <Frame Style="{StaticResource FrameArea}" Grid.Column="1">
+
+                                                <Label Text="{Binding Object.Localidade}"
+                                                            Style="{StaticResource Area}" />
+                                            </Frame>
+                                        </StackLayout>
+                                    </Grid>
+                                </StackLayout>
+                            </Frame>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

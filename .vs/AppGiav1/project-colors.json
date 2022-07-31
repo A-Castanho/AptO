@@ -1,0 +1,26 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "589c6225-f5d8-4dfe-873e-0ffc0289f164": {
+      "ProjectGuid": "589c6225-f5d8-4dfe-873e-0ffc0289f164",
+      "DisplayName": "AppGiav1",
+      "ColorIndex": 0
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    },
+    "d69378dd-ac07-4190-95d7-19f12ebf1816": {
+      "ProjectGuid": "d69378dd-ac07-4190-95d7-19f12ebf1816",
+      "DisplayName": "AppGiav1.Android",
+      "ColorIndex": 1
+    },
+    "088faeac-1419-40c4-a098-f2524f2a56f4": {
+      "ProjectGuid": "088faeac-1419-40c4-a098-f2524f2a56f4",
+      "DisplayName": "AppGiav1.iOS",
+      "ColorIndex": 2
+    }
+  },
+  "NextColorIndex": 3
+}

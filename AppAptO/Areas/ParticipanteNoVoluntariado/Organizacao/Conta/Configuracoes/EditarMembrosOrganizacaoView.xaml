@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:viewModel="clr-namespace:AppAptO.Areas.ParticipanteNoVoluntariado.Organizacao.Conta.Configuracoes"
+             x:Class="AppAptO.Areas.ParticipanteNoVoluntariado.Organizacao.Conta.Configuracoes.EditarMembrosOrganizacaoView">
+    <ContentView.BindingContext>
+        <viewModel:EditarMembrosOrganizacaoViewModel/>
+    </ContentView.BindingContext>
+  <ContentView.Content>
+        <StackLayout>
+            <Button Text="Código da organização" Command="{Binding CommandOpenCod}"/>
+            <Button Text="Remover Utilizador" Command="{Binding CommandRemoverVoluntario}"/>
+            <ListView ItemsSource="{Binding Utilizadores}" HasUnevenRows="True"
+                      IsRefreshing="{Binding IsRefreshing}" RefreshCommand="{Binding CommandRefresh}"
+                      IsPullToRefreshEnabled="True" SelectedItem="{Binding UtilizadorSelecionado}">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <Frame Style="{StaticResource ComponenteLista}" BackgroundColor="White" >
+                                <StackLayout Padding="0" Orientation="Horizontal">
+                                    <Frame HasShadow="False" BackgroundColor="White" BorderColor="AliceBlue">
+                                        <Label Text="{Binding Object.NomeExibicao}" 
+                                                        Style="{StaticResource Descricao}"/>
+                                    </Frame>
+                                    <Frame Style="{StaticResource MolduraCircular}">
+                                        <Image Source="{Binding Object.FotoUrl}" 
+                                                        HeightRequest="50" 
+                                                        WidthRequest="50"/>
+                                    </Frame>
+                                </StackLayout>
+                            </Frame>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackLayout>
+  </ContentView.Content>
+</ContentView>

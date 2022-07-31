@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppAptO.Areas.Geral.Configuracoes.MainConfigPage"
+             xmlns:viewModel="clr-namespace:AppAptO.Areas.Geral.Configuracoes"
+             Title="Configurações">
+    <ContentPage.BindingContext>
+        <viewModel:MainConfigViewModel/>
+    </ContentPage.BindingContext>
+    <ContentPage.Resources>
+        <Style TargetType="Button">
+            <Setter Property="Background" Value="{DynamicResource LGBPrimaryToDark}"/>
+            <Setter Property="Padding" Value="20"/>
+        </Style>
+    </ContentPage.Resources>
+    <ContentPage.Content>
+        <StackLayout VerticalOptions="CenterAndExpand" Spacing="60" Margin="10">
+            <Button Text="Sobre" Command="{Binding CommandGoToSobre}" />
+            <Button Text="Definições da Conta" Command="{Binding CommandGoToContaDef}" />
+            <Button Text="Contactos" Command="{Binding CommandGoToContactos}" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

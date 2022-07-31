@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:viewModel="clr-namespace:AppAptO.ViewModels.Pedidos"
+             x:Class="AppAptO.Views.Pedidos.PedidoApoioPage"
+             Title="Pedido de Apoio">
+    <ContentPage.BindingContext>
+        <viewModel:PedidoApoioViewModel/>
+    </ContentPage.BindingContext>
+    <ContentPage.Content>
+        <Grid RowDefinitions="*,Auto">
+            <Grid RowDefinitions="Auto,*,Auto" Margin="10,20,10,0" Grid.Row="0">
+                <StackLayout Grid.Row="0">
+                    <Label Text="{Binding PedidoApoio.Area,StringFormat='Área: {0}'} "/>
+                    <Label Text="{Binding PedidoApoio.Localidade,StringFormat='Localidade: {0}'} "/>
+                    <Label Text="{Binding PedidoApoio.KeysUtilizadoresDisponiveis.Count,StringFormat='Voluntários inscritos: {0}'} "/>
+                    <BoxView Style="{StaticResource LinhaHorizontal}"/>
+                </StackLayout>
+                <Frame BorderColor="LightGray" Margin="5" Grid.Row="1">
+                    <Label Text="{Binding PedidoApoio.Descricao}" VerticalTextAlignment="Center"/>
+                </Frame>
+                <Label TextColor="Gray" Padding="0" HorizontalOptions="EndAndExpand" Grid.Row="2">
+                    <Label.Text>
+                        <MultiBinding StringFormat="{}Publicado em {0}-{1}-{2}">
+                            <Binding Path="PedidoApoio.DiaPublicacao.Day" />
+                            <Binding Path="PedidoApoio.DiaPublicacao.Month" />
+                            <Binding Path="PedidoApoio.DiaPublicacao.Year" />
+                        </MultiBinding>
+                    </Label.Text>
+                </Label>
+            </Grid>
+            
+            <StackLayout Grid.Row="1">
+                <Frame BorderColor="{DynamicResource Primary}" VerticalOptions="EndAndExpand" Margin="0,0,0,10">
+                    <Frame.GestureRecognizers>
+                        <TapGestureRecognizer Command="{Binding CommandGoToPerfil}"/>
+                    </Frame.GestureRecognizers>
+                    <StackLayout>
+                        <Label Text="Apoiado:"/>
+                        <StackLayout Orientation="Horizontal" Padding="0">
+                            <StackLayout VerticalOptions="CenterAndExpand">
+                                <Label>
+                                    <Label.Text>
+                                        <MultiBinding StringFormat="{}Nome: {0} &#10;Telefone: {1} &#10;Email: {2}">
+                                            <Binding Path="Apoiado.Object.NomeExibicao" />
+                                            <Binding Path="Apoiado.Object.Telefone" />
+                                            <Binding Path="Apoiado.Object.Email" />
+                                        </MultiBinding>
+                                    </Label.Text>
+                                </Label>
+                            </StackLayout>
+                            <Frame Style="{StaticResource MolduraCircular}" VerticalOptions="CenterAndExpand" Margin="0">
+                                <Image Source="{Binding Apoiado.Object.FotoUrl}"
+                                    HorizontalOptions="EndAndExpand"
+                                    VerticalOptions="CenterAndExpand"
+                                    HeightRequest="100"
+                                    BackgroundColor="Black"
+                                    WidthRequest="100"/>
+                            </Frame>
+                        </StackLayout>
+                    </StackLayout>
+                </Frame>
+                <StackLayout IsVisible="{Binding IsApoioProprio, Converter={StaticResource InverseBoolConverter}}">
+
+                    <Grid>
+                        <Button VerticalOptions="End"
+                        Text="Email" Grid.Column="0"
+                             IsVisible="{Binding IsApoioProprio, Converter={StaticResource InverseBoolConverter}}"
+                        FontSize="12"
+                        Command="{Binding CommandEmail}"
+                        Margin="0"
+                        HeightRequest="40"/>
+                        <Button VerticalOptions="End"
+                        Text="Mensagem" Grid.Column="1"
+                             IsVisible="{Binding IsApoioProprio, Converter={StaticResource InverseBoolConverter}}"
+                        FontSize="12"
+                        Command="{Binding CommandEnviarMensagem}"
+                        Margin="0"
+                        HeightRequest="40"/>
+
+                    </Grid>
+                    <Button VerticalOptions="End"
+                            Text="Ajudar"
+                            IsVisible="{Binding IsUtilizadorVoluntario}"
+                            FontSize="12"
+                            Command="{Binding CommandAceitar}"
+                            Margin="0"
+                            HeightRequest="40"/>
+                </StackLayout>
+                <StackLayout IsVisible="{Binding IsApoioProprio}">
+                    <Button VerticalOptions="End"
+                            Text="Editar"
+                            FontSize="12"
+                            Command="{Binding CommandGoToEditar}"
+                            Margin="0"
+                            HeightRequest="40"/>
+                    <Button VerticalOptions="End"
+                            Text="Gerir"
+                            FontSize="12"
+                            Command="{Binding CommandGoToGerir}"
+                            Margin="0"
+                            HeightRequest="40"/>
+                </StackLayout>
+            </StackLayout>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

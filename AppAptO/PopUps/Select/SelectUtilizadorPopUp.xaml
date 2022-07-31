@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<xct:Popup xmlns="http://xamarin.com/schemas/2014/forms"
+           xmlns:viewModel="clr-namespace:AppAptO.ViewModels.PopUps.Select"
+            xmlns:xct="clr-namespace:Xamarin.CommunityToolkit.UI.Views;assembly=Xamarin.CommunityToolkit"
+           x:TypeArguments="x:String"
+            xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+            x:Class="AppAptO.PopUps.Select.SelectUtilizadorPopUp"
+           Size="300,500">
+    <xct:Popup.BindingContext>
+        <viewModel:SelectUtilizadorViewModel/>
+    </xct:Popup.BindingContext>
+    <xct:Popup.Content>
+        <StackLayout>
+            <Label Text="{Binding ListaUtilizadores.Count, StringFormat='Utilizadores disponíveis: {0}'}"
+                   FontSize="Medium" Margin="10" HorizontalOptions="EndAndExpand"/>
+            <ListView ItemsSource="{Binding ListaUtilizadores}" HasUnevenRows="True"
+                      SelectedItem="{Binding UtilizadorSelecionado}">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <Frame Style="{StaticResource ComponenteLista}" BackgroundColor="White"
+                                   Margin="4">
+                                <StackLayout Padding="0" Orientation="Horizontal">
+                                    <Frame HasShadow="False" BackgroundColor="White" BorderColor="AliceBlue">
+                                        <Label Text="{Binding Value.NomeExibicao}" 
+                                                        Style="{StaticResource Descricao}"/>
+                                    </Frame>
+                                    <Frame Style="{StaticResource MolduraCircular}">
+                                        <Image Source="{Binding Value.FotoUrl}" 
+                                                        HeightRequest="50" 
+                                                        WidthRequest="50"/>
+                                    </Frame>
+                                </StackLayout>
+                            </Frame>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+            <StackLayout Orientation="Horizontal">
+                <Button Text="Submeter" Clicked="Button_Clicked"/>
+                <Button Text="Ver Perfil" Command="{Binding CommandGoToUtilizador}" Clicked="Button_Clicked_1"/>
+            </StackLayout>
+        </StackLayout>
+    </xct:Popup.Content>
+</xct:Popup>

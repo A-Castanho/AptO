@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:imagens="clr-namespace:AppAptO.Models.AppHelpers;assembly=AppAptO" 
+             xmlns:vm="clr-namespace:AppAptO.Areas.Admin.AreaAdmin.Notificacoes" 
+             xmlns:input="clr-namespace:Plugin.InputKit.Shared.Controls;assembly=Plugin.InputKit"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             Title="Notificações"
+             x:Class="AppAptO.Areas.Admin.AreaAdmin.Notificacoes.EnvNotificacaoPage">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Style TargetType="Label" x:Key="TituloArea">
+                <Setter Property="HorizontalTextAlignment" Value="Center"/>
+                <Setter Property="VerticalTextAlignment" Value="Center"/>
+                <Setter Property="FontSize" Value="Medium"/>
+                <Setter Property="FontAttributes" Value="Bold"/>
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    <ContentPage.BindingContext>
+        <vm:EnvNotificacaoViewModel/>
+    </ContentPage.BindingContext>
+    <ContentPage.Content>
+        <Grid>
+            <Grid RowDefinitions="60,*,60" IsVisible="{Binding IsBusy, Converter={StaticResource InverseBoolConverter}}">
+            <!--Seleção da Área-->
+            <Grid>
+                <Button Text="Construção" Command="{Binding CommandAlterarVisibilidadeArea}" CommandParameter="Construção"/>
+                <Button Text="Utilizadores" Command="{Binding CommandAlterarVisibilidadeArea}" CommandParameter="Utilizadores" Grid.Column="1"/>
+            </Grid>
+            
+            <!--Área de Construção da Notificação-->
+            <Grid Grid.Row="1" RowDefinitions="Auto,Auto,*"
+                  IsVisible="{Binding VisUtilizadores, Converter={StaticResource InverseBoolConverter}}">
+                <StackLayout>
+                    <Label Text="Construção da notificação" Style="{StaticResource TituloArea}"/>
+                    <input:AdvancedEntry Text="{Binding Titulo}" Title="Titulo" TextColor="Black"/>
+                </StackLayout>
+                <Label Text="Mensagem:" Grid.Row="1"/>
+                <Frame Padding="0" BorderColor="DarkGray" Margin="10" Grid.Row="2">
+                    <Editor Text="{Binding Mensagem}"/>
+                </Frame>
+            </Grid>
+            
+            <!--Área de Seleção de Utilizadores-->
+            <Grid Grid.Row="1" RowDefinitions="Auto,*"
+                  IsVisible="{Binding VisUtilizadores}">
+                <StackLayout>
+                    <Label Text="Utilizadores" Style="{StaticResource TituloArea}"/>
+                    <Label Text="Selecione os utilizadores a que enviar esta notificação"/>
+                    <Label x:Name="labelKeysUtilizadores"/>
+                    <StackLayout Orientation="Horizontal">
+                        <Label Text="Ver utilizadores selecionados"/>
+                        <Switch IsToggled="{Binding VerSelecionados}" Toggled="Switch_Toggled"/>
+                        <Label Text="Selecionar Todos da Lista" Style="{DynamicResource TappableLabel}">
+                            <Label.GestureRecognizers>
+                                <TapGestureRecognizer Command="{Binding CommandSelectList}"/>
+                            </Label.GestureRecognizers>
+                        </Label>
+                    </StackLayout>
+                    <Grid ColumnDefinitions="100,*" >
+                        <input:Dropdown ItemsSource="{Binding ParametrosFiltros}" SelectedItem="{Binding ParametroFiltro}"
+                                       Title="Pesquisa por:" FontSize="Caption" CornerRadius="0" VerticalOptions="EndAndExpand"/>
+                        <Grid RowDefinitions="60" ColumnDefinitions="*,60" Grid.Column="1" VerticalOptions="EndAndExpand">
+                            <input:AdvancedEntry CornerRadius="0" TextFontSize="Caption" Text="{Binding Pesquisa}"
+                                                 TextColor="Black" VerticalOptions="CenterAndExpand"/>
+                            <ImageButton Source="{imagens:ImageResource magnifier.png}" Aspect="AspectFit"
+                                         Grid.Column="1" Padding="15" VerticalOptions="CenterAndExpand"
+                                         Command="{Binding CommandPesquisar}"/>
+                        </Grid>
+                    </Grid>
+                </StackLayout>
+                <ListView Grid.Row="1" ItemsSource="{Binding Utilizadores}" HasUnevenRows="True" SelectionMode="Single"
+                          ItemSelected="ListView_ItemSelected">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <ViewCell>
+                                <Frame Style="{StaticResource ComponenteLista}" BackgroundColor="White" >
+                                    <Grid Padding="0" ColumnDefinitions="*,0.5*" RowDefinitions="Auto">
+                                        <Frame HasShadow="False" BackgroundColor="White" BorderColor="AliceBlue"
+                                               Grid.Column="0">
+                                            <StackLayout>
+                                                <Label Text="{Binding Object.NomeExibicao}" 
+                                                        Style="{StaticResource Descricao}"/>
+                                                <Label Text="{Binding Key, StringFormat='Key: {0}'}" 
+                                                        Style="{StaticResource Descricao}"/>
+                                                <Label Text="{Binding Object.Uid, StringFormat='Uid: {0}'}" 
+                                                        Style="{StaticResource Descricao}"/>
+                                            </StackLayout>
+                                        </Frame>
+                                        <Frame Style="{StaticResource MolduraCircular}" HeightRequest="40"
+                                               Grid.Column="1">
+                                            <Image Source="{Binding Object.FotoUrl}" Aspect="AspectFill"
+                                                   HeightRequest="100" WidthRequest="100"
+                                                   />
+                                        </Frame>
+                                    </Grid>
+                                </Frame>
+                            </ViewCell>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </Grid>
+
+            <!--Button de submissão-->
+            <Button Text="Enviar notificação" Grid.Row="2" Command="{Binding CommandSubmitNotificacao}"/>
+
+
+        </Grid>
+
+
+        <ActivityIndicator IsRunning="{Binding IsBusy}" Margin="80" Color="{DynamicResource Primary}"/>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

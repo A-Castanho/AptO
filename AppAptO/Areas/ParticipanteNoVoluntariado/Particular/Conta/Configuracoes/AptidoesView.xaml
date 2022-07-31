@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms" 
+        xmlns:imagens="clr-namespace:AppAptO.Models.AppHelpers;assembly=AppAptO" 
+        xmlns:viewModel="clr-namespace:AppAptO.PopUps.Autenticacao"
+        xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+        x:Class="AppAptO.Areas.ParticipanteNoVoluntariado.Particular.Conta.Configuracoes.AptidoesView">
+    <ContentView.BindingContext>
+        <viewModel:AptidoesViewModel/>
+    </ContentView.BindingContext>
+    <ContentView.Content>
+        <StackLayout Spacing="0">
+            <ScrollView>
+                <StackLayout Spacing="0" Margin="2">
+                    <Label Text="Selecione as suas aptidões pessoais" Margin="10" FontSize="16"/>
+                    <StackLayout BindableLayout.ItemsSource="{Binding AreasGerais}">
+                        <BindableLayout.ItemTemplate>
+                            <DataTemplate>
+                                <StackLayout x:Name="stackLayoutGerais">
+                                    <Frame Style="{StaticResource ComponenteLista}" BackgroundColor="White" >
+                                        <Frame.GestureRecognizers>
+                                            <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"  />
+                                            <TapGestureRecognizer Command="{Binding CommandMudarVisibilidade}"/>
+                                        </Frame.GestureRecognizers>
+                                        <Grid Padding="0" ColumnDefinitions="*,30" RowDefinitions="30">
+                                            <Label Text="{Binding AreaExperiencia.Object.NomeGeral}" Margin="10,0,0,0"
+                            VerticalOptions="CenterAndExpand"/>
+                                            <Image Source="{imagens:ImageResource down-arrow.png}"
+                                    Margin="4,4,4,4" Grid.Column="1"/>
+                                        </Grid>
+                                    </Frame>
+                                    <CollectionView ItemsSource="{Binding  AreaExperiencia.Object.AreasEnglobadas}" 
+                                        IsVisible="{Binding Visibilidade}" HeightRequest="{Binding ListHeight}"
+                                        SelectedItems = "{Binding TitulosAreasInterioresSelecionadas}"
+                                        SelectionMode="Multiple" SelectionChanged="ListInteriores_SelectionChanged">
+                                        <CollectionView.ItemsLayout>
+                                            <LinearItemsLayout Orientation="Vertical" />
+                                        </CollectionView.ItemsLayout>
+                                        <CollectionView.ItemTemplate>
+                                            <DataTemplate>
+                                                <Grid HeightRequest="50" Padding="1" BackgroundColor="Transparent">
+                                                    <VisualStateManager.VisualStateGroups>
+                                                        <VisualStateGroup Name="CommonStates">
+                                                            <VisualState Name="Normal"/>
+                                                            <VisualState Name="Selected">
+                                                                <VisualState.Setters>
+                                                                    <Setter Property="BackgroundColor" Value="LightGreen" />
+                                                                </VisualState.Setters>
+                                                            </VisualState>
+                                                        </VisualStateGroup>
+                                                    </VisualStateManager.VisualStateGroups>
+                                                    <Grid ColumnDefinitions="0.00001*,*">
+                                                        <Frame Padding="0"  CornerRadius="0" Grid.Column="1" BorderColor="Black"
+                                                               BackgroundColor="{DynamicResource PrimaryLightestest}">
+                                                            <Label  TextColor="Black" Text="{Binding .}" 
+                                                            FontSize="12" Margin="20,0,0,0"
+                                                            VerticalOptions="CenterAndExpand"  />
+                                                        </Frame>
+                                                    </Grid>
+                                                </Grid>
+
+                                            </DataTemplate>
+                                        </CollectionView.ItemTemplate>
+                                    </CollectionView>
+                                </StackLayout>
+                            </DataTemplate>
+                        </BindableLayout.ItemTemplate>
+                    </StackLayout>
+                    <BoxView Style="{StaticResource LinhaHorizontal}" Color="Black" Margin="0" />
+                </StackLayout>
+            </ScrollView>
+            <BoxView Style="{DynamicResource LinhaHorizontal}" Margin="0"/>
+            <StackLayout Margin="10">
+                <Label Text="{Binding TitulosAreasEscolhidas.Count, StringFormat='{0} aptidões selecionadas'}"/>
+                <StackLayout Margin="0,0,0,0" Orientation="Horizontal">
+                    <CollectionView ItemsSource="{Binding TitulosAreasEscolhidas}"
+                                HeightRequest="50" x:Name="MinhasAptidoes" SelectionMode="None" HorizontalScrollBarVisibility="Always">
+                        <CollectionView.ItemsLayout>
+                            <LinearItemsLayout Orientation="Horizontal"/>
+                        </CollectionView.ItemsLayout>
+                        <CollectionView.ItemTemplate>
+                            <DataTemplate>
+                                <Frame Style="{StaticResource ComponenteLista}" BackgroundColor="White" >
+                                    <Grid Padding="0" ColumnDefinitions="*,30" RowDefinitions="30">
+                                        <Label Text="{Binding .}"
+                                                VerticalOptions="CenterAndExpand"/>
+                                    </Grid>
+                                </Frame>
+                            </DataTemplate>
+                        </CollectionView.ItemTemplate>
+                    </CollectionView>
+                    <BoxView Style="{DynamicResource LinhaVertical}"/>
+                    <ImageButton Source="{imagens:ImageResource check.png}" HeightRequest="40"  Command="{Binding CommandSubmeter}" 
+                                 HorizontalOptions="EndAndExpand" VerticalOptions="CenterAndExpand" 
+                             WidthRequest="40" Aspect="Fill" Padding="0"/>
+                </StackLayout>
+            </StackLayout>
+        </StackLayout>
+    </ContentView.Content>
+</ContentView>

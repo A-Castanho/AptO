@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>575646872014-u9agb5sn8i3r6hn2hb763p8cf83cl57g.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.575646872014-u9agb5sn8i3r6hn2hb763p8cf83cl57g</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBdmFxlN-sab83lbK-0tKvBgVJUcMrC5W8</string>
+	<key>GCM_SENDER_ID</key>
+	<string>575646872014</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>aeal.alinacastanho.AppAptO</string>
+	<key>PROJECT_ID</key>
+	<string>testxamarin-af350</string>
+	<key>STORAGE_BUCKET</key>
+	<string>testxamarin-af350.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false/>
+	<key>NSAppleMusicUsageDescription</key>
+	<string>A aplicação quer permissão para aceder às galreia do dispositivo</string>
+</dict>
+</plist>

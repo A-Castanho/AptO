@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<xct:Popup xmlns="http://xamarin.com/schemas/2014/forms"
+            xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+            xmlns:input="clr-namespace:Plugin.InputKit.Shared.Controls;assembly=Plugin.InputKit"
+            xmlns:xct="clr-namespace:Xamarin.CommunityToolkit.UI.Views;assembly=Xamarin.CommunityToolkit"
+           xmlns:models="clr-namespace:AppAptO.Models.FBData.Apoios"
+           x:TypeArguments="models:Tarefa"
+           Size="300,400"
+           xmlns:viewModel="clr-namespace:AppAptO.ViewModels.PopUps"
+            x:Class="AppAptO.PopUps.Crud.CrudTarefaPopUp">
+    <xct:Popup.BindingContext>
+        <viewModel:CrudTarefaViewModel/>
+    </xct:Popup.BindingContext>
+    <Grid VerticalOptions="CenterAndExpand" RowDefinitions="Auto,*,Auto">
+        <StackLayout>
+            <input:AdvancedEntry Title="Título" 
+                             TitleColor="Black"
+                             TextColor="Black" CornerRadius="3"
+                             TextFontSize="Small"
+                             Text="{Binding Tarefa.Titulo}"/>
+            <BoxView Style="{StaticResource LinhaHorizontal}"/>
+            <Label Text="Descrição" TextColor="{DynamicResource Accent}" Margin="5,0,0,0"/>
+        </StackLayout>
+        <Frame  BorderColor="Black" Padding="0,0,0,0" Grid.Row="1">
+            <Editor 
+                    Margin="0"
+                    Text="{Binding Tarefa.Descricao}"
+                    HeightRequest="100"/>
+        </Frame>
+        <Button Text="Submeter" Clicked="Submeter_Clicked" Grid.Row="2"/>
+    </Grid>
+</xct:Popup>

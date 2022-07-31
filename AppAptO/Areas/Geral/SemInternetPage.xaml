@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppAptO.Views.Erro.SemInternetPage"
+             xmlns:imagens="clr-namespace:AppAptO.Models.AppHelpers;assembly=AppAptO" 
+             xmlns:viewModel="clr-namespace:AppAptO.ViewModels.Erro">
+    <ContentPage.BindingContext>
+        <viewModel:SemInternetViewModel/>
+    </ContentPage.BindingContext>
+    <ContentPage.Content>
+        <StackLayout VerticalOptions="Center" HorizontalOptions="Center">
+
+            <Image Source="{imagens:ImageResource NoInternet.png}"  
+                   Aspect="AspectFit"
+                   HeightRequest="150" WidthRequest="150"/>
+
+            <Label Text="Conecte-se à internet e tente outra vez"/>
+            <Button Text="Reconectar" Command="{Binding ComandoTestarConexao}"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:viewModel="clr-namespace:AppAptO.ViewModels.Conta"
+             x:Class="AppAptO.ViewsPartial.Conta.DadosDisponibilidadeView">
+    <ContentView.Resources>
+        <Style TargetType="Label">
+            <Setter Property="VerticalOptions" Value="CenterAndExpand"/>
+            <Setter Property="Margin" Value="10,0,0,0"/>
+        </Style>
+    </ContentView.Resources>
+    <ContentView.BindingContext>
+        <viewModel:DisponibilidadeViewModel/>
+    </ContentView.BindingContext>
+    <ContentView.Content>
+        <StackLayout>
+            <TableView>
+                <TableRoot>
+                    <TableSection Title="Segunda">
+                        <ViewCell>
+                            <Grid ColumnDefinitions="*,0.5,2*" >
+                                <Label Text="Início:" FontAttributes="Bold" Grid.Column="0"/>
+                                <BoxView Style="{StaticResource LinhaVertical}" Grid.Column="1"/>
+                                <Label Text="{Binding Utilizador.Disponibilidade.Segunda.Inicio}" Grid.Column="2"/>
+                            </Grid>
+                        </ViewCell>
+                        <ViewCell>
+                            <Grid ColumnDefinitions="*,0.5,2*" >
+                                <Label Text="Fim:" FontAttributes="Bold" Grid.Column="0"/>
+                                <BoxView Style="{StaticResource LinhaVertical}" Grid.Column="1"/>
+                                <Label Text="{Binding Utilizador.Disponibilidade.Segunda.Fim}" Grid.Column="2"/>
+                            </Grid>
+                        </ViewCell>
+                    </TableSection>
+                    <TableSection Title="Terça">
+                        <ViewCell>
+                            <Grid ColumnDefinitions="*,0.5,2*" >
+                                <Label Text="Início:" FontAttributes="Bold" Grid.Column="0"/>
+                                <BoxView Style="{StaticResource LinhaVertical}" Grid.Column="1"/>
+                                <Label Text="{Binding Utilizador.Disponibilidade.Terca.Inicio}" Grid.Column="2"/>
+                            </Grid>
+                        </ViewCell>
+                        <ViewCell>
+                            <Grid ColumnDefinitions="*,0.5,2*" >
+                                <Label Text="Fim:" FontAttributes="Bold" Grid.Column="0"/>
+                                <BoxView Style="{StaticResource LinhaVertical}" Grid.Column="1"/>
+                                <Label Text="{Binding Utilizador.Disponibilidade.Terca.Fim}" Grid.Column="2"/>
+                            </Grid>
+                        </ViewCell>
+                    </TableSection>
+                    <TableSection Title="Quarta">
+                        <ViewCell>
+                            <Grid ColumnDefinitions="*,0.5,2*" >
+                                <Label Text="Início:" FontAttributes="Bold" Grid.Column="0"/>
+                                <BoxView Style="{StaticResource LinhaVertical}" Grid.Column="1"/>
+                                <Label Text="{Binding Utilizador.Disponibilidade.Quarta.Inicio}" Grid.Column="2"/>
+                            </Grid>
+                        </ViewCell>
+                        <ViewCell>
+                            <Grid ColumnDefinitions="*,0.5,2*" >
+                                <Label Text="Fim:" FontAttributes="Bold" Grid.Column="0"/>
+                                <BoxView Style="{StaticResource LinhaVertical}" Grid.Column="1"/>
+                                <Label Text="{Binding Utilizador.Disponibilidade.Quarta.Fim}" Grid.Column="2"/>
+                            </Grid>
+                        </ViewCell>
+                    </TableSection>
+                    <TableSection Title="Quinta">
+                        <ViewCell>
+                            <Grid ColumnDefinitions="*,0.5,2*" >
+                                <Label Text="Início:" FontAttributes="Bold" Grid.Column="0"/>
+                                <BoxView Style="{StaticResource LinhaVertical}" Grid.Column="1"/>
+                                <Label Text="{Binding Utilizador.Disponibilidade.Quinta.Inicio}" Grid.Column="2"/>
+                            </Grid>
+                        </ViewCell>
+                        <ViewCell>
+                            <Grid ColumnDefinitions="*,0.5,2*" >
+                                <Label Text="Fim:" FontAttributes="Bold" Grid.Column="0"/>
+                                <BoxView Style="{StaticResource LinhaVertical}" Grid.Column="1"/>
+                                <Label Text="{Binding Utilizador.Disponibilidade.Quinta.Fim}" Grid.Column="2"/>
+                            </Grid>
+                        </ViewCell>
+                    </TableSection>
+                    <TableSection Title="Sexta">
+                        <ViewCell>
+                            <Grid ColumnDefinitions="*,0.5,2*" >
+                                <Label Text="Início:" FontAttributes="Bold" Grid.Column="0"/>
+                                <BoxView Style="{StaticResource LinhaVertical}" Grid.Column="1"/>
+                                <Label Text="{Binding Utilizador.Disponibilidade.Sexta.Inicio}" Grid.Column="2"/>
+                            </Grid>
+                        </ViewCell>
+                        <ViewCell>
+                            <Grid ColumnDefinitions="*,0.5,2*" >
+                                <Label Text="Fim:" FontAttributes="Bold" Grid.Column="0"/>
+                                <BoxView Style="{StaticResource LinhaVertical}" Grid.Column="1"/>
+                                <Label Text="{Binding Utilizador.Disponibilidade.Sexta.Fim}" Grid.Column="2"/>
+                            </Grid>
+                        </ViewCell>
+                    </TableSection>
+                    <TableSection Title="Sábado">
+                        <ViewCell>
+                            <Grid ColumnDefinitions="*,0.5,2*" >
+                                <Label Text="Início:" FontAttributes="Bold" Grid.Column="0"/>
+                                <BoxView Style="{StaticResource LinhaVertical}" Grid.Column="1"/>
+                                <Label Text="{Binding Utilizador.Disponibilidade.Sabado.Inicio}" Grid.Column="2"/>
+                            </Grid>
+                        </ViewCell>
+                        <ViewCell>
+                            <Grid ColumnDefinitions="*,0.5,2*" >
+                                <Label Text="Fim:" FontAttributes="Bold" Grid.Column="0"/>
+                                <BoxView Style="{StaticResource LinhaVertical}" Grid.Column="1"/>
+                                <Label Text="{Binding Utilizador.Disponibilidade.Sabado.Fim}" Grid.Column="2"/>
+                            </Grid>
+                        </ViewCell>
+                    </TableSection>
+                    <TableSection Title="Domingo">
+                        <ViewCell>
+                            <Grid ColumnDefinitions="*,0.5,2*" >
+                                <Label Text="Início:" FontAttributes="Bold" Grid.Column="0"/>
+                                <BoxView Style="{StaticResource LinhaVertical}" Grid.Column="1"/>
+                                <Label Text="{Binding Utilizador.Disponibilidade.Domingo.Inicio}" Grid.Column="2"/>
+                            </Grid>
+                        </ViewCell>
+                        <ViewCell>
+                            <Grid ColumnDefinitions="*,0.5,2*" >
+                                <Label Text="Fim:" FontAttributes="Bold" Grid.Column="0"/>
+                                <BoxView Style="{StaticResource LinhaVertical}" Grid.Column="1"/>
+                                <Label Text="{Binding Utilizador.Disponibilidade.Domingo.Fim}" Grid.Column="2"/>
+                            </Grid>
+                        </ViewCell>
+                    </TableSection>
+                </TableRoot>
+            </TableView>
+        </StackLayout>
+    </ContentView.Content>
+</ContentView>

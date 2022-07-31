@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:input="clr-namespace:Plugin.InputKit.Shared.Controls;assembly=Plugin.InputKit"
+             x:Class="AppAptO.ViewsPartial.Conta.Configuracoes.EditarOrganizacaoView"
+             xmlns:viewModel="clr-namespace:AppAptO.ViewModels.Conta.Configuracoes">
+    <ContentView.BindingContext>
+        <viewModel:EditarOrganizacaoViewModel/>
+    </ContentView.BindingContext>
+    <ContentView.Resources>
+        <Style TargetType="input:AdvancedEntry">
+            <Setter Property="TitleColor" Value="Black"/>
+            <Setter Property="TextColor" Value="Black"/>
+            <Setter Property="PlaceholderColor" Value="Gray"/>
+            <Setter Property="TextFontSize" Value="Caption"/>
+            <Setter Property="CornerRadius" Value="5"/>
+            <Setter Property="HeightRequest" Value="90"/>
+        </Style>
+    </ContentView.Resources>
+    <ContentView.Content>
+        <StackLayout >
+            <ScrollView Padding="0">
+                <StackLayout>
+                    <Grid ColumnDefinitions="*,100" Padding="10">
+                        <Label Text="Alterar Imagem" VerticalOptions="EndAndExpand" 
+                               HorizontalOptions="EndAndExpand" Style="{DynamicResource TappableLabel}">
+                            <Label.GestureRecognizers>
+                                <TapGestureRecognizer Command="{Binding AlterarImagemCommand}"/>
+                            </Label.GestureRecognizers>
+                        </Label>
+                        <Frame Grid.Column="1" Style="{DynamicResource MolduraCircular}" Margin="3" WidthRequest="60">
+                            <Image Source="{Binding ImageSource}"
+                               Aspect="AspectFit" 
+                               WidthRequest="60"
+                               HeightRequest="60"/>
+                        </Frame >
+                    </Grid>
+                    <BoxView Style="{DynamicResource LinhaHorizontal}" Margin="0"/>
+                    <StackLayout Padding="10">
+
+                        <input:AdvancedEntry Title="Nome"
+                                     Annotation="LettersOnly"
+                                     Text="{Binding Utilizador.NomeExibicao}"/>
+                        <input:AdvancedEntry Title="Morada"
+                                     Annotation="LettersOnly"
+                                     Text="{Binding Utilizador.Morada}"/>
+                        <Grid>
+                            <Grid.GestureRecognizers>
+                                <TapGestureRecognizer Command="{Binding CommandOpenSelectLocalidade}"/>
+                            </Grid.GestureRecognizers>
+                            <input:AdvancedEntry Placeholder="Locallidade"
+                                             Text="{Binding Localidade}"
+                                             TextColor="Black"
+                                             IsEnabled="False" Title="Localidade"/>
+                        </Grid>
+                        <input:AdvancedEntry Title="Telefone"
+                                     Annotation="Phone"
+                                     Text="{Binding Utilizador.Telefone}"/>
+                        <input:AdvancedEntry Title="Website"
+                                     Annotation="CharType"
+                                     Text="{Binding Utilizador.LinkWebsite}"/>
+                        <input:AdvancedEntry Title="Código Postal"
+                                     Annotation="Phone"
+                                     Text="{Binding Utilizador.CodPostal}"/>
+                        <Label Text="Sobre: "/>
+                        <Frame Padding="0" BorderColor="Gray">
+                            <Editor HeightRequest="100" Text="{Binding Utilizador.Sobre}" FontSize="Caption"/>
+                        </Frame>
+                    </StackLayout>
+                </StackLayout>
+            </ScrollView>
+            <Button Text="Submeter Alteracoes" Command="{Binding SubmeterDadosPessoaisCommand}"/>
+        </StackLayout>
+    </ContentView.Content>
+</ContentView>

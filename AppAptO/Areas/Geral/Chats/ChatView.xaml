@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:input="clr-namespace:Plugin.InputKit.Shared.Controls;assembly=Plugin.InputKit"
+             xmlns:imagens="clr-namespace:AppAptO.Models.AppHelpers;assembly=AppAptO" 
+             xmlns:chat="clr-namespace:AppAptO.Helpers.Chat" 
+             xmlns:local="clr-namespace:AppAptO.Areas.ParticipanteNoVoluntariado.Chats" 
+            xmlns:viewModel="clr-namespace:AppAptO.Areas.ParticipanteNoVoluntariado.Chats"
+             x:Class="AppAptO.Areas.ParticipanteNoVoluntariado.Chats.ChatView">
+    <ContentView.BindingContext>
+        <viewModel:ChatViewModel/>
+    </ContentView.BindingContext>
+    <ContentView.Resources>
+        <ResourceDictionary>
+            <chat:ChatTemplateSelector x:Key="MessageTemplateSelector"/>
+        </ResourceDictionary>
+    </ContentView.Resources>
+    <ContentView.Content>
+        <Grid RowDefinitions="*,1,Auto">
+            <ListView x:Name="ChatList"
+                      CachingStrategy="RecycleElement" 
+                      ItemTemplate="{StaticResource MessageTemplateSelector}" 
+                      ItemsSource="{Binding ListaMensagens}" 
+                      Margin="0" 
+                      FlowDirection="RightToLeft"
+                      ItemAppearing="ListView_ItemAppearing"
+                      Rotation="180"
+                      SelectionMode="None"
+                      HasUnevenRows="True"
+                      VerticalOptions="FillAndExpand" 
+                      SeparatorColor="Transparent"/>
+            <BoxView Style="{StaticResource LinhaHorizontal}" Grid.Row="1"/>
+            <local:ChatInputBarView Grid.Row="2"/>
+        </Grid>
+    </ContentView.Content>
+</ContentView>

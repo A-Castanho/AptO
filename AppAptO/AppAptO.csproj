@@ -1,0 +1,391 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <ProduceReferenceAssembly>true</ProduceReferenceAssembly>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DebugType>portable</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Imagens\asterisk.png" />
+    <None Remove="Imagens\back.png" />
+    <None Remove="Imagens\bin.png" />
+    <None Remove="Imagens\check.png" />
+    <None Remove="Imagens\copy.png" />
+    <None Remove="Imagens\cross.png" />
+    <None Remove="Imagens\down-arrow.png" />
+    <None Remove="Imagens\Engrenagem.png" />
+    <None Remove="Imagens\eye.png" />
+    <None Remove="Imagens\filter.png" />
+    <None Remove="Imagens\green-tick.png" />
+    <None Remove="Imagens\logo.png" />
+    <None Remove="Imagens\logoSquare.png" />
+    <None Remove="Imagens\logout.png" />
+    <None Remove="Imagens\logo_simple.png" />
+    <None Remove="Imagens\magnifier.png" />
+    <None Remove="Imagens\NoInternet.png" />
+    <None Remove="Imagens\notification.png" />
+    <None Remove="Imagens\plus.png" />
+    <None Remove="Imagens\red-cross.png" />
+    <None Remove="Imagens\refresh.png" />
+    <None Remove="Imagens\send-message.png" />
+    <None Remove="Imagens\settings.png" />
+    <None Remove="Imagens\up-arrow.png" />
+    <None Remove="Imagens\white-cross.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Imagens\asterisk.png" />
+    <EmbeddedResource Include="Imagens\back.png" />
+    <EmbeddedResource Include="Imagens\bin.png" />
+    <EmbeddedResource Include="Imagens\check.png" />
+    <EmbeddedResource Include="Imagens\copy.png" />
+    <EmbeddedResource Include="Imagens\cross.png" />
+    <EmbeddedResource Include="Imagens\down-arrow.png" />
+    <EmbeddedResource Include="Imagens\Engrenagem.png" />
+    <EmbeddedResource Include="Imagens\eye.png" />
+    <EmbeddedResource Include="Imagens\filter.png" />
+    <EmbeddedResource Include="Imagens\green-tick.png" />
+    <EmbeddedResource Include="Imagens\logo.png" />
+    <EmbeddedResource Include="Imagens\logoSquare.png" />
+    <EmbeddedResource Include="Imagens\logout.png" />
+    <EmbeddedResource Include="Imagens\logo_simple.png" />
+    <EmbeddedResource Include="Imagens\magnifier.png" />
+    <EmbeddedResource Include="Imagens\NoInternet.png" />
+    <EmbeddedResource Include="Imagens\notification.png" />
+    <EmbeddedResource Include="Imagens\plus.png" />
+    <EmbeddedResource Include="Imagens\red-cross.png" />
+    <EmbeddedResource Include="Imagens\refresh.png" />
+    <EmbeddedResource Include="Imagens\send-message.png" />
+    <EmbeddedResource Include="Imagens\settings.png" />
+    <EmbeddedResource Include="Imagens\up-arrow.png" />
+    <EmbeddedResource Include="Imagens\white-cross.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FirebaseAuthentication.net" Version="3.7.2" />
+    <PackageReference Include="FirebaseDatabase.net" Version="4.0.7" />
+    <PackageReference Include="FirebaseStorage.net" Version="1.0.3" />
+    <PackageReference Include="Xam.Plugin.Media" Version="5.0.1" />
+    <PackageReference Include="Xamarin.CommunityToolkit" Version="1.3.2" />
+    <PackageReference Include="Xamarin.Forms" Version="5.0.0.2244" />
+    <PackageReference Include="Xamarin.Essentials" Version="1.7.0" />
+    <PackageReference Include="Xamarin.Forms.InputKit" Version="3.7.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="System.Drawing.Common">
+      <HintPath>C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\ReferenceAssemblies\Microsoft\Framework\MonoAndroid\v1.0\Facades\System.Drawing.Common.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Areas\Admin\Apoios\Ofertas\AdminOfertaApoioPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Areas\Admin\Apoios\Pedidos\AdminPedidoApoioPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Areas\Admin\AreaAdmin\AdminMainPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Areas\Admin\AreaAdmin\DadosAplicacao\DadosAplicacaoMainPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Areas\Admin\AreaAdmin\MsgSabiasQue\CrudMensagemPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Areas\Admin\AreaAdmin\MsgSabiasQue\ListaMensagensPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Areas\Admin\AreaAdmin\Notificacoes\EnvNotificacaoPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Areas\Admin\AreaAdmin\Publicidades\CrudPublicidade.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Areas\Admin\AreaAdmin\Publicidades\ListagemPublicidades.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Areas\Admin\Shell\AdminShell.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Areas\Geral\Configuracoes\AppContactosPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Areas\Geral\Configuracoes\AppSobrePage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Areas\Geral\Configuracoes\InstrucoesApoiadoPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Areas\Geral\Configuracoes\InstrucoesVoluntarioPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Areas\Geral\Configuracoes\MainConfigPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Areas\Geral\Perfil\CartaoPessoalView.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Areas\Geral\PublicidadeObj.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Areas\ParticipanteNoVoluntariado\Apoios\Pedidos\Gestao\GestaoChatPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Areas\ParticipanteNoVoluntariado\Apoios\Pedidos\Gestao\Gestao_TarefasView.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Areas\ParticipanteNoVoluntariado\Apoios\Pedidos\Gestao\LiderChatView.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Areas\ParticipanteNoVoluntariado\Apoios\Pedidos\Gestao\LiderOrgChat.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Areas\Geral\Chats\ChatInputBarView.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Areas\Geral\Chats\ChatPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Areas\Geral\Chats\ChatView.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Areas\Geral\Chats\MeusChatsPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Areas\ParticipanteNoVoluntariado\Flyout\ApoiadoOrganizacaoShell.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Areas\ParticipanteNoVoluntariado\Flyout\VoluntarioOrganizacaoShell.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Areas\ParticipanteNoVoluntariado\Organizacao\Conta\Configuracoes\EditarMembrosOrganizacaoView.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Areas\ParticipanteNoVoluntariado\Organizacao\Perfil\DadosOrganizacaoView.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Areas\ParticipanteNoVoluntariado\Organizacao\Perfil\MembrosOrganizacaoView.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Areas\ParticipanteNoVoluntariado\Particular\Conta\Configuracoes\AptidoesView.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Areas\ParticipanteNoVoluntariado\Particular\Perfil\PedidosPessoaisView.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="PopUps\Autenticacao\EscolherExperienciaPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="PopUps\Autenticacao\EscolherExperienciaPopUp.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="PopUps\Convites\AceitarAjudaPopUp.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="PopUps\Convites\AceitarPedidoPopUp.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="PopUps\Mensagens\EscolhaPopUp.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="PopUps\Mensagens\InserirCodOrgPopUp.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="PopUps\Mensagens\InserirTextoPopUp.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="PopUps\Mensagens\MensagemPopUp.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="PopUps\Select\SelectAndSearchPopUp.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="PopUps\Select\SelectPedidoPopUp.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="PopUps\Select\SelectUtilizadorPopUp.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Areas\ParticipanteNoVoluntariado\Particular\Conta\Configuracoes\EditarDisponibilidadeView.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Areas\ParticipanteNoVoluntariado\Organizacao\Conta\Configuracoes\EditarOrganizacaoView.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Areas\ParticipanteNoVoluntariado\Particular\Conta\Configuracoes\EditarParticularView.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Areas\ParticipanteNoVoluntariado\Particular\Perfil\DadosParticularView.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Areas\ParticipanteNoVoluntariado\Particular\Perfil\DadosDisponibilidadeView.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Areas\ParticipanteNoVoluntariado\Particular\Perfil\OfertasPessoaisView.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Areas\Geral\TituloPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Areas\Geral\AutenticacaoPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Areas\ParticipanteNoVoluntariado\Organizacao\Conta\Configuracoes\ConfiguracoesOrganizacaoPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Areas\ParticipanteNoVoluntariado\Particular\Conta\Configuracoes\ConfiguracoesParticularPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Areas\ParticipanteNoVoluntariado\Apoios\Pedidos\Gestao\GestaoParticipantesView.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Areas\ParticipanteNoVoluntariado\Apoios\Pedidos\Gestao\GestaoPedidoPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Areas\ParticipanteNoVoluntariado\Apoios\Pedidos\Gestao\GestaoTarefasView.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Areas\Geral\Listagens\ListagemContasPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Areas\ParticipanteNoVoluntariado\Conta\MeuVoluntariado\Voluntario\MeusPedidosPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Areas\ParticipanteNoVoluntariado\Conta\MeuVoluntariado\Voluntario\MinhaAcaoPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Areas\ParticipanteNoVoluntariado\Conta\MeuVoluntariado\Voluntario\MinhaAcaoTarefaPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Areas\ParticipanteNoVoluntariado\Conta\MeuVoluntariado\Voluntario\MinhasAcoesPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Areas\ParticipanteNoVoluntariado\Notificacoes\ListaNotificacoesPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Areas\ParticipanteNoVoluntariado\Conta\MeuVoluntariado\Apoiado\ParticipantesMinhaAcaoView.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Areas\ParticipanteNoVoluntariado\Conta\MeuVoluntariado\Voluntario\SobreMinhaAcaoView.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Areas\ParticipanteNoVoluntariado\Conta\MeuVoluntariado\Apoiado\TarefasMinhaAcaoView.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Areas\Geral\Perfil\PerfilPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Areas\ParticipanteNoVoluntariado\Notificacoes\ConvitesApoiadoPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Areas\ParticipanteNoVoluntariado\Notificacoes\ConvitesVoluntarioPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Areas\Geral\SemInternetPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Areas\ParticipanteNoVoluntariado\Flyout\VoluntarioParticularShell.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Areas\Geral\Flyout\Header.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Areas\ParticipanteNoVoluntariado\Apoios\Ofertas\CrudOfertaPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Areas\ParticipanteNoVoluntariado\Apoios\Ofertas\OfertaApoioPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Areas\Geral\Listagens\OfertasMainPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Areas\ParticipanteNoVoluntariado\Apoios\Pedidos\CrudPedidoPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Areas\ParticipanteNoVoluntariado\Apoios\Pedidos\CrudTarefaPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Areas\ParticipanteNoVoluntariado\Apoios\Pedidos\PedidoApoioPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Areas\Geral\Listagens\PedidosMainPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Helpers\Chat\IncomingViewCell.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Helpers\Chat\OutgoingViewCell.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Themes\VoluntarioTheme.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Areas\Admin\Apoios\Perfil\" />
+    <Folder Include="Areas\ParticipanteNoVoluntariado\Conta\Configuracoes\" />
+    <Folder Include="Areas\ParticipanteNoVoluntariado\Conta\GestaoVoluntariado\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Areas\Geral\Configuracoes\MainConfigPage.xaml.cs">
+      <DependentUpon>MainConfigPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Areas\Geral\PublicidadeObj.xaml.cs">
+      <DependentUpon>PublicidadeObj.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="PopUps\Convites\AceitarAjudaPopUp.xaml.cs">
+      <DependentUpon>AceitarAjudaPopUp.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="PopUps\Convites\AceitarPedidoPopUp.xaml.cs">
+      <DependentUpon>AceitarPedidoPopUp.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Areas\ParticipanteNoVoluntariado\Particular\Conta\Configuracoes\EditarParticularView.xaml.cs">
+      <DependentUpon>EditarParticularView.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Areas\ParticipanteNoVoluntariado\Particular\Perfil\DadosParticularView.xaml.cs">
+      <DependentUpon>DadosParticularView.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Areas\ParticipanteNoVoluntariado\Particular\Perfil\OfertasPessoaisView.xaml.cs">
+      <DependentUpon>OfertasPessoaisView.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Areas\ParticipanteNoVoluntariado\Particular\Conta\Configuracoes\ConfiguracoesParticularPage.xaml.cs">
+      <DependentUpon>ConfiguracoesParticularPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Areas\ParticipanteNoVoluntariado\Conta\MeuVoluntariado\Voluntario\MinhasAcoesPage.xaml.cs">
+      <DependentUpon>MinhasAcoesPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Areas\Geral\Flyout\Header.xaml.cs">
+      <DependentUpon>Header.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Areas\ParticipanteNoVoluntariado\Flyout\ApoiadoParticularShell.xaml.cs">
+      <DependentUpon>ApoiadoParticularShell.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="PopUps\Mensagens\CodOrganizacaoPopUp.xaml.cs">
+      <DependentUpon>CodOrganizacaoPopUp.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="PopUps\Select\SelectAptidoesPopUp.xaml.cs">
+      <DependentUpon>SelectAptidoesPopUp.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Themes\AdminTheme.xaml.cs">
+      <DependentUpon>AdminTheme.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Themes\DarkTheme.xaml.cs">
+      <DependentUpon>DarkTheme.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Themes\LightTheme.xaml.cs">
+      <DependentUpon>LightTheme.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Themes\ApoiadoTheme.xaml.cs">
+      <DependentUpon>ApoiadoTheme.xaml</DependentUpon>
+    </Compile>
+  </ItemGroup>
+</Project>

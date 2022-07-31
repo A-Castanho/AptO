@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:viewModel="clr-namespace:AppAptO.Areas.ParticipanteNoVoluntariado.Organizacao.Perfil" 
+             x:DataType="viewModel:DadosOrganizacaoViewModel"
+             x:Class="AppAptO.Areas.ParticipanteNoVoluntariado.Organizacao.Perfil.DadosOrganizacaoView"
+             xmlns:imagens="clr-namespace:AppAptO.Models.AppHelpers;assembly=AppAptO" >
+    <ContentView.BindingContext>
+        <viewModel:DadosOrganizacaoViewModel/>
+    </ContentView.BindingContext>
+    <ContentView.Resources>
+        <Style TargetType="Label">
+            <Setter Property="VerticalOptions" Value="CenterAndExpand"/>
+        </Style>
+    </ContentView.Resources>
+    <ContentView.Content>
+        <StackLayout>
+            <ScrollView HorizontalOptions="CenterAndExpand" WidthRequest="400" Padding="10">
+                <StackLayout>
+                    <Frame BorderColor="LightGray">
+                        <ScrollView HeightRequest="50">
+                            <Label Text="{Binding Utilizador.Sobre}"/>
+                        </ScrollView>
+                    </Frame>
+                    <Grid ColumnDefinitions="*,1,2*" >
+                        <Label Text="Localidade:" FontAttributes="Bold" Grid.Column="0"/>
+                        <BoxView Style="{StaticResource LinhaVertical}" Grid.Column="1"/>
+                        <Label Text="{Binding Utilizador.Localidade}" Grid.Column="2"/>
+                    </Grid>
+                    <BoxView Style="{StaticResource LinhaHorizontal}" Margin="0"/>
+                    <Grid ColumnDefinitions="*,1,2*" >
+                        <Label Text="Morada:" FontAttributes="Bold" Grid.Column="0"/>
+                        <BoxView Style="{StaticResource LinhaVertical}" Grid.Column="1"/>
+                        <Label Text="{Binding Utilizador.Morada}" Grid.Column="2"/>
+                    </Grid>
+                    <BoxView Style="{StaticResource LinhaHorizontal}" Margin="0"/>
+                    <Grid ColumnDefinitions="*,1,2*" >
+                        <Label Text="Email:" FontAttributes="Bold" Grid.Column="0"/>
+                        <BoxView Style="{StaticResource LinhaVertical}" Grid.Column="1"/>
+                        <Label Text="{Binding Utilizador.Email}" Grid.Column="2"/>
+                    </Grid>
+                    <BoxView Style="{StaticResource LinhaHorizontal}" Margin="0"/>
+                    <Grid ColumnDefinitions="*,1,2*" >
+                        <Label Text="Website:" FontAttributes="Bold" Grid.Column="0"/>
+                        <BoxView Style="{StaticResource LinhaVertical}" Grid.Column="1"/>
+                        <Label Text="{Binding Utilizador.LinkWebsite}" Grid.Column="2"/>
+                    </Grid>
+                    <BoxView Style="{StaticResource LinhaHorizontal}" Margin="0"/>
+
+                    <Grid ColumnDefinitions="*,1,2*" >
+                        <Label Text="Telefone:" FontAttributes="Bold" Grid.Column="0"/>
+                        <BoxView Style="{StaticResource LinhaVertical}" Grid.Column="1"/>
+                        <Label Text="{Binding Utilizador.Telefone}" Grid.Column="2"/>
+                    </Grid>
+
+                    <BoxView Style="{StaticResource LinhaHorizontal}" Margin="0"/>
+                    <Grid ColumnDefinitions="*,1,2*" >
+                        <Label Text="CódigoPostal:" FontAttributes="Bold" Grid.Column="0"/>
+                        <BoxView Style="{StaticResource LinhaVertical}" Grid.Column="1"/>
+                        <Label Text="{Binding Utilizador.CodPostal}" Grid.Column="2"/>
+                    </Grid>
+                </StackLayout>
+            </ScrollView>
+        </StackLayout>
+    </ContentView.Content>
+</ContentView>

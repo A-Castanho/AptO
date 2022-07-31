@@ -1,0 +1,231 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:ViewModels="clr-namespace:AppAptO.ViewModels.Conta"
+             xmlns:xmItems="clr-namespace:AppAptO.Areas.Geral"
+             x:Class="AppAptO.Views.Conta.AutenticacaoPage"
+             xmlns:imagens="clr-namespace:AppAptO.Models.AppHelpers;assembly=AppAptO" 
+             BackgroundColor="White"
+             xmlns:input="clr-namespace:Plugin.InputKit.Shared.Controls;assembly=Plugin.InputKit">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Style TargetType="input:AdvancedEntry">
+                <Setter Property="TextColor" Value="Black"/>
+                <Setter Property="AnnotationColor" Value="Red"/>
+                <Setter Property="ValidationMessage" Value="Campo Obrigatório"/>
+                <Setter Property="ValidationPosition" Value="After"/>
+                <Setter Property="TextFontSize" Value="Subtitle"/>
+                <Setter Property="CornerRadius" Value="0"/>
+                <Setter Property="Padding" Value="5"/>
+            </Style>
+            <Style TargetType="input:RadioButton">
+                <Setter Property="TextColor" Value="Black"/>
+                <Setter Property="CircleColor" Value="Gray"/>
+                <Setter Property="TextFontSize" Value="17"/>
+                <Setter Property="VerticalOptions" Value="CenterAndExpand"/>
+            </Style>
+            <Style TargetType="input:CheckBox">
+                <Setter Property="TextColor" Value="Black"/>
+                <Setter Property="BorderColor" Value="Gray"/>
+                <Setter Property="TextFontSize" Value="15"/>
+                <Setter Property="HeightRequest" Value="20"/>
+            </Style>
+            <Style TargetType="Frame" x:Key="CaixaInformacao">
+                <Setter Property="BackgroundColor" Value="{DynamicResource PrimaryLightestest}"/>
+                <Setter Property="BorderColor" Value="#013A7F"/>
+                <Setter Property="CornerRadius" Value="50"/>
+                <Setter Property="HasShadow" Value="True"/>
+            </Style>
+            <Style TargetType="Button">
+                <Setter Property="BackgroundColor" Value="#013A7F"/>
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <ContentPage.BindingContext>
+        <ViewModels:AutenticacaoViewModel/>
+    </ContentPage.BindingContext>
+    <ContentPage.Content>
+        <Grid RowDefinitions="*,60">
+            <Grid Grid.Row="0"
+                IsEnabled="{Binding ActivityIndicatorRunning, Converter={StaticResource InverseBoolConverter}}">
+                <StackLayout VerticalOptions="CenterAndExpand" Margin="16,0">
+                    <!--Login-->
+                    <StackLayout IsVisible="{Binding IsLoginVisible}"
+                         VerticalOptions="Center">
+                        <Image Source="{imagens:ImageResource logo.png}" HeightRequest="150"/>
+                        <input:AdvancedEntry Placeholder="Email"
+                               Keyboard="Email"
+                               Text="{Binding Utilizador.Email}"/>
+                        <input:AdvancedEntry Placeholder="Password"
+                               IsPassword="True"
+                               Text="{Binding Password}"/>
+                        <StackLayout VerticalOptions="EndAndExpand">
+                            <Button Text="Login"
+                                Command="{Binding CommandLogin}"/>
+                            <Label Text="Esqueceu-se da senha?" Style="{StaticResource TappableLabel}">
+                                <Label.GestureRecognizers>
+                                    <TapGestureRecognizer Command="{Binding ComandoOpen}" CommandParameter="recuperar"/>
+                                </Label.GestureRecognizers>
+                            </Label>
+                            <Label Text="Não está registado?" Style="{StaticResource TappableLabel}">
+                                <Label.GestureRecognizers>
+                                    <TapGestureRecognizer Command="{Binding ComandoOpen}" CommandParameter="registo"/>
+                                </Label.GestureRecognizers>
+                            </Label>
+                        </StackLayout>
+
+                    </StackLayout>
+
+                    <!--Recuperar passe-->
+                    <StackLayout IsVisible="{Binding IsRecuperarVisible}">
+                        <StackLayout>
+                            <Label Text="Voltar" Style="{StaticResource TappableLabel}">
+                                <Label.GestureRecognizers>
+                                    <TapGestureRecognizer Command="{Binding ComandoOpen}" CommandParameter="login"/>
+                                </Label.GestureRecognizers>
+                            </Label>
+                            <Label Text="Email associado à conta:" FontSize="Medium"
+                               HorizontalOptions="CenterAndExpand" Margin="15"/>
+                            <input:AdvancedEntry Placeholder="Email"
+                                   Keyboard="Email"
+                                   Text="{Binding Utilizador.Email}"/>
+                            <Button Text="Recuperar Senha"
+                                BorderColor="{DynamicResource Accent}"
+                                Margin="0,15"
+                                Command="{Binding CommandRecuperarSenha}"/>
+                        </StackLayout>
+                        <Frame Padding="20" Style="{StaticResource CaixaInformacao}">
+                            <Label Text="Será enviada informação para a recuperação do código de acesso"/>
+                        </Frame>
+
+                    </StackLayout>
+
+                    <!--Registar-->
+                    <input:FormView IsValidated="{Binding Validated}">
+                        <ScrollView IsVisible="{Binding IsRegistoVisible}" Margin="0,20,0,0">
+
+
+                            <StackLayout VerticalOptions="Center" >
+                                <StackLayout Orientation="Horizontal">
+                                    <Frame Style="{StaticResource MolduraCircular}">
+                                        <Image x:Name="imagem"
+                                   Source="{Binding FotoSource}" 
+                                   VerticalOptions="Center"
+                                   HorizontalOptions="Center"
+                                   HeightRequest="100"
+                                   Aspect="AspectFit"
+                                   WidthRequest="100"/>
+                                    </Frame>
+                                    <Label Text="Adicionar imagem de perfil" VerticalOptions="EndAndExpand">
+                                        <Label.GestureRecognizers>
+                                            <TapGestureRecognizer Command="{Binding ComandoAdicionarImagem}"/>
+                                        </Label.GestureRecognizers>
+                                    </Label>
+                                </StackLayout>
+
+                                <Frame CornerRadius="20" BorderColor="Black">
+                                    <StackLayout Orientation="Horizontal" 
+                                         HorizontalOptions="CenterAndExpand" 
+                                         VerticalOptions="CenterAndExpand">
+
+                                        <StackLayout Orientation="Vertical" Margin="0,0,10,0"
+                                                            HorizontalOptions="Center">
+                                            <input:CheckBox Text="Particular" 
+                                                        IsChecked="{Binding IsParticular}"/>
+                                            <input:CheckBox Text="Organização"
+                                                        IsChecked="{Binding IsOrganizacao}"/>
+                                        </StackLayout>
+
+                                        <StackLayout Orientation="Vertical"  Margin="10,0,0,0"
+                                                            HorizontalOptions="Center">
+                                            <input:CheckBox Text="Apoiado"
+                                                        IsChecked="{Binding IsApoiado}"/>
+                                            <input:CheckBox Text="Voluntário" 
+                                                        IsChecked="{Binding IsVoluntario}"/>
+                                        </StackLayout>
+                                    </StackLayout>
+                                </Frame>
+                                <input:AdvancedEntry 
+                               Placeholder="Email" IsRequired="True"
+                               Keyboard="Email"
+                               Text="{Binding Utilizador.Email}"/>
+
+                                <input:AdvancedEntry 
+                               Placeholder="Palavra-passe"
+                               IsPassword="True" IsRequired="True"
+                               Text="{Binding Password}"/>
+                                <input:AdvancedEntry
+                               Placeholder="Confirmar a palavra-passe"
+                               IsPassword="True" IsRequired="True"
+                               Text="{Binding ConfirmPassword}"/>
+
+                                <input:AdvancedEntry 
+                                Placeholder="Telefone" IsRequired="True"
+                                Keyboard="Telephone"
+                                Text="{Binding Utilizador.Telefone}"/>
+
+                                <input:AdvancedEntry 
+                                IsVisible="{Binding IsParticular}"
+                                Placeholder="Telemóvel"
+                                Keyboard="Telephone"
+                                Text="{Binding Telemovel}"/>
+
+                                <input:AdvancedEntry 
+                               IsVisible="{Binding IsParticular, Converter={StaticResource InverseBoolConverter}}"
+                               Placeholder="Nome"
+                               Keyboard="Text" IsRequired="True"
+                               Text="{Binding Utilizador.NomeExibicao}"/>
+                                <Grid IsVisible="{Binding IsParticular}"
+                                  ColumnDefinitions="*,*">
+                                    <input:AdvancedEntry IsRequired="True" Placeholder="Nome"
+                                                     Grid.Column="0" Keyboard="Text"
+                                                     Text="{Binding PrimeiroNome}"/>
+                                    <input:AdvancedEntry IsRequired="True" Placeholder="Apelido"
+                                                     Grid.Column="1" Keyboard="Text"
+                                                     Text="{Binding UltimoNome}"/>
+                                </Grid>
+                                <input:AdvancedEntry Placeholder="Morada" Keyboard="Text" Text="{Binding Utilizador.Morada}"/>
+
+                                <Grid>
+                                    <input:AdvancedEntry Placeholder="Localidade" Text="{Binding Localidade}" IsRequired="True"/>
+                                    <Frame HasShadow="False" Padding="0" Margin="0" BorderColor="Transparent" BackgroundColor="Transparent">
+                                        <Frame.GestureRecognizers>
+                                            <TapGestureRecognizer Command="{Binding CommandOpenSelectLocalidade}"/>
+                                        </Frame.GestureRecognizers>
+                                    </Frame>
+                                </Grid>
+                                <input:AdvancedEntry 
+                               Placeholder="Código Postal"
+                               Keyboard="Text"
+                               Text="{Binding Utilizador.CodPostal}"/>
+                                <input:AdvancedEntry 
+                               IsVisible="{Binding IsParticular, Converter={StaticResource InverseBoolConverter}}"
+                               Placeholder="Website"
+                               Keyboard="Text"
+                               Text="{Binding LinkWebsite}"/>
+
+                                <Button Text="Submeter"
+                                Command="{Binding CommandRegisto}"/>
+                                <Label Text="Já tem conta?" Style="{StaticResource TappableLabel}">
+                                    <Label.GestureRecognizers>
+                                        <TapGestureRecognizer Command="{Binding ComandoOpen}" CommandParameter="login"/>
+                                    </Label.GestureRecognizers>
+                                </Label>
+                            </StackLayout>
+                        </ScrollView>
+                    </input:FormView>
+                </StackLayout>
+            </Grid>
+
+            <Frame IsVisible="{Binding ActivityIndicatorRunning}" HeightRequest="100" WidthRequest="100">
+                <ActivityIndicator IsRunning="{Binding ActivityIndicatorRunning}" Margin="100" />
+            </Frame>
+            <Image Margin="0" x:Name="imgPublicidade" Grid.Row="1" BackgroundColor="Gray">
+                <Image.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"/>
+                </Image.GestureRecognizers>
+            </Image>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

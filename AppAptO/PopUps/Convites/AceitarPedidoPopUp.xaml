@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<xct:Popup xmlns="http://xamarin.com/schemas/2014/forms"
+            xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+            xmlns:input="clr-namespace:Plugin.InputKit.Shared.Controls;assembly=Plugin.InputKit"
+            xmlns:xct="clr-namespace:Xamarin.CommunityToolkit.UI.Views;assembly=Xamarin.CommunityToolkit"
+            Size="300,400"
+            xmlns:viewModel="clr-namespace:AppAptO.ViewModels.PopUps"
+           x:Class="AppAptO.PopUps.Convites.AceitarPedidoPopUp">
+    <xct:Popup.BindingContext>
+        <viewModel:AceitarPedidoViewModel/>
+    </xct:Popup.BindingContext>
+    <xct:Popup.Content>
+        <Frame Margin="0" Padding="5" BorderColor="{DynamicResource Primary}">
+            <Grid Margin="0" Padding="0">
+                <ActivityIndicator IsRunning="{Binding IsBusy}" Margin="80" Color="{DynamicResource Primary}"/>
+
+                <Grid RowDefinitions="Auto,*,Auto,50" IsVisible="{Binding IsBusy, Converter={StaticResource InverseBoolConverter}}">
+                    <Label Grid.Row="0" FontSize="16" Margin="0,15,0,0"
+                       HorizontalTextAlignment="Center"
+                       Text="{Binding Apoiado.NomeExibicao, 
+                    StringFormat='{}O utilizador {0} gostaria de ter a sua ajuda num pedido realizado'}">
+                    </Label>
+                    <Frame Style="{StaticResource MolduraCircular}" 
+                       VerticalOptions="CenterAndExpand" Grid.Row="1">
+                        <Image Source="{Binding Apoiado.FotoUrl}"
+                        Aspect="AspectFit"
+                        BackgroundColor="Black"
+                        WidthRequest="170"
+                        HeightRequest="170">
+                        </Image>
+                    </Frame>
+                    <StackLayout Grid.Row="2">
+                        <Label Text="Ver o perfil do utilizador" Style="{StaticResource TappableLabel}">
+                            <Label.GestureRecognizers>
+                                <TapGestureRecognizer Command="{Binding CommandGoToApoiado}" Tapped="Button_Clicked"/>
+                            </Label.GestureRecognizers>
+                        </Label>
+                        <Label Text="Consultar o pedido" Style="{StaticResource TappableLabel}">
+                            <Label.GestureRecognizers>
+                                <TapGestureRecognizer Command="{Binding CommandGoToPedido}" Tapped="Button_Clicked"/>
+                            </Label.GestureRecognizers>
+                        </Label>
+                    </StackLayout>
+                    <Grid Grid.Row="3" ColumnDefinitions="*,*">
+                        <Button Text="Aceitar"
+                        Clicked="Button_Clicked"
+                        Command="{Binding CommandAceitar}"/>
+                        <Button Text="Recusar" Grid.Column="1"
+                        Clicked="Button_Clicked"
+                        Command="{Binding CommandRecusar}"/>
+                    </Grid>
+                </Grid>
+            </Grid>
+        </Frame>
+    </xct:Popup.Content>
+</xct:Popup>

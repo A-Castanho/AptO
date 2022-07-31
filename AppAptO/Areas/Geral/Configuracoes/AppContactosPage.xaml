@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:imagens="clr-namespace:AppAptO.Models.AppHelpers;assembly=AppAptO" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             Title="Contactos"
+             xmlns:local="clr-namespace:AppAptO.Areas.Geral.Configuracoes"
+             x:Class="AppAptO.Areas.Geral.Configuracoes.AppContactosPage">
+    <ContentPage.BindingContext>
+        <local:AppContactosViewModel/>
+    </ContentPage.BindingContext>
+    <ContentPage.Resources>
+        <Style TargetType="Label" x:Key="label">
+            <Setter Property="Margin" Value="0"/>
+            <Setter Property="FontAttributes" Value="Bold"/>
+            <Setter Property="FontSize" Value="20"/>
+        </Style>
+        <Style TargetType="Label" x:Key="dado">
+            <Setter Property="Margin" Value="10,0,0,0"/>
+            <Setter Property="FontSize" Value="15"/>
+        </Style>
+    </ContentPage.Resources>
+    <ContentPage.Content>
+        <Grid RowDefinitions="*,Auto" ColumnDefinitions="*">
+            <Image Source="{imagens:ImageResource logo.png}" Grid.Row="0"
+                   WidthRequest="400" HeightRequest="150"
+                    VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"/>
+            <StackLayout VerticalOptions="CenterAndExpand" Margin="10" Grid.Row="1">
+                <Label Text="Email de contacto" Style="{StaticResource label}"/>
+                <Label Text="{Binding Admin.Email}" Style="{StaticResource dado}"/>
+                <Label Text="Telefone de contacto" Style="{StaticResource label}"/>
+                <Label Text="{Binding Admin.Telefone}" Style="{StaticResource dado}"/>
+                <Button Text="Enviar mensagem ao suporte" TextTransform="None" Command="{Binding CommandChat}"/>
+            </StackLayout>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:imagens="clr-namespace:AppAptO.Models.AppHelpers;assembly=AppAptO" 
+             xmlns:input="clr-namespace:Plugin.InputKit.Shared.Controls;assembly=Plugin.InputKit"
+             xmlns:viewModel="clr-namespace:AppAptO.ViewModels.Conta.GestaoVoluntariado"
+             x:Class="AppAptO.Views.Conta.GestaoVoluntariado.GestaoTarefasView">
+    <ContentView.Resources>
+        <Style TargetType="Grid">
+            <Setter Property="Padding" Value="0"/>
+        </Style>
+        <Style TargetType="Button">
+            <Setter Property="TextTransform" Value="None"/>
+        </Style>
+    </ContentView.Resources>
+    <ContentView.BindingContext>
+        <viewModel:GestaoTarefasViewModel/>
+    </ContentView.BindingContext>
+  <ContentView.Content>
+        <Grid>
+            <!--Area de gestao da tarefa-->
+            <StackLayout>
+                <StackLayout.IsVisible>
+                    <MultiBinding Converter="{StaticResource AllTrueMultiConverter}">
+                        <Binding Path="TarefaSelecionadaNula" Converter="{StaticResource InverseBoolConverter}"/>
+                        <Binding Path="VisibilidadeListaTarefas" Converter="{StaticResource InverseBoolConverter}"/>
+                    </MultiBinding>
+                </StackLayout.IsVisible>
+                <!--Modificar o estado da tarefa-->
+                <StackLayout Orientation="Horizontal" Margin="0,10,0,0">
+                    <Label Text="Estado: " VerticalOptions="CenterAndExpand" FontSize="15" FontAttributes="Bold"/>
+                    <Label Text="{Binding NomeEstado}" TextColor="Black" VerticalOptions="CenterAndExpand"/>
+                    <Switch IsToggled="{Binding TarefaSelecionada.Estado}" 
+                            Toggled="Switch_Toggled" VerticalOptions="CenterAndExpand"
+                            ThumbColor="Black">
+                    </Switch>
+                </StackLayout>
+                <BoxView Style="{StaticResource LinhaHorizontal}"/>
+                <!--Inserir/Alterar descrição da tarefa-->
+                <Label Text="Descrição" TextColor="{DynamicResource PrimaryDark}"/>
+                <Frame BorderColor="Gray" Margin="0,10,0,10" Padding="0">
+                    <Editor Margin="0" HeightRequest="100" Text="{Binding TarefaSelecionada.Descricao}"/>
+                </Frame>
+                <BoxView Style="{StaticResource LinhaHorizontal}"/>
+                <!--Listagem dos utilizadores responsáveis pela execução da tarefa-->
+                    <!--Adição, eliminação e seleção-->
+                    <StackLayout Orientation="Horizontal">
+                        <Label Text="Utilizadores Envolvidos" VerticalOptions="CenterAndExpand"/>
+                        <Label Text="-" Margin="10,-6,10,0" FontSize="Large" 
+                                TextColor="{DynamicResource PrimaryDark}"
+                                HorizontalOptions="EndAndExpand" HeightRequest="20">
+                            <Label.GestureRecognizers>
+                                <TapGestureRecognizer Command="{Binding CommandRemoverVoluntario}"/>
+                            </Label.GestureRecognizers>
+                        </Label>
+                        <ImageButton Source="{imagens:ImageResource eye.png}"
+                                        BackgroundColor="White" 
+                                        Margin="20,0,10,0"
+                                        Command="{Binding CommandGoToUtilizador}"
+                                        HeightRequest="20"/>
+                        <Label Text="+" Margin="10,-6,10,0" FontSize="Large" 
+                                TextColor="{DynamicResource PrimaryDark}"
+                                HorizontalOptions="EndAndExpand" HeightRequest="20">
+                            <Label.GestureRecognizers>
+                                <TapGestureRecognizer Command="{Binding CommandAdicionarVoluntario}"/>
+                            </Label.GestureRecognizers>
+                        </Label>
+                    </StackLayout>
+                    <!--Listagem-->
+                    <ListView ItemsSource="{Binding ListaUtilizadores}" 
+                                SelectedItem="{Binding UtilizadorSelecionado}" HeightRequest="255"
+                                HasUnevenRows="True">
+                        <ListView.ItemTemplate>
+
+                            <DataTemplate>
+                                <ViewCell>
+                                    <Frame Style="{StaticResource ComponenteLista}" BackgroundColor="White" >
+                                        <StackLayout Padding="0" Orientation="Horizontal">
+                                            <Frame HasShadow="False" BackgroundColor="White" BorderColor="AliceBlue">
+                                                <Label Text="{Binding Object.NomeExibicao}" 
+                                                        Style="{StaticResource Descricao}"/>
+                                            </Frame>
+                                            <Frame Style="{StaticResource MolduraCircular}">
+                                                <Image Source="{Binding Object.FotoUrl}" 
+                                                        HeightRequest="50" 
+                                                        WidthRequest="50"/>
+                                            </Frame>
+                                        </StackLayout>
+                                    </Frame>
+                                </ViewCell>
+                            </DataTemplate>
+                        </ListView.ItemTemplate>
+                    </ListView>
+                            
+                <!--Submeter/Eliminar e Selecionar Tarefa-->
+                <Frame BackgroundColor="{DynamicResource PrimaryDark}" HeightRequest="40" 
+                    IsVisible="{Binding TarefaSelecionadaNula, Converter={StaticResource InverseBoolConverter}}">
+                    <Grid ColumnDefinitions="*,*,*" RowDefinitions="50" Margin="0"
+                        VerticalOptions="EndAndExpand">
+                        <Button BackgroundColor="DarkRed" Padding="0" Grid.Column="0" Text="Eliminar"
+                                TextColor="White" VerticalOptions="CenterAndExpand" Command="{Binding CommandEliminarTarefa}"/>
+                        <Button BackgroundColor="DarkGreen" Padding="0" Grid.Column="1" Text="Submeter"
+                                TextColor="White" VerticalOptions="CenterAndExpand" Command="{Binding CommandSubmeter}"/>
+                        <Button BackgroundColor="Black" Padding="0" Grid.Column="2" Text="Outra"
+                                TextColor="White" VerticalOptions="CenterAndExpand" Command="{Binding CommandVerTarefas}"/>
+                    </Grid>
+                </Frame>
+            </StackLayout>
+
+            <!--Quando não existe nenhuma tarefa selecionada-->
+            <StackLayout IsVisible="{Binding TarefaSelecionadaNula}" HeightRequest="500" 
+                            WidthRequest="360" VerticalOptions="CenterAndExpand">
+                <Label Text="Não existe nenhuma tarefa selecionada"
+                        HorizontalOptions="CenterAndExpand"
+                        VerticalOptions="CenterAndExpand"/>
+                <Label Text="Selecionar Tarefa" FontSize="Medium" 
+                        Style="{StaticResource TappableLabel}" Padding="15"
+                        HorizontalOptions="Center" VerticalOptions="StartAndExpand" >
+                    <Label.GestureRecognizers>
+                        <TapGestureRecognizer Command="{Binding CommandVerTarefas}"/>
+                    </Label.GestureRecognizers>
+                </Label>
+            </StackLayout>
+
+            <!--Janela para selecionar uma tarefa-->
+            <Grid ColumnDefinitions="*,3*" HorizontalOptions="EndAndExpand" Grid.ColumnSpan="3"
+                        IsVisible="{Binding VisibilidadeListaTarefas}"
+                    VerticalOptions="EndAndExpand" Grid.RowSpan="5">
+                <Frame BorderColor="{DynamicResource PrimaryDark}"
+                        Grid.Column="1" Margin="4">
+                    <StackLayout>
+                        <Grid ColumnDefinitions="*" RowDefinitions="40">
+                            <Button Text="+)" Command="{Binding CommandAdicionarTarefa}" Grid.Column="0"/>
+                            <ImageButton Source="{imagens:ImageResource eye.png}" 
+                                        HeightRequest="20" Grid.Column="1"
+                                        Command="{Binding CommandSelecionarTarefa}"/>
+                            <Button Text="-" Command="{Binding CommandEliminarTarefa}" Grid.Column="2"/>
+                        </Grid>
+                        <ListView ItemsSource="{Binding ListaTarefas}" HasUnevenRows="True" SelectedItem="{Binding ListTarefaEscolhida}">
+                            <ListView.ItemTemplate>
+                                <DataTemplate>
+                                    <ViewCell>
+                                        <Frame Style="{StaticResource ComponenteLista}" BackgroundColor="White"
+                                                Margin="3">
+                                            <StackLayout Padding="4" Orientation="Horizontal">
+                                                <StackLayout>
+                                                    <Label Text="{Binding Titulo}"/>
+                                                </StackLayout>
+                                                <Image HorizontalOptions="EndAndExpand"
+                                                        HeightRequest="20"
+                                                    IsVisible="{Binding Estado,Converter={StaticResource InverseBoolConverter}}"
+                                                    Source="{imagens:ImageResource cross.png}" />
+                                                <Image HorizontalOptions="EndAndExpand"
+                                                    IsVisible="{Binding Estado}"
+                                                        HeightRequest="20"
+                                                    Source="{imagens:ImageResource check.png}" />
+                                            </StackLayout>
+                                        </Frame>
+                                    </ViewCell>
+                                </DataTemplate>
+                            </ListView.ItemTemplate>
+                        </ListView>
+                    </StackLayout>
+                </Frame>
+            </Grid>
+        </Grid>
+    </ContentView.Content>
+</ContentView>

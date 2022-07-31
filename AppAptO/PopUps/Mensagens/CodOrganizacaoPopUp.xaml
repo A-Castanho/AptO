@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<xct:Popup xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:xct="clr-namespace:Xamarin.CommunityToolkit.UI.Views;assembly=Xamarin.CommunityToolkit"
+             xmlns:imagens="clr-namespace:AppAptO.Models.AppHelpers;assembly=AppAptO" 
+           xmlns:viewModel="clr-namespace:AppAptO.PopUps.Mensagens"
+             x:Class="AppAptO.PopUps.CodOrganizacaoPopUp"
+           Size="300,160">
+    <xct:Popup.BindingContext>
+        <viewModel:CodOrganizacaoViewModel/>
+    </xct:Popup.BindingContext>
+    <xct:Popup.Resources>
+        <ResourceDictionary>
+            <Style TargetType="ImageButton">
+                <Setter Property="Aspect" Value="AspectFit"/>
+            </Style>
+        </ResourceDictionary>
+    </xct:Popup.Resources>
+    <xct:Popup.Content>
+        <Frame HeightRequest="160" WidthRequest="300" BorderColor="Black" CornerRadius="5">
+
+            <StackLayout>
+                <Grid ColumnDefinitions="25,*">
+                    <ImageButton Source="{imagens:ImageResource back.png}" HorizontalOptions="StartAndExpand"
+                                     Grid.Column="0" Clicked="Button_Clicked"
+                                       WidthRequest="25" HeightRequest="25"/>
+                    <Label Text="Código da Organização"
+                                   Grid.ColumnSpan="2"
+                                   Margin="10"   Padding="0"
+                                   VerticalOptions="StartAndExpand"
+                                   HorizontalOptions="CenterAndExpand"/>
+                </Grid>
+                <StackLayout VerticalOptions="CenterAndExpand" >
+
+                    <Grid ColumnDefinitions="Auto,*,Auto" RowDefinitions="Auto" >
+
+                        <ImageButton Source="{imagens:ImageResource refresh.png}"
+                                HeightRequest="25" WidthRequest="25" Grid.Column="0"
+                                 Command="{Binding CommandRecriarCod}" />
+                        <Label Text="{Binding Codigo}"
+                                   TextColor="{DynamicResource PrimaryDark}"
+                                   FontSize="35" Grid.Column="1"
+                                   VerticalOptions="CenterAndExpand"
+                                   HorizontalOptions="CenterAndExpand"/>
+                        <ImageButton Source="{imagens:ImageResource copy.png}"
+                                     Grid.Column="2"
+                                HeightRequest="25" WidthRequest="25" VerticalOptions="CenterAndExpand"
+                                 Command="{Binding CommandCopiarCod}" />
+                    </Grid>
+                </StackLayout>
+            </StackLayout>
+        </Frame>
+    </xct:Popup.Content>
+</xct:Popup>

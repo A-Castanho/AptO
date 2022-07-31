@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppAptO.Areas.Admin.Apoios.Ofertas.AdminOfertaApoioPage"
+             xmlns:viewModel="clr-namespace:AppAptO.Areas.Admin.Apoios.Ofertas"
+             Title="Ofertas de Apoio">
+    <ContentPage.Resources>
+        <Style TargetType="Button">
+            <Setter Property="FontSize" Value="12"/>
+            <Setter Property="Margin" Value="0"/>
+            <Setter Property="HeightRequest" Value="40"/>
+        </Style>
+    </ContentPage.Resources>
+    <ContentPage.BindingContext>
+        <viewModel:AdminOfertaApoioViewModel/>
+    </ContentPage.BindingContext>
+    <ContentPage.Content>
+        <Grid RowDefinitions="*,Auto">
+            <Grid RowDefinitions="Auto,*,Auto" Margin="10,20,10,0" Grid.Row="0">
+                <StackLayout Grid.Row="0">
+                    <Label Text="{Binding OfertaApoio.Area,StringFormat='Área: {0}'} "/>
+                    <Label Text="{Binding OfertaApoio.Localidade,StringFormat='Localidade: {0}'}"/>
+                    <BoxView Style="{StaticResource LinhaHorizontal}"/>
+                </StackLayout>
+                <Frame BorderColor="LightGray" Margin="5" Grid.Row="1">
+                    <Label Text="{Binding OfertaApoio.Descricao}" VerticalTextAlignment="Center"/>
+                </Frame>
+                <Label TextColor="Gray" Padding="0" HorizontalOptions="EndAndExpand" Grid.Row="2">
+                    <Label.Text>
+                        <MultiBinding StringFormat="{}Publicado em {0}-{1}-{2}">
+                            <Binding Path="OfertaApoio.DiaPublicacao.Day" />
+                            <Binding Path="OfertaApoio.DiaPublicacao.Month" />
+                            <Binding Path="OfertaApoio.DiaPublicacao.Year" />
+                        </MultiBinding>
+                    </Label.Text>
+                </Label>
+            </Grid>
+
+            <StackLayout Grid.Row="1">
+                <Frame BorderColor="{DynamicResource Primary}" VerticalOptions="EndAndExpand" Margin="0,0,0,10">
+                    <Frame.GestureRecognizers>
+                        <TapGestureRecognizer Command="{Binding CommandGoToPerfil}"/>
+                    </Frame.GestureRecognizers>
+                    <StackLayout>
+                        <Label Text="Apoiante:"/>
+                        <StackLayout Orientation="Horizontal" Padding="0">
+                            <StackLayout VerticalOptions="CenterAndExpand">
+                                <Label>
+                                    <Label.Text>
+                                        <MultiBinding StringFormat="{}Nome: {0} &#10;Telefone: {1} &#10;Email: {2}">
+                                            <Binding Path="Apoiante.Object.NomeExibicao" />
+                                            <Binding Path="Apoiante.Object.Telefone" />
+                                            <Binding Path="Apoiante.Object.Email" />
+                                        </MultiBinding>
+                                    </Label.Text>
+                                </Label>
+                            </StackLayout>
+                            <!--<Label Text="{Binding Apoiante.Object.NomeExibicao, StringFormat='Nome: {0} &#10; Idade &#10;'}" VerticalOptions="EndAndExpand"/>-->
+                            <Frame Style="{StaticResource MolduraCircular}" VerticalOptions="CenterAndExpand" Margin="0">
+                                <Image Source="{Binding Apoiante.Object.FotoUrl}"
+                                HorizontalOptions="EndAndExpand"
+                                VerticalOptions="CenterAndExpand"
+                                HeightRequest="100"
+                                BackgroundColor="Black"
+                                WidthRequest="100"/>
+                            </Frame>
+                        </StackLayout>
+                    </StackLayout>
+                </Frame>
+                <Button Command="{Binding CommandGoToEditar}"
+                        Grid.Column="1" Text="Editar"/>
+            </StackLayout>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

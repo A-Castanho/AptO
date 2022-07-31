@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ViewCell xmlns="http://xamarin.com/schemas/2014/forms" 
+          xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+          x:Class="AppAptO.Helpers.Chat.IncomingViewCell">
+    <StackLayout>
+        <Label TextColor="Gray" Rotation="180" FlowDirection="LeftToRight" HorizontalTextAlignment="End" Margin="10,0,0,0" FontSize="10">
+            <Label.Text>
+                <MultiBinding StringFormat="{}{0}/{1}/{2} {3}:{4}">
+                    <Binding Path="Mensagem.DateTime.Day" />
+                    <Binding Path="Mensagem.DateTime.Month" />
+                    <Binding Path="Mensagem.DateTime.Year" />
+                    <Binding Path="Mensagem.DateTime.Hour" />
+                    <Binding Path="Mensagem.DateTime.Minute" />
+                </MultiBinding>
+            </Label.Text>
+        </Label>
+        <Frame BackgroundColor="{DynamicResource PrimaryLightestest }"
+              Padding="10" BorderColor="{DynamicResource PrimaryLight}"
+              FlowDirection="LeftToRight"
+              Rotation="180"
+              HasShadow="false"
+              Margin="0,0,80,0">
+            <Label Text="{Binding Mensagem.Texto}" HorizontalTextAlignment="End"/>
+        </Frame>
+        <Label Text="{Binding NomeUtilizador}" Rotation="180" 
+               Margin="8,0,0,0" FontSize="12" FontAttributes="Italic"
+               HorizontalOptions="End"/>
+
+    </StackLayout>
+</ViewCell>

@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:imagens="clr-namespace:AppAptO.Models.AppHelpers;assembly=AppAptO" 
+             xmlns:input="clr-namespace:Plugin.InputKit.Shared.Controls;assembly=Plugin.InputKit"
+             x:Class="AppAptO.Views.Conta.ListagemContasPage"
+             Title="Utilizadores"
+             xmlns:viewModel="clr-namespace:AppAptO.ViewModels.Conta">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem IconImageSource="{imagens:ImageResource filter.png}"
+                     Command="{Binding CommandOpenFiltros}"/>
+    </ContentPage.ToolbarItems>
+    <ContentPage.BindingContext>
+        <viewModel:ListagemContasViewModel/>
+    </ContentPage.BindingContext>
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Style TargetType="input:AdvancedEntry">
+                <Setter Property="TextFontSize" Value="Caption"/>
+                <Setter Property="VerticalOptions" Value="CenterAndExpand"/>
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    <ContentPage.Content>
+        <StackLayout VerticalOptions="StartAndExpand" Padding="0">
+            <Frame BorderColor="{DynamicResource Primary}" CornerRadius="0"  IsVisible="{Binding VisibilidadeFiltros}" HasShadow="True">
+                <StackLayout Spacing="0" Padding="0" Margin="0">
+                    <StackLayout Orientation="Horizontal" Spacing="80">
+                        <input:CheckBox BoxSizeRequest="20" TextFontSize="13" Grid.Column="1" TextColor="Black"
+                                    Text="Voluntários" IsChecked="{Binding PesquisarVoluntarios}"/>
+                        <input:CheckBox BoxSizeRequest="20" TextFontSize="13" Grid.Column="1" TextColor="Black"
+                                    Text="Apoiados" IsChecked="{Binding PesquisarApoiados}"/>
+                    </StackLayout>
+                    
+                    <!--Filtros por aptidões-->
+                    <StackLayout>
+                        <Label Text="Filtrar por aptidões" VerticalOptions="CenterAndExpand"
+                               Style="{StaticResource TappableLabel}">
+                            <Label.GestureRecognizers>
+                                <TapGestureRecognizer Command="{Binding CommandOpenAptidoes}"/>
+                            </Label.GestureRecognizers>
+                        </Label>
+                        <Label Text="{Binding TextoAptidoes}" IsVisible="{Binding VisibilidadeTextoAptidoes}"/>
+                    </StackLayout>
+
+                    <!--Filtros por pesquisa-->
+                    <Grid ColumnDefinitions="*,Auto" RowDefinitions="50" WidthRequest="1000" Margin="0">
+                        <input:AdvancedEntry Grid.Column="0"
+                            Placeholder="Email/Nome do utilizador"
+                            Text="{Binding Pesquisa}" TextColor="Black"
+                            CompletedCommand="{Binding CommandPesquisar}"/>
+                        <input:CheckBox BoxSizeRequest="20" TextFontSize="10" Grid.Column="1"
+                                    Text="Pesquisar com Email" IsChecked="{Binding PesquisarComEmail}"/>
+                    </Grid>
+
+                    <Grid RowDefinitions="Auto" ColumnDefinitions="*,50,50">
+                        <Grid>
+                            <Grid.GestureRecognizers>
+                                <TapGestureRecognizer Command="{Binding CommandOpenSelectLocalidade}"/>
+                            </Grid.GestureRecognizers>
+                            <input:AdvancedEntry Placeholder="Locallidade"
+                                             Text="{Binding Localidade}"
+                                             TextColor="Black"
+                                             IsEnabled="False" Title="Localidade"/>
+                        </Grid>
+                        <ImageButton Grid.Column="1" Aspect="AspectFit"
+                             Margin="5" HeightRequest="30" VerticalOptions="EndAndExpand"
+                             Command="{Binding CommandLimparPesquisa}"
+                             Source="{imagens:ImageResource refresh.png}"/>
+                        <ImageButton Grid.Column="2" Aspect="AspectFit" VerticalOptions="EndAndExpand"
+                            Source="{imagens:ImageResource magnifier.png}"
+                            WidthRequest="30" HeightRequest="20" Margin="10"
+                            Command="{Binding CommandPesquisar}"/>
+                    </Grid>
+                    <Grid ColumnDefinitions="*,50,50" HorizontalOptions="EndAndExpand" 
+                          RowDefinitions="50" Margin="0">
+                    </Grid>
+                </StackLayout>
+            </Frame>
+
+            <ListView  ItemsSource="{Binding Lista}" HasUnevenRows="True"
+                        ItemTapped="ListView_ItemTapped" Margin="6"
+                        SelectedItem="{Binding UtilizadorSelecionado}">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <Frame Style="{StaticResource ComponenteLista}" BackgroundColor="White" >
+                                <Grid Padding="0" ColumnDefinitions="*,0.5*">
+                                    <Frame HasShadow="False" BackgroundColor="White" BorderColor="AliceBlue"
+                                           Grid.Column="0">
+                                        <Label Text="{Binding Object.NomeExibicao}" 
+                                                    Style="{StaticResource Descricao}"/>
+                                    </Frame>
+                                    <Frame Style="{StaticResource MolduraCircular}" HeightRequest="70" WidthRequest="70"
+                                           Grid.Column="1">
+                                        <Image Source="{Binding Object.FotoUrl}" Aspect="AspectFill"/>
+                                    </Frame>
+                                </Grid>
+                            </Frame>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

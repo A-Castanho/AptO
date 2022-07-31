@@ -1,0 +1,833 @@
+﻿++Solução 'AppGiav1' ‎(3 de 3 projetos)
+i:{00000000-0000-0000-0000-000000000000}:AppGiav1.sln
+++AppGiav1.iOS
+i:{00000000-0000-0000-0000-000000000000}:AppGiav1.iOS
+++Properties
+i:{088faeac-1419-40c4-a098-f2524f2a56f4}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1.ios\properties\
+i:{d69378dd-ac07-4190-95d7-19f12ebf1816}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1.android\properties\
+++Referências
+i:{088faeac-1419-40c4-a098-f2524f2a56f4}:
+i:{d69378dd-ac07-4190-95d7-19f12ebf1816}:
+++Catálogos de Ativos
+i:{088faeac-1419-40c4-a098-f2524f2a56f4}:
+++Referências Nativas
+i:{088faeac-1419-40c4-a098-f2524f2a56f4}:
+++Renderers
+i:{088faeac-1419-40c4-a098-f2524f2a56f4}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1.ios\renderers\
+++Resources
+i:{088faeac-1419-40c4-a098-f2524f2a56f4}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1.ios\resources\
+i:{d69378dd-ac07-4190-95d7-19f12ebf1816}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1.android\resources\
+++AppDelegate.cs
+i:{088faeac-1419-40c4-a098-f2524f2a56f4}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1.ios\appdelegate.cs
+++Entitlements.plist
+i:{088faeac-1419-40c4-a098-f2524f2a56f4}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1.ios\entitlements.plist
+++GoogleService-Info.plist
+i:{088faeac-1419-40c4-a098-f2524f2a56f4}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1.ios\googleservice-info.plist
+++Info.plist
+i:{088faeac-1419-40c4-a098-f2524f2a56f4}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1.ios\info.plist
+++Main.cs
+i:{088faeac-1419-40c4-a098-f2524f2a56f4}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1.ios\main.cs
+++AssemblyInfo.cs
+i:{088faeac-1419-40c4-a098-f2524f2a56f4}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1.ios\properties\assemblyinfo.cs
+i:{d69378dd-ac07-4190-95d7-19f12ebf1816}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1.android\properties\assemblyinfo.cs
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\assemblyinfo.cs
+++AppGiav1
+i:{088faeac-1419-40c4-a098-f2524f2a56f4}:
+i:{d69378dd-ac07-4190-95d7-19f12ebf1816}:
+i:{00000000-0000-0000-0000-000000000000}:AppGiav1
+++FirebaseAuthentication.net
+i:{088faeac-1419-40c4-a098-f2524f2a56f4}:
+i:{d69378dd-ac07-4190-95d7-19f12ebf1816}:
+++FirebaseDatabase.net
+i:{088faeac-1419-40c4-a098-f2524f2a56f4}:
+i:{d69378dd-ac07-4190-95d7-19f12ebf1816}:
+++System
+i:{088faeac-1419-40c4-a098-f2524f2a56f4}:
+i:{d69378dd-ac07-4190-95d7-19f12ebf1816}:
+++System.Core
+i:{088faeac-1419-40c4-a098-f2524f2a56f4}:
+i:{d69378dd-ac07-4190-95d7-19f12ebf1816}:
+++System.Numerics
+i:{088faeac-1419-40c4-a098-f2524f2a56f4}:
+i:{d69378dd-ac07-4190-95d7-19f12ebf1816}:
+++System.Numerics.Vectors
+i:{088faeac-1419-40c4-a098-f2524f2a56f4}:
+i:{d69378dd-ac07-4190-95d7-19f12ebf1816}:
+++System.Xml
+i:{088faeac-1419-40c4-a098-f2524f2a56f4}:
+i:{d69378dd-ac07-4190-95d7-19f12ebf1816}:
+++Xamarin.CommunityToolkit
+i:{088faeac-1419-40c4-a098-f2524f2a56f4}:
+i:{d69378dd-ac07-4190-95d7-19f12ebf1816}:
+++Xamarin.Essentials
+i:{088faeac-1419-40c4-a098-f2524f2a56f4}:
+i:{d69378dd-ac07-4190-95d7-19f12ebf1816}:
+++Xamarin.Forms
+i:{088faeac-1419-40c4-a098-f2524f2a56f4}:
+i:{d69378dd-ac07-4190-95d7-19f12ebf1816}:
+++Xamarin.iOS
+i:{088faeac-1419-40c4-a098-f2524f2a56f4}:
+++Assets
+i:{088faeac-1419-40c4-a098-f2524f2a56f4}:
+i:{d69378dd-ac07-4190-95d7-19f12ebf1816}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1.android\assets\
+++CustomEditorRenderer.cs
+i:{088faeac-1419-40c4-a098-f2524f2a56f4}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1.ios\renderers\customeditorrenderer.cs
+i:{d69378dd-ac07-4190-95d7-19f12ebf1816}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1.android\renders\customeditorrenderer.cs
+++LaunchScreen.storyboard
+i:{088faeac-1419-40c4-a098-f2524f2a56f4}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1.ios\resources\launchscreen.storyboard
+++AppGiav1.Android
+i:{00000000-0000-0000-0000-000000000000}:AppGiav1.Android
+++Renders
+i:{d69378dd-ac07-4190-95d7-19f12ebf1816}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1.android\renders\
+++google-services.json
+i:{d69378dd-ac07-4190-95d7-19f12ebf1816}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1.android\google-services.json
+++MainActivity.cs
+i:{d69378dd-ac07-4190-95d7-19f12ebf1816}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1.android\mainactivity.cs
+++AndroidManifest.xml
+i:{d69378dd-ac07-4190-95d7-19f12ebf1816}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1.android\properties\androidmanifest.xml
+++Mono.Android
+i:{d69378dd-ac07-4190-95d7-19f12ebf1816}:
+++System.Xml.Linq
+i:{d69378dd-ac07-4190-95d7-19f12ebf1816}:
+++AboutAssets.txt
+i:{d69378dd-ac07-4190-95d7-19f12ebf1816}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1.android\assets\aboutassets.txt
+++drawable
+i:{d69378dd-ac07-4190-95d7-19f12ebf1816}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1.android\resources\drawable\
+++mipmap-anydpi-v26
+i:{d69378dd-ac07-4190-95d7-19f12ebf1816}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1.android\resources\mipmap-anydpi-v26\
+++mipmap-hdpi
+i:{d69378dd-ac07-4190-95d7-19f12ebf1816}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1.android\resources\mipmap-hdpi\
+++mipmap-mdpi
+i:{d69378dd-ac07-4190-95d7-19f12ebf1816}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1.android\resources\mipmap-mdpi\
+++mipmap-xhdpi
+i:{d69378dd-ac07-4190-95d7-19f12ebf1816}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1.android\resources\mipmap-xhdpi\
+++mipmap-xxhdpi
+i:{d69378dd-ac07-4190-95d7-19f12ebf1816}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1.android\resources\mipmap-xxhdpi\
+++mipmap-xxxhdpi
+i:{d69378dd-ac07-4190-95d7-19f12ebf1816}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1.android\resources\mipmap-xxxhdpi\
+++values
+i:{d69378dd-ac07-4190-95d7-19f12ebf1816}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1.android\resources\values\
+++AboutResources.txt
+i:{d69378dd-ac07-4190-95d7-19f12ebf1816}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1.android\resources\aboutresources.txt
+++Resource.designer.cs
+i:{d69378dd-ac07-4190-95d7-19f12ebf1816}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1.android\resources\resource.designer.cs
+++grupo.png
+i:{d69378dd-ac07-4190-95d7-19f12ebf1816}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1.android\resources\drawable\grupo.png
+++individuo.png
+i:{d69378dd-ac07-4190-95d7-19f12ebf1816}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1.android\resources\drawable\individuo.png
+++user.png
+i:{d69378dd-ac07-4190-95d7-19f12ebf1816}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1.android\resources\drawable\user.png
+++icon.xml
+i:{d69378dd-ac07-4190-95d7-19f12ebf1816}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1.android\resources\mipmap-anydpi-v26\icon.xml
+++icon_round.xml
+i:{d69378dd-ac07-4190-95d7-19f12ebf1816}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1.android\resources\mipmap-anydpi-v26\icon_round.xml
+++icon.png
+i:{d69378dd-ac07-4190-95d7-19f12ebf1816}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1.android\resources\mipmap-hdpi\icon.png
+i:{d69378dd-ac07-4190-95d7-19f12ebf1816}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1.android\resources\mipmap-mdpi\icon.png
+i:{d69378dd-ac07-4190-95d7-19f12ebf1816}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1.android\resources\mipmap-xhdpi\icon.png
+i:{d69378dd-ac07-4190-95d7-19f12ebf1816}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1.android\resources\mipmap-xxhdpi\icon.png
+i:{d69378dd-ac07-4190-95d7-19f12ebf1816}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1.android\resources\mipmap-xxxhdpi\icon.png
+++launcher_foreground.png
+i:{d69378dd-ac07-4190-95d7-19f12ebf1816}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1.android\resources\mipmap-hdpi\launcher_foreground.png
+i:{d69378dd-ac07-4190-95d7-19f12ebf1816}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1.android\resources\mipmap-mdpi\launcher_foreground.png
+i:{d69378dd-ac07-4190-95d7-19f12ebf1816}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1.android\resources\mipmap-xhdpi\launcher_foreground.png
+i:{d69378dd-ac07-4190-95d7-19f12ebf1816}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1.android\resources\mipmap-xxhdpi\launcher_foreground.png
+i:{d69378dd-ac07-4190-95d7-19f12ebf1816}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1.android\resources\mipmap-xxxhdpi\launcher_foreground.png
+++colors.xml
+i:{d69378dd-ac07-4190-95d7-19f12ebf1816}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1.android\resources\values\colors.xml
+++styles.xml
+i:{d69378dd-ac07-4190-95d7-19f12ebf1816}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1.android\resources\values\styles.xml
+++Dependências
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:>1326
+++Areas
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\areas\
+++Admin
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\areas\admin\
+++Apoios
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\areas\admin\apoios\
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\areas\participantenovoluntariado\apoios\
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\models\apoios\
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\services\firebase\datastore\apoios\
+++Ofertas
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\areas\admin\apoios\ofertas\
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\areas\participantenovoluntariado\apoios\ofertas\
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\models\apoios\ofertas\
+++Pedidos
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\areas\admin\apoios\pedidos\
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\areas\participantenovoluntariado\apoios\pedidos\
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\models\apoios\pedidos\
+++Perfil
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\areas\admin\apoios\perfil\
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\areas\geral\perfil\
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\areas\participantenovoluntariado\organizacao\perfil\
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\areas\participantenovoluntariado\particular\perfil\
+++PerfilPage.xaml
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\areas\admin\apoios\perfil\perfilpage.xaml
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\areas\geral\perfil\perfilpage.xaml
+++PerfilPage.xaml.cs
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\areas\admin\apoios\perfil\perfilpage.xaml.cs
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\areas\geral\perfil\perfilpage.xaml.cs
+++AreaAdmin
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\areas\admin\areaadmin\
+++Shell
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\areas\admin\shell\
+++Geral
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\areas\geral\
+++Chats
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\areas\geral\chats\
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\models\chats\
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\services\firebase\datastore\chats\
+++Configuracoes
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\areas\geral\configuracoes\
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\areas\participantenovoluntariado\conta\configuracoes\
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\areas\participantenovoluntariado\organizacao\conta\configuracoes\
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\areas\participantenovoluntariado\particular\conta\configuracoes\
+++Flyout
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\areas\geral\flyout\
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\areas\participantenovoluntariado\flyout\
+++Listagens
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\areas\geral\listagens\
+++CartaoPessoalView.xaml
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\areas\geral\perfil\cartaopessoalview.xaml
+++PerfilViewModel.cs
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\areas\geral\perfil\perfilviewmodel.cs
+++Testes
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\areas\geral\testes\
+++AutenticacaoPage.xaml
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\areas\geral\autenticacaopage.xaml
+++AutenticacaoViewModel.cs
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\areas\geral\autenticacaoviewmodel.cs
+++SemInternetPage.xaml
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\areas\geral\seminternetpage.xaml
+++SemInternetViewModel.cs
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\areas\geral\seminternetviewmodel.cs
+++TituloPage.xaml
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\areas\geral\titulopage.xaml
+++ParticipanteNoVoluntariado
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\areas\participantenovoluntariado\
+++Conta
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\areas\participantenovoluntariado\conta\
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\areas\participantenovoluntariado\organizacao\conta\
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\areas\participantenovoluntariado\particular\conta\
+++GestaoVoluntariado
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\areas\participantenovoluntariado\conta\gestaovoluntariado\
+++MeuVoluntariado
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\areas\participantenovoluntariado\conta\meuvoluntariado\
+++Notificacoes
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\areas\participantenovoluntariado\notificacoes\
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\models\utilizadores\dadosutiliizadores\notificacoes\
+++Organizacao
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\areas\participantenovoluntariado\organizacao\
+++Particular
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\areas\participantenovoluntariado\particular\
+++AptidoesView.xaml
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\areas\participantenovoluntariado\particular\conta\configuracoes\aptidoesview.xaml
+++AptidoesView.xaml.cs
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\areas\participantenovoluntariado\particular\conta\configuracoes\aptidoesview.xaml.cs
+++ConfiguracoesParticularPage.xaml
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\areas\participantenovoluntariado\particular\conta\configuracoes\configuracoesparticularpage.xaml
+++ConfiguracoesParticularPage.xaml.cs
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\areas\participantenovoluntariado\particular\conta\configuracoes\configuracoesparticularpage.xaml.cs
+++ConfiguracoesParticularViewModel.cs
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\areas\participantenovoluntariado\particular\conta\configuracoes\configuracoesparticularviewmodel.cs
+++EditarDisponibilidadeView.xaml
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\areas\participantenovoluntariado\particular\conta\configuracoes\editardisponibilidadeview.xaml
+++EditarDisponibilidadeViewModel.cs
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\areas\participantenovoluntariado\particular\conta\configuracoes\editardisponibilidadeviewmodel.cs
+++EditarParticularView.xaml
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\areas\participantenovoluntariado\particular\conta\configuracoes\editarparticularview.xaml
+++EditarParticularViewModel.cs
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\areas\participantenovoluntariado\particular\conta\configuracoes\editarparticularviewmodel.cs
+++DadosDisponibilidadeView.xaml
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\areas\participantenovoluntariado\particular\perfil\dadosdisponibilidadeview.xaml
+++DadosDisponibilidadeView.xaml.cs
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\areas\participantenovoluntariado\particular\perfil\dadosdisponibilidadeview.xaml.cs
+++DadosParticularView.xaml
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\areas\participantenovoluntariado\particular\perfil\dadosparticularview.xaml
+++DadosParticularView.xaml.cs
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\areas\participantenovoluntariado\particular\perfil\dadosparticularview.xaml.cs
+++DadosParticularViewModel.cs
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\areas\participantenovoluntariado\particular\perfil\dadosparticularviewmodel.cs
+++DisponibilidadeViewModel.cs
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\areas\participantenovoluntariado\particular\perfil\disponibilidadeviewmodel.cs
+++OfertasPessoaisView.xaml
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\areas\participantenovoluntariado\particular\perfil\ofertaspessoaisview.xaml
+++OfertasPessoaisView.xaml.cs
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\areas\participantenovoluntariado\particular\perfil\ofertaspessoaisview.xaml.cs
+++OfertasPessoaisViewModel.cs
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\areas\participantenovoluntariado\particular\perfil\ofertaspessoaisviewmodel.cs
+++PedidosPessoaisView.xaml
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\areas\participantenovoluntariado\particular\perfil\pedidospessoaisview.xaml
+++PedidosPessoaisViewModel.cs
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\areas\participantenovoluntariado\particular\perfil\pedidospessoaisviewmodel.cs
+++Controls
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\controls\
+++Converters
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\converters\
+++Extensions
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\extensions\
+++Helpers
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\helpers\
+++AppHelpers
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\helpers\apphelpers\
+++Chat
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\helpers\chat\
+++FirebaseHelpers
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\helpers\firebasehelpers\
+++Imagens
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\imagens\
+++Models
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\models\
+++TiposDados
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\models\tiposdados\
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\services\firebase\datastore\tiposdados\
+++Aptidao.cs
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\models\tiposdados\aptidao.cs
+++AreaApoio.cs
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\models\tiposdados\areaapoio.cs
+++Localidade.cs
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\models\tiposdados\localidade.cs
+++Utilizadores
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\models\utilizadores\
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\services\firebase\datastore\utilizadores\
+++DadosUtiliizadores
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\models\utilizadores\dadosutiliizadores\
+++TiposUtilizador
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\models\utilizadores\tiposutilizador\
+++PopUps
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\popups\
+++Autenticacao
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\popups\autenticacao\
+++AptidoesViewModel.cs
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\popups\autenticacao\aptidoesviewmodel.cs
+++EscolherExperienciaPage.xaml
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\popups\autenticacao\escolherexperienciapage.xaml
+++EscolherExperienciaPopUp.xaml
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\popups\autenticacao\escolherexperienciapopup.xaml
+++EscolherExperienciaPopUp.xaml.cs
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\popups\autenticacao\escolherexperienciapopup.xaml.cs
+++Convites
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\popups\convites\
+++Crud
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\popups\crud\
+++Mensagens
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\popups\mensagens\
+++Select
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\popups\select\
+++Services
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\services\
+++Firebase
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\services\firebase\
+++DataStore
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\services\firebase\datastore\
+++AptidoesDataStore.cs
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\services\firebase\datastore\tiposdados\aptidoesdatastore.cs
+++AreasDataStore.cs
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\services\firebase\datastore\tiposdados\areasdatastore.cs
+++LocalidadesDataStore.cs
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\services\firebase\datastore\tiposdados\localidadesdatastore.cs
+++IDataStore.cs
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\services\firebase\datastore\idatastore.cs
+++FBDataBase.cs
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\services\firebase\fbdatabase.cs
+++XamarinItems
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\xamarinitems\
+++App.xaml
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\app.xaml
+++App.xaml.cs
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\app.xaml.cs
+++GlobalSuppressions.cs
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\globalsuppressions.cs
+++TextFile1.txt
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\textfile1.txt
+++Analisadores
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:analisadores
+++Assemblies
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:assemblies
+++Pacotes
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:pacotes
+++AdminOfertaApoioPage.xaml
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\areas\admin\apoios\ofertas\adminofertaapoiopage.xaml
+++AdminOfertaApoioViewModel.cs
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\areas\admin\apoios\ofertas\adminofertaapoioviewmodel.cs
+++AdminOfertasMainPage.xaml
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\areas\admin\apoios\ofertas\adminofertasmainpage.xaml
+++AdminPedidoApoioPage.xaml
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\areas\admin\apoios\pedidos\adminpedidoapoiopage.xaml
+++AdminPedidoApoioViewModel.cs
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\areas\admin\apoios\pedidos\adminpedidoapoioviewmodel.cs
+++AdminPedidosMainPage.xaml
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\areas\admin\apoios\pedidos\adminpedidosmainpage.xaml
+++Publicidade
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\areas\admin\areaadmin\publicidade\
+++TiposApoios
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\areas\admin\areaadmin\tiposapoios\
+++AdminShell.xaml
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\areas\admin\shell\adminshell.xaml
+++ChatInputBarView.xaml
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\areas\geral\chats\chatinputbarview.xaml
+++ChatPage.xaml
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\areas\geral\chats\chatpage.xaml
+++ChatView.xaml
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\areas\geral\chats\chatview.xaml
+++ChatViewModel.cs
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\areas\geral\chats\chatviewmodel.cs
+++MeusChatsPage.xaml
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\areas\geral\chats\meuschatspage.xaml
+++MeusChatsViewModel.cs
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\areas\geral\chats\meuschatsviewmodel.cs
+++AppConfigPage.xaml
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\areas\geral\configuracoes\appconfigpage.xaml
+++AppConfigViewModel.cs
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\areas\geral\configuracoes\appconfigviewmodel.cs
+++AppContactosPage.xaml
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\areas\geral\configuracoes\appcontactospage.xaml
+++AppContactosViewModel.cs
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\areas\geral\configuracoes\appcontactosviewmodel.cs
+++MainConfigPage.xaml
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\areas\geral\configuracoes\mainconfigpage.xaml
+++MainConfigViewModel.cs
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\areas\geral\configuracoes\mainconfigviewmodel.cs
+++AppShellViewModel.cs
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\areas\geral\flyout\appshellviewmodel.cs
+++Header.xaml
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\areas\geral\flyout\header.xaml
+++ListagemContasPage.xaml
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\areas\geral\listagens\listagemcontaspage.xaml
+++ListagemContasViewModel.cs
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\areas\geral\listagens\listagemcontasviewmodel.cs
+++OfertasMainPage.xaml
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\areas\geral\listagens\ofertasmainpage.xaml
+++OfertasMainViewModel.cs
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\areas\geral\listagens\ofertasmainviewmodel.cs
+++PedidosMainPage.xaml
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\areas\geral\listagens\pedidosmainpage.xaml
+++PedidosMainViewModel.cs
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\areas\geral\listagens\pedidosmainviewmodel.cs
+++CartaoPessoalView.xaml.cs
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\areas\geral\perfil\cartaopessoalview.xaml.cs
+++MainPage.xaml
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\areas\geral\testes\mainpage.xaml
+++VMMainPage.cs
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\areas\geral\testes\vmmainpage.cs
+++AutenticacaoPage.xaml.cs
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\areas\geral\autenticacaopage.xaml.cs
+++SemInternetPage.xaml.cs
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\areas\geral\seminternetpage.xaml.cs
+++TituloPage.xaml.cs
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\areas\geral\titulopage.xaml.cs
+++CrudOfertaPage.xaml
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\areas\participantenovoluntariado\apoios\ofertas\crudofertapage.xaml
+++CrudOfertaViewModel.cs
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\areas\participantenovoluntariado\apoios\ofertas\crudofertaviewmodel.cs
+++OfertaApoioPage.xaml
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\areas\participantenovoluntariado\apoios\ofertas\ofertaapoiopage.xaml
+++OfertaApoioViewModel.cs
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\areas\participantenovoluntariado\apoios\ofertas\ofertaapoioviewmodel.cs
+++Gestao
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\areas\participantenovoluntariado\apoios\pedidos\gestao\
+++CrudPedidoPage.xaml
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\areas\participantenovoluntariado\apoios\pedidos\crudpedidopage.xaml
+++CrudPedidoViewModel.cs
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\areas\participantenovoluntariado\apoios\pedidos\crudpedidoviewmodel.cs
+++CrudTarefaPage.xaml
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\areas\participantenovoluntariado\apoios\pedidos\crudtarefapage.xaml
+++PedidoApoioPage.xaml
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\areas\participantenovoluntariado\apoios\pedidos\pedidoapoiopage.xaml
+++PedidoApoioViewModel.cs
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\areas\participantenovoluntariado\apoios\pedidos\pedidoapoioviewmodel.cs
+++Apoiado
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\areas\participantenovoluntariado\conta\meuvoluntariado\apoiado\
+++Voluntario
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\areas\participantenovoluntariado\conta\meuvoluntariado\voluntario\
+++ApoiadoOrganizacaoShell.xaml
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\areas\participantenovoluntariado\flyout\apoiadoorganizacaoshell.xaml
+++ApoiadoParticularShell.xaml
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\areas\participantenovoluntariado\flyout\apoiadoparticularshell.xaml
+++VoluntarioOrganizacaoShell.xaml
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\areas\participantenovoluntariado\flyout\voluntarioorganizacaoshell.xaml
+++VoluntarioParticularShell.xaml
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\areas\participantenovoluntariado\flyout\voluntarioparticularshell.xaml
+++ConvitesApoiadoPage.xaml
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\areas\participantenovoluntariado\notificacoes\convitesapoiadopage.xaml
+++ConvitesVoluntarioPage.xaml
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\areas\participantenovoluntariado\notificacoes\convitesvoluntariopage.xaml
+++ListaNotificacoesPage.xaml
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\areas\participantenovoluntariado\notificacoes\listanotificacoespage.xaml
+++ListaNotificacoesViewModel.cs
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\areas\participantenovoluntariado\notificacoes\listanotificacoesviewmodel.cs
+++ConfiguracoesOrganizacaoPage.xaml
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\areas\participantenovoluntariado\organizacao\conta\configuracoes\configuracoesorganizacaopage.xaml
+++ConfiguracoesOrganizacaoViewModel.cs
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\areas\participantenovoluntariado\organizacao\conta\configuracoes\configuracoesorganizacaoviewmodel.cs
+++EditarMembrosOrganizacaoView.xaml
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\areas\participantenovoluntariado\organizacao\conta\configuracoes\editarmembrosorganizacaoview.xaml
+++EditarMembrosOrganizacaoViewModel.cs
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\areas\participantenovoluntariado\organizacao\conta\configuracoes\editarmembrosorganizacaoviewmodel.cs
+++EditarOrganizacaoView.xaml
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\areas\participantenovoluntariado\organizacao\conta\configuracoes\editarorganizacaoview.xaml
+++EditarOrganizacaoViewModel.cs
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\areas\participantenovoluntariado\organizacao\conta\configuracoes\editarorganizacaoviewmodel.cs
+++DadosOrganizacaoView.xaml
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\areas\participantenovoluntariado\organizacao\perfil\dadosorganizacaoview.xaml
+++DadosOrganizacaoViewModel.cs
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\areas\participantenovoluntariado\organizacao\perfil\dadosorganizacaoviewmodel.cs
+++MembrosOrganizacaoView.xaml
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\areas\participantenovoluntariado\organizacao\perfil\membrosorganizacaoview.xaml
+++MembrosOrganizacaoViewModel.cs
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\areas\participantenovoluntariado\organizacao\perfil\membrosorganizacaoviewmodel.cs
+++EditarDisponibilidadeView.xaml.cs
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\areas\participantenovoluntariado\particular\conta\configuracoes\editardisponibilidadeview.xaml.cs
+++EditarParticularView.xaml.cs
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\areas\participantenovoluntariado\particular\conta\configuracoes\editarparticularview.xaml.cs
+++PedidosPessoaisView.xaml.cs
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\areas\participantenovoluntariado\particular\perfil\pedidospessoaisview.xaml.cs
+++ExtendedEditorControl.cs
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\controls\extendededitorcontrol.cs
+++ObservableDictionary.cs
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\controls\observabledictionary.cs
+++InverseBoolConverter.cs
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\converters\inverseboolconverter.cs
+++ImageResourceExtension.cs
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\extensions\imageresourceextension.cs
+++AppConnection.cs
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\helpers\apphelpers\appconnection.cs
+++ExpandableViewCell.xaml
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\helpers\apphelpers\expandableviewcell.xaml
+++ChatTemplateSelector.cs
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\helpers\chat\chattemplateselector.cs
+++IncomingViewCell.xaml
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\helpers\chat\incomingviewcell.xaml
+++InConviteViewCell.xaml
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\helpers\chat\inconviteviewcell.xaml
+++MensagemFormatada.cs
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\helpers\chat\mensagemformatada.cs
+++OutConviteViewCell.xaml
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\helpers\chat\outconviteviewcell.xaml
+++OutgoingViewCell.xaml
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\helpers\chat\outgoingviewcell.xaml
+++AuthHelper.cs
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\helpers\firebasehelpers\authhelper.cs
+++StorageHelper.cs
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\helpers\firebasehelpers\storagehelper.cs
+++asterisk.png
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\imagens\asterisk.png
+++back.png
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\imagens\back.png
+++bin.png
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\imagens\bin.png
+++check.png
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\imagens\check.png
+++clock.png
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\imagens\clock.png
+++copy.png
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\imagens\copy.png
+++cross.png
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\imagens\cross.png
+++down-arrow.png
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\imagens\down-arrow.png
+++Engrenagem.png
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\imagens\engrenagem.png
+++eye.png
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\imagens\eye.png
+++filter.png
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\imagens\filter.png
+++logout.png
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\imagens\logout.png
+++magnifier.png
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\imagens\magnifier.png
+++NoInternet.png
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\imagens\nointernet.png
+++notification.png
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\imagens\notification.png
+++no-wifi.png
+++plus.png
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\imagens\plus.png
+++restart.png
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\imagens\restart.png
+++send-message.png
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\imagens\send-message.png
+++settings.png
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\imagens\settings.png
+++up-arrow.png
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\imagens\up-arrow.png
+++OfertaApoio.cs
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\models\apoios\ofertas\ofertaapoio.cs
+++NivelExecucaoTarefa.cs
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\models\apoios\pedidos\nivelexecucaotarefa.cs
+++PedidoApoio.cs
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\models\apoios\pedidos\pedidoapoio.cs
+++Tarefa.cs
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\models\apoios\pedidos\tarefa.cs
+++Chat.cs
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\models\chats\chat.cs
+++Mensagem.cs
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\models\chats\mensagem.cs
+++Disponibilidade.cs
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\models\utilizadores\dadosutiliizadores\disponibilidade.cs
+++Utilizador.cs
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\models\utilizadores\tiposutilizador\utilizador.cs
+++UtilizadorBase.cs
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\models\utilizadores\tiposutilizador\utilizadorbase.cs
+++UtilizadorEmpresa.cs
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\models\utilizadores\tiposutilizador\utilizadorempresa.cs
+++UtilizadorOrganizacao.cs
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\models\utilizadores\tiposutilizador\utilizadororganizacao.cs
+++UtilizadorParticular.cs
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\models\utilizadores\tiposutilizador\utilizadorparticular.cs
+++EscolherExperienciaPage.xaml.cs
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\popups\autenticacao\escolherexperienciapage.xaml.cs
+++AceitarAjudaPopUp.xaml
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\popups\convites\aceitarajudapopup.xaml
+++AceitarAjudaViewModel.cs
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\popups\convites\aceitarajudaviewmodel.cs
+++AceitarPedidoPopUp.xaml
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\popups\convites\aceitarpedidopopup.xaml
+++AceitarPedidoViewModel.cs
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\popups\convites\aceitarpedidoviewmodel.cs
+++CrudTarefaPopUp.xaml
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\popups\crud\crudtarefapopup.xaml
+++CrudTarefaViewModel.cs
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\popups\crud\crudtarefaviewmodel.cs
+++CodOrganizacaoPopUp.xaml
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\popups\mensagens\codorganizacaopopup.xaml
+++CodOrganizacaoViewModel.cs
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\popups\mensagens\codorganizacaoviewmodel.cs
+++EscolhaPopUp.xaml
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\popups\mensagens\escolhapopup.xaml
+++InserirCodOrgPopUp.xaml
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\popups\mensagens\inserircodorgpopup.xaml
+++InserirCodOrgViewModel.cs
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\popups\mensagens\inserircodorgviewmodel.cs
+++InserirTextoPopUp.xaml
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\popups\mensagens\inserirtextopopup.xaml
+++MensagemPopUp.xaml
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\popups\mensagens\mensagempopup.xaml
+++MensagemPopupViewModel.cs
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\popups\mensagens\mensagempopupviewmodel.cs
+++EscolhaPopUpViewModel.cs
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\popups\select\escolhapopupviewmodel.cs
+++SelectAndSearchPopUp.xaml
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\popups\select\selectandsearchpopup.xaml
+++SelectAndSearchViewModel.cs
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\popups\select\selectandsearchviewmodel.cs
+++SelectPedidoPopUp.xaml
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\popups\select\selectpedidopopup.xaml
+++SelectPedidoViewModel.cs
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\popups\select\selectpedidoviewmodel.cs
+++SelectUtilizadorPopUp.xaml
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\popups\select\selectutilizadorpopup.xaml
+++SelectUtilizadorViewModel.cs
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\popups\select\selectutilizadorviewmodel.cs
+++OfertasDataStore.cs
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\services\firebase\datastore\apoios\ofertasdatastore.cs
+++PedidosDataStore.cs
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\services\firebase\datastore\apoios\pedidosdatastore.cs
+++ChatDataStore.cs
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\services\firebase\datastore\chats\chatdatastore.cs
+++UtilizadorDataStore.cs
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\services\firebase\datastore\utilizadores\utilizadordatastore.cs
+++UtilizadorEmpresaDataStore.cs
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\services\firebase\datastore\utilizadores\utilizadorempresadatastore.cs
+++UtilizadorOrganizacaoDataStore.cs
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\services\firebase\datastore\utilizadores\utilizadororganizacaodatastore.cs
+++UtilizadorParticularDataStore.cs
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\services\firebase\datastore\utilizadores\utilizadorparticulardatastore.cs
+++BindableToolbarItem.cs
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\xamarinitems\bindabletoolbaritem.cs
+++Xamarin.CommunityToolkit.SourceGenerator
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\.nuget\packages\xamarin.communitytoolkit\1.3.2\analyzers\dotnet\xct\cs\xamarin.communitytoolkit.sourcegenerator.dll
+++System.Drawing.Common
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\system.drawing.common
+++FirebaseAuthentication.net (3.7.2)
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:>1338
+++FirebaseDatabase.net (4.0.7)
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:>1336
+++FirebaseStorage.net (1.0.3)
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:>1335
+++NETStandard.Library (2.0.3)
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:>1334
+++Xam.Plugin.Media (5.0.1)
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:>1332
+++Xamarin.CommunityToolkit (1.3.2)
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:>1330
+++Xamarin.Essentials (1.7.0)
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:>1333
+++Xamarin.Forms (5.0.0.2244)
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:>1337
+++Xamarin.Forms.InputKit (3.7.2)
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:>1331
+++AdminOfertaApoioPage.xaml.cs
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\areas\admin\apoios\ofertas\adminofertaapoiopage.xaml.cs
+++AdminOfertasMainPage.xaml.cs
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\areas\admin\apoios\ofertas\adminofertasmainpage.xaml.cs
+++AdminPedidoApoioPage.xaml.cs
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\areas\admin\apoios\pedidos\adminpedidoapoiopage.xaml.cs
+++AdminPedidosMainPage.xaml.cs
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\areas\admin\apoios\pedidos\adminpedidosmainpage.xaml.cs
+++AdminShell.xaml.cs
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\areas\admin\shell\adminshell.xaml.cs
+++ChatInputBarView.xaml.cs
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\areas\geral\chats\chatinputbarview.xaml.cs
+++ChatPage.xaml.cs
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\areas\geral\chats\chatpage.xaml.cs
+++ChatView.xaml.cs
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\areas\geral\chats\chatview.xaml.cs
+++MeusChatsPage.xaml.cs
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\areas\geral\chats\meuschatspage.xaml.cs
+++AppConfigPage.xaml.cs
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\areas\geral\configuracoes\appconfigpage.xaml.cs
+++AppContactosPage.xaml.cs
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\areas\geral\configuracoes\appcontactospage.xaml.cs
+++MainConfigPage.xaml.cs
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\areas\geral\configuracoes\mainconfigpage.xaml.cs
+++Header.xaml.cs
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\areas\geral\flyout\header.xaml.cs
+++ListagemContasPage.xaml.cs
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\areas\geral\listagens\listagemcontaspage.xaml.cs
+++OfertasMainPage.xaml.cs
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\areas\geral\listagens\ofertasmainpage.xaml.cs
+++PedidosMainPage.xaml.cs
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\areas\geral\listagens\pedidosmainpage.xaml.cs
+++MainPage.xaml.cs
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\areas\geral\testes\mainpage.xaml.cs
+++CrudOfertaPage.xaml.cs
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\areas\participantenovoluntariado\apoios\ofertas\crudofertapage.xaml.cs
+++OfertaApoioPage.xaml.cs
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\areas\participantenovoluntariado\apoios\ofertas\ofertaapoiopage.xaml.cs
+++GestaoParticipantesView.xaml
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\areas\participantenovoluntariado\apoios\pedidos\gestao\gestaoparticipantesview.xaml
+++GestaoParticipantesViewModel.cs
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\areas\participantenovoluntariado\apoios\pedidos\gestao\gestaoparticipantesviewmodel.cs
+++GestaoPedidoPage.xaml
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\areas\participantenovoluntariado\apoios\pedidos\gestao\gestaopedidopage.xaml
+++GestaoPedidoViewModel.cs
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\areas\participantenovoluntariado\apoios\pedidos\gestao\gestaopedidoviewmodel.cs
+++GestaoTarefasView.xaml
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\areas\participantenovoluntariado\apoios\pedidos\gestao\gestaotarefasview.xaml
+++GestaoTarefasViewModel.cs
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\areas\participantenovoluntariado\apoios\pedidos\gestao\gestaotarefasviewmodel.cs
+++LiderOrgChat.xaml
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\areas\participantenovoluntariado\apoios\pedidos\gestao\liderorgchat.xaml
+++LiderOrgChatViewModel.cs
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\areas\participantenovoluntariado\apoios\pedidos\gestao\liderorgchatviewmodel.cs
+++CrudPedidoPage.xaml.cs
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\areas\participantenovoluntariado\apoios\pedidos\crudpedidopage.xaml.cs
+++CrudTarefaPage.xaml.cs
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\areas\participantenovoluntariado\apoios\pedidos\crudtarefapage.xaml.cs
+++PedidoApoioPage.xaml.cs
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\areas\participantenovoluntariado\apoios\pedidos\pedidoapoiopage.xaml.cs
+++MeusPedidosPage.xaml
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\areas\participantenovoluntariado\conta\meuvoluntariado\apoiado\meuspedidospage.xaml
+++MeusPedidosViewModel.cs
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\areas\participantenovoluntariado\conta\meuvoluntariado\apoiado\meuspedidosviewmodel.cs
+++ParticipantesMinhaAcaoView.xaml
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\areas\participantenovoluntariado\conta\meuvoluntariado\apoiado\participantesminhaacaoview.xaml
+++ParticipantesMinhaAcaoViewModel.cs
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\areas\participantenovoluntariado\conta\meuvoluntariado\apoiado\participantesminhaacaoviewmodel.cs
+++TarefasMinhaAcaoView.xaml
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\areas\participantenovoluntariado\conta\meuvoluntariado\apoiado\tarefasminhaacaoview.xaml
+++TarefasMinhaAcaoViewModel.cs
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\areas\participantenovoluntariado\conta\meuvoluntariado\apoiado\tarefasminhaacaoviewmodel.cs
+++MinhaAcaoPage.xaml
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\areas\participantenovoluntariado\conta\meuvoluntariado\voluntario\minhaacaopage.xaml
+++MinhaAcaoTarefaPage.xaml
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\areas\participantenovoluntariado\conta\meuvoluntariado\voluntario\minhaacaotarefapage.xaml
+++MinhaAcaoTarefaViewModel.cs
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\areas\participantenovoluntariado\conta\meuvoluntariado\voluntario\minhaacaotarefaviewmodel.cs
+++MinhaAcaoViewModel.cs
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\areas\participantenovoluntariado\conta\meuvoluntariado\voluntario\minhaacaoviewmodel.cs
+++MinhasAcoesPage.xaml
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\areas\participantenovoluntariado\conta\meuvoluntariado\voluntario\minhasacoespage.xaml
+++MinhasAcoesViewModel.cs
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\areas\participantenovoluntariado\conta\meuvoluntariado\voluntario\minhasacoesviewmodel.cs
+++SobreMinhaAcaoView.xaml
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\areas\participantenovoluntariado\conta\meuvoluntariado\voluntario\sobreminhaacaoview.xaml
+++SobreMinhaAcaoViewModel.cs
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\areas\participantenovoluntariado\conta\meuvoluntariado\voluntario\sobreminhaacaoviewmodel.cs
+++ApoiadoOrganizacaoShell.xaml.cs
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\areas\participantenovoluntariado\flyout\apoiadoorganizacaoshell.xaml.cs
+++ApoiadoParticularShell.xaml.cs
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\areas\participantenovoluntariado\flyout\apoiadoparticularshell.xaml.cs
+++VoluntarioOrganizacaoShell.xaml.cs
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\areas\participantenovoluntariado\flyout\voluntarioorganizacaoshell.xaml.cs
+++VoluntarioParticularShell.xaml.cs
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\areas\participantenovoluntariado\flyout\voluntarioparticularshell.xaml.cs
+++ConvitesApoiadoPage.xaml.cs
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\areas\participantenovoluntariado\notificacoes\convitesapoiadopage.xaml.cs
+++ConvitesVoluntarioPage.xaml.cs
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\areas\participantenovoluntariado\notificacoes\convitesvoluntariopage.xaml.cs
+++ListaNotificacoesPage.xaml.cs
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\areas\participantenovoluntariado\notificacoes\listanotificacoespage.xaml.cs
+++ConfiguracoesOrganizacaoPage.xaml.cs
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\areas\participantenovoluntariado\organizacao\conta\configuracoes\configuracoesorganizacaopage.xaml.cs
+++EditarMembrosOrganizacaoView.xaml.cs
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\areas\participantenovoluntariado\organizacao\conta\configuracoes\editarmembrosorganizacaoview.xaml.cs
+++EditarOrganizacaoView.xaml.cs
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\areas\participantenovoluntariado\organizacao\conta\configuracoes\editarorganizacaoview.xaml.cs
+++DadosOrganizacaoView.xaml.cs
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\areas\participantenovoluntariado\organizacao\perfil\dadosorganizacaoview.xaml.cs
+++MembrosOrganizacaoView.xaml.cs
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\areas\participantenovoluntariado\organizacao\perfil\membrosorganizacaoview.xaml.cs
+++ExpandableViewCell.xaml.cs
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\helpers\apphelpers\expandableviewcell.xaml.cs
+++IncomingViewCell.xaml.cs
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\helpers\chat\incomingviewcell.xaml.cs
+++InConviteViewCell.xaml.cs
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\helpers\chat\inconviteviewcell.xaml.cs
+++OutConviteViewCell.xaml.cs
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\helpers\chat\outconviteviewcell.xaml.cs
+++OutgoingViewCell.xaml.cs
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\helpers\chat\outgoingviewcell.xaml.cs
+++Aviso.cs
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\models\utilizadores\dadosutiliizadores\notificacoes\aviso.cs
+++Convite.cs
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\models\utilizadores\dadosutiliizadores\notificacoes\convite.cs
+++Notificacao.cs
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\models\utilizadores\dadosutiliizadores\notificacoes\notificacao.cs
+++AceitarAjudaPopUp.xaml.cs
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\popups\convites\aceitarajudapopup.xaml.cs
+++AceitarPedidoPopUp.xaml.cs
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\popups\convites\aceitarpedidopopup.xaml.cs
+++CrudTarefaPopUp.xaml.cs
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\popups\crud\crudtarefapopup.xaml.cs
+++CodOrganizacaoPopUp.xaml.cs
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\popups\mensagens\codorganizacaopopup.xaml.cs
+++EscolhaPopUp.xaml.cs
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\popups\mensagens\escolhapopup.xaml.cs
+++InserirCodOrgPopUp.xaml.cs
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\popups\mensagens\inserircodorgpopup.xaml.cs
+++InserirTextoPopUp.xaml.cs
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\popups\mensagens\inserirtextopopup.xaml.cs
+++MensagemPopUp.xaml.cs
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\popups\mensagens\mensagempopup.xaml.cs
+++SelectAndSearchPopUp.xaml.cs
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\popups\select\selectandsearchpopup.xaml.cs
+++SelectPedidoPopUp.xaml.cs
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\popups\select\selectpedidopopup.xaml.cs
+++SelectUtilizadorPopUp.xaml.cs
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\popups\select\selectutilizadorpopup.xaml.cs
+++GestaoParticipantesView.xaml.cs
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\areas\participantenovoluntariado\apoios\pedidos\gestao\gestaoparticipantesview.xaml.cs
+++GestaoPedidoPage.xaml.cs
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\areas\participantenovoluntariado\apoios\pedidos\gestao\gestaopedidopage.xaml.cs
+++GestaoTarefasView.xaml.cs
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\areas\participantenovoluntariado\apoios\pedidos\gestao\gestaotarefasview.xaml.cs
+++LiderOrgChat.xaml.cs
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\areas\participantenovoluntariado\apoios\pedidos\gestao\liderorgchat.xaml.cs
+++MeusPedidosPage.xaml.cs
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\areas\participantenovoluntariado\conta\meuvoluntariado\apoiado\meuspedidospage.xaml.cs
+++ParticipantesMinhaAcaoView.xaml.cs
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\areas\participantenovoluntariado\conta\meuvoluntariado\apoiado\participantesminhaacaoview.xaml.cs
+++TarefasMinhaAcaoView.xaml.cs
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\areas\participantenovoluntariado\conta\meuvoluntariado\apoiado\tarefasminhaacaoview.xaml.cs
+++MinhaAcaoPage.xaml.cs
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\areas\participantenovoluntariado\conta\meuvoluntariado\voluntario\minhaacaopage.xaml.cs
+++MinhaAcaoTarefaPage.xaml.cs
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\areas\participantenovoluntariado\conta\meuvoluntariado\voluntario\minhaacaotarefapage.xaml.cs
+++MinhasAcoesPage.xaml.cs
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\areas\participantenovoluntariado\conta\meuvoluntariado\voluntario\minhasacoespage.xaml.cs
+++SobreMinhaAcaoView.xaml.cs
+i:{589c6225-f5d8-4dfe-873e-0ffc0289f164}:c:\users\administrador\documents\pap\03-02\15-02-chatver2\appgiav1 (2)\04-03-22\appgiav1\appgiav1\areas\participantenovoluntariado\conta\meuvoluntariado\voluntario\sobreminhaacaoview.xaml.cs
+++Logo.jpg
+++Logo.png

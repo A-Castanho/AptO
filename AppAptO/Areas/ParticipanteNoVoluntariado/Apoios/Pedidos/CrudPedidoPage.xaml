@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppAptO.Views.Pedidos.CrudPedidoPage"
+             xmlns:input="clr-namespace:Plugin.InputKit.Shared.Controls;assembly=Plugin.InputKit"
+             xmlns:imagens="clr-namespace:AppAptO.Models.AppHelpers;assembly=AppAptO" 
+             xmlns:viewModel="clr-namespace:AppAptO.ViewModels.Pedidos"
+             Title="{Binding Title}">
+    <ContentPage.BindingContext>
+        <viewModel:CrudPedidoViewModel/>
+    </ContentPage.BindingContext>
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Style TargetType="Entry">
+                <Setter Property="BackgroundColor" Value="White"/>
+            </Style>
+            <Style TargetType="input:AdvancedEntry">
+                <Setter Property="CornerRadius" Value="0"/>
+                <Setter Property="TextFontSize" Value="15"/>
+                <Setter Property="Margin" Value="20,0,3,0"/>
+                <Setter Property="HeightRequest" Value="20"/>
+                <Setter Property="PlaceholderColor" Value="{DynamicResource Primary}"/>
+                <Setter Property="TextColor" Value="Black"/>
+            </Style>
+            <Style TargetType="input:Dropdown">
+                <Setter Property="TitleColor" Value="{DynamicResource Accent}"/>
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    <ContentPage.Content>
+        <ScrollView>
+            <Grid RowDefinitions="Auto,*,Auto">
+                <StackLayout>
+                    <input:CheckBox IsChecked="{Binding PedidoApoio.VisPublicacao}" 
+                                    HorizontalOptions="EndAndExpand" LabelPosition="Before"
+                                    Text="Visiblidade como publicação" Margin="0,0,10,0"/>
+                    <BoxView Style="{StaticResource LinhaHorizontal}" Margin="0"/>
+                    <Label Text="Título" TextColor="{DynamicResource Accent}" Margin="5,0,0,0"/>
+                    <StackLayout>
+                        <input:AdvancedEntry Placeholder="Título"
+                                    Text="{Binding PedidoApoio.Titulo}"
+                                    HeightRequest="50"/>
+                    </StackLayout>
+                    <BoxView Style="{StaticResource LinhaHorizontal}"/>
+                    <StackLayout>
+                        <input:Dropdown Title="Área de Apoio"
+                                    input:Dropdown.FontSize="15"
+                                    ItemsSource="{Binding Areas}" 
+                                    SelectedItem="{Binding AreaSelecionada}"/>
+                        <input:AdvancedEntry Placeholder="Área de Ajuda"
+                                    IsVisible="{Binding VisibilidadeEntryArea}"
+                                    Text="{Binding AreaPersonalizada}"
+                                    HeightRequest="50"/>
+                    </StackLayout>
+                    <BoxView Style="{StaticResource LinhaHorizontal}"/>
+                    <Label Text="Localidade" TextColor="{DynamicResource Accent}" Margin="5,0,0,0"/>
+                    <Frame BorderColor="Black" CornerRadius="50" Padding="13" Margin="10,0,5,0">
+                        <Frame.GestureRecognizers>
+                            <TapGestureRecognizer Command="{Binding CommandOpenSelectLocalidade}"/>
+                        </Frame.GestureRecognizers>
+                        <Label Text="{Binding LocalidadeSelecionada}" Margin="10,0,0,0"/>
+                    </Frame>
+                    <BoxView Style="{StaticResource LinhaHorizontal}"/>
+                    <Label Text="Descrição" TextColor="{DynamicResource Accent}" Margin="5,0,0,0"/>
+                </StackLayout>
+                
+                <Frame Grid.Row="1" BorderColor="Black" Padding="0,0,0,0" Margin="5">
+                    <Editor Placeholder="Descrição do Tipo de Apoio"
+                            Margin="0"
+                            Text="{Binding PedidoApoio.Descricao}"
+                            HeightRequest="100"/>
+                </Frame>
+                <Grid Grid.Row="2" ColumnDefinitions="*,50" Padding="4" VerticalOptions="EndAndExpand">
+                    <Button Text="Submeter"
+                            Command="{Binding SubmeterCommand}"
+                            Grid.Column="0"/>
+                    <ImageButton IsVisible="{Binding VisibilidadeEliminar}" 
+                                                    Padding="5"
+                                                    BorderWidth="2"
+                                                    Aspect="AspectFit"
+                                                    HorizontalOptions="EndAndExpand"
+                                                    Source="{imagens:ImageResource Source=bin.png}"
+                                                    BackgroundColor="GhostWhite"
+                                                    BorderColor="{DynamicResource PrimaryDark}"
+                                                    HeightRequest="50"
+                                                    WidthRequest="50"
+                                                    Grid.Column="1"
+                                                    Command="{Binding CommandEliminar}"/>
+                </Grid>
+            </Grid>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

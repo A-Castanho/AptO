@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppAptO.Views.Conta.ListaNotificacoesPage"
+             xmlns:viewModel="clr-namespace:AppAptO.ViewModels.Conta"
+             Title="Notificações" >
+    <ContentPage.BindingContext>
+        <viewModel:ListaNotificacoesViewModel/>
+    </ContentPage.BindingContext>
+    <ContentPage.Content>
+        <StackLayout>
+            <ListView ItemsSource="{Binding Notificacoes}"
+                      SelectedItem="{Binding NotificacaoSelecionada}"
+                      ItemTapped="ListView_ItemTapped"
+                      HasUnevenRows="True">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <Frame BorderColor="{DynamicResource PrimaryDark}">
+                                <StackLayout>
+                                    <Label Text="{Binding Mensagem}"/>
+                                    <StackLayout Orientation="Horizontal">
+                                        <Label Text="{Binding DateTime}"
+                                           HorizontalOptions="EndAndExpand"
+                                           FontSize="Caption"
+                                           VerticalOptions="EndAndExpand"
+                                           TextColor="Gray"/>
+                                    </StackLayout>
+                                </StackLayout>
+                            </Frame>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

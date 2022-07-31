@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:imagens="clr-namespace:AppAptO.Models.AppHelpers;assembly=AppAptO" 
+             xmlns:viewModel="clr-namespace:AppAptO.ViewModels.Conta.MeuVoluntariado"
+             x:Class="AppAptO.Views.Conta.MeuVoluntariado.SobreMinhaAcaoView">
+    <ContentView.BindingContext>
+        <viewModel:SobreMinhaAcaoViewModel/>
+    </ContentView.BindingContext>
+    <ContentView.Resources>
+        <ResourceDictionary>
+            <Style TargetType="Label">
+                <Setter Property="Margin" Value="6"/>
+            </Style>
+        </ResourceDictionary>
+    </ContentView.Resources>
+  <ContentView.Content>
+    <ScrollView>
+        <StackLayout>
+            <StackLayout VerticalOptions="StartAndExpand"
+                         Margin="0,10,0,0">
+                <Label Text="{Binding Acao.Area, StringFormat='Área: {0}'}"/>
+                <BoxView Style="{StaticResource LinhaHorizontal}"/>
+                <Label Text="{Binding Acao.Localidade, StringFormat='Localidade: {0}'}"/>
+                <BoxView Style="{StaticResource LinhaHorizontal}"/>
+                <Label>
+                    <Label.Text>
+                        <MultiBinding StringFormat="{}Data de publicação: {0}-{1}-{2}">
+                            <Binding Path="Acao.DiaPublicacao.Day" />
+                            <Binding Path="Acao.DiaPublicacao.Month" />
+                            <Binding Path="Acao.DiaPublicacao.Year" />
+                        </MultiBinding>
+                    </Label.Text>
+                </Label>
+                <BoxView Style="{StaticResource LinhaHorizontal}"/>
+            </StackLayout>
+
+            <StackLayout>
+                <Label Text="Descrição"/>
+                <Frame Margin="10">
+                    <Label Text="{Binding Acao.Descricao}"/>
+                </Frame>
+            </StackLayout>
+                <StackLayout>
+
+                    <BoxView Style="{StaticResource LinhaHorizontal}"/>
+                    <Label Text="Tarefas da ação" VerticalOptions="Center" VerticalTextAlignment="Center"/>
+                    <StackLayout BindableLayout.ItemsSource="{Binding Acao.Tarefas}" Margin="10">
+                        <BindableLayout.ItemTemplate>
+                            <DataTemplate>
+                                <Frame Style="{StaticResource ComponenteLista}" BackgroundColor="White" >
+                                    <StackLayout Padding="0" Orientation="Horizontal">
+                                        <StackLayout>
+                                            <Label Text="{Binding Titulo}" Margin="10"
+                                                        Style="{StaticResource Descricao}"/>
+                                        </StackLayout>
+                                        <Image HorizontalOptions="EndAndExpand"
+                                           Margin="5"
+                                           HeightRequest="30"
+                                           WidthRequest="30"
+                                           IsVisible="{Binding Estado,Converter={StaticResource InverseBoolConverter}}"
+                                           Source="{imagens:ImageResource cross.png}" />
+                                        <Image HorizontalOptions="EndAndExpand"
+                                           IsVisible="{Binding Estado}"
+                                           HeightRequest="30"
+                                           WidthRequest="30"
+                                           Source="{imagens:ImageResource check.png}" />
+                                    </StackLayout>
+                                </Frame>
+                            </DataTemplate>
+                        </BindableLayout.ItemTemplate>
+                    </StackLayout>
+                </StackLayout>
+                <Button IsVisible="{Binding IsModoEdicao}" Text="Deixar ação" Command="{Binding SairAcaoCommand}" VerticalOptions="EndAndExpand"/>
+        </StackLayout>
+    </ScrollView>
+  </ContentView.Content>
+</ContentView>

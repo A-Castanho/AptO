@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:viewModel="clr-namespace:AppAptO.Areas.ParticipanteNoVoluntariado.Chats"
+             Title="Chats"
+             x:Class="AppAptO.Areas.ParticipanteNoVoluntariado.Chats.MeusChatsPage">
+    <ContentPage.BindingContext>
+        <viewModel:MeusChatsViewModel/>
+    </ContentPage.BindingContext>
+    <ContentPage.Content>
+        <StackLayout>
+            <SearchBar Text="{Binding Pesquisa}" SearchCommand="{Binding CommandPesquisar}"/>
+            <ListView ItemsSource="{Binding Chats}" ItemTapped="ListView_ItemTapped"
+                      IsPullToRefreshEnabled="True" IsRefreshing="{Binding ListaPorIniciar}" RefreshCommand="{Binding CommandIniciarLista}"
+                      SelectedItem="{Binding ChatSelecionado}" RowHeight="100">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <Frame Style="{StaticResource ComponenteLista}" BackgroundColor="White" >
+                                <Grid Padding="0" ColumnDefinitions="*,0.5*">
+                                    <Frame HasShadow="False" BackgroundColor="White" BorderColor="AliceBlue"
+                                           Grid.Column="0">
+                                        <Label Text="{Binding Value.Nome}"/>
+                                    </Frame>
+                                    <Frame Style="{StaticResource MolduraCircular}" HeightRequest="70" WidthRequest="70"
+                                           Grid.Column="1">
+                                        <Image Source="{Binding Value.ImageSource}" Aspect="AspectFill"
+                                               BackgroundColor="Black"/>
+                                    </Frame>
+                                </Grid>
+                            </Frame>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

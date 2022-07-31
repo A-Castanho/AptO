@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<xct:Popup xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:xct="clr-namespace:Xamarin.CommunityToolkit.UI.Views;assembly=Xamarin.CommunityToolkit"
+           xmlns:viewModel="clr-namespace:AppAptO.ViewModels.PopUps"
+             x:Class="AppAptO.PopUps.MensagemPopUp"
+           BackgroundColor="Transparent">
+    <xct:Popup.BindingContext>
+        <viewModel:MensagemPopupViewModel/>
+    </xct:Popup.BindingContext>
+    <xct:Popup.Content>
+        <Grid x:Name="MainGrid" RowDefinitions="70,Auto,70" RowSpacing="0" Background="{DynamicResource LGBPrimaryToDark}">
+            <Label Text="{Binding Titulo}" Grid.Row="0"  x:Name="labelTitulo"
+                    VerticalOptions="CenterAndExpand"
+                    HorizontalTextAlignment="Center" TextColor="White"
+                    HorizontalOptions="CenterAndExpand"
+                    FontSize="Large"/>
+            <Grid RowSpacing="0" Grid.Row="1" x:Name="gridMessage">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <Frame Margin="15,0,15,0" Padding="30" Grid.Row="0">
+                    <Label Text="{Binding Mensagem}" WidthRequest="300"
+                                    FontSize="15" Margin="0" Padding="0"
+                                    HorizontalTextAlignment="Center"
+                                    VerticalTextAlignment="Center"
+                                    VerticalOptions="CenterAndExpand"
+                                    HorizontalOptions="CenterAndExpand"/>
+                </Frame>
+            </Grid>
+            <Button Text="{Binding TextoSaida}" Padding="0" Clicked="Button_Clicked"
+                        BackgroundColor="Transparent" Margin="0,0,0,10" Grid.Row="2"
+                        VerticalOptions="EndAndExpand"  x:Name="button"/>
+        </Grid>
+    </xct:Popup.Content>
+</xct:Popup>

@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppAptO.Views.Pedidos.PedidosMainPage"
+             xmlns:myItems="clr-namespace:AppAptO.XamarinItems"
+             xmlns:input="clr-namespace:Plugin.InputKit.Shared.Controls;assembly=Plugin.InputKit"
+             xmlns:imagens="clr-namespace:AppAptO.Models.AppHelpers;assembly=AppAptO" 
+             xmlns:viewModel="clr-namespace:AppAptO.ViewModels.Pedidos"
+             Title="Pedidos de Apoio">
+    <ContentPage.ToolbarItems>
+        <myItems:BindableToolbarItem Text="+" 
+                                     Command="{Binding ComandoGoToAdicionar}" 
+                                     IsVisible="{Binding VisibilidadeAdicao}"/>
+        <ToolbarItem IconImageSource="{imagens:ImageResource filter.png}" 
+                     Command="{Binding ComandoVisibilidadeFiltros}"/>
+    </ContentPage.ToolbarItems>
+    <ContentPage.BindingContext>
+        <viewModel:PedidosMainViewModel/>
+    </ContentPage.BindingContext>
+    <ContentPage.Content>
+        <StackLayout>
+            <Frame BorderColor="{DynamicResource Primary}"  IsVisible="{Binding VisibilidadeFiltros}" HasShadow="True">
+                <StackLayout>
+                    <input:Dropdown  Title="Área"
+                                        input:Dropdown.FontSize="15"
+                                        ItemsSource="{Binding ConteudoDropdowAreas}"
+                                        SelectedItem="{Binding AreaSelecionada}">
+                    </input:Dropdown>
+                    <Label Text="Localidade"/>
+                    <Frame BorderColor="Black" CornerRadius="50" Padding="13" Margin="0,0,0,0">
+                        <Frame.GestureRecognizers>
+                            <TapGestureRecognizer Command="{Binding CommandOpenSelectLocalidade}"/>
+                        </Frame.GestureRecognizers>
+                        <Label Text="{Binding LocalidadeSelecionada}" Margin="10,0,0,0"/>
+                    </Frame>
+                </StackLayout>
+            </Frame>
+
+            <RefreshView Command="{Binding CommandIniciar}" 
+                         IsRefreshing="{Binding ConteudoIniciado, Converter={StaticResource InverseBoolConverter}}">
+                <ListView  ItemsSource="{Binding ElementosLista}" HasUnevenRows="True" 
+                           ItemTapped="ListView_ItemTapped"
+                           IsRefreshing="{Binding ConteudoIniciado, Converter={StaticResource InverseBoolConverter}}"
+                           RefreshCommand="{Binding CommandIniciar}">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <ViewCell>
+                                <StackLayout>
+                                    <Frame Style="{StaticResource ComponenteLista}" 
+                                           BackgroundColor="White">
+                                        <StackLayout Padding="0">
+                                            <Label Text="{Binding PedidoApoio.Object.Titulo}" 
+                                                   FontSize="15" Margin="10,20,10,20"/>
+                                            <StackLayout Orientation="Horizontal">
+                                                <Frame Style="{StaticResource FrameArea}">
+                                                    <Label Text="{Binding PedidoApoio.Object.Area}" 
+                                                        Style="{StaticResource Area}" />
+
+                                                </Frame>
+                                                <Frame Style="{StaticResource FrameArea}">
+
+                                                    <Label Text="{Binding PedidoApoio.Object.Localidade}"
+                                                        Style="{StaticResource Area}" />
+                                                </Frame>
+                                            </StackLayout>
+                                            <Frame Margin="10,0,10,0" IsVisible="{Binding VisibilidadeDetalhes}">
+                                                <StackLayout>
+                                                    <Label Text="{Binding PedidoApoio.Object.Descricao}"/>
+                                                    <Label Text="Ver detalhes" Style="{StaticResource TappableLabel}"
+                                                           HorizontalOptions="EndAndExpand">
+                                                        <Label.GestureRecognizers>
+                                                            <TapGestureRecognizer Command="{Binding ComandoAnalisarElemento}"
+                                                            CommandParameter="{Binding .}"/>
+                                                        </Label.GestureRecognizers>
+                                                    </Label>
+                                                </StackLayout>
+                                            </Frame>
+                                            <StackLayout Orientation="Horizontal"  HorizontalOptions="EndAndExpand" Margin="0">
+                                                <Label Text="{Binding Utilizador.NomeExibicao}" VerticalOptions="CenterAndExpand"/>
+                                                <Frame Style="{StaticResource MolduraCircular}" Margin="0">
+                                                    <Image HeightRequest="25" WidthRequest="25" Source="{Binding Utilizador.FotoUrl}"/>
+                                                </Frame>
+                                            </StackLayout>
+                                        </StackLayout>
+                                    </Frame>
+                                </StackLayout>
+                            </ViewCell>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </RefreshView>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

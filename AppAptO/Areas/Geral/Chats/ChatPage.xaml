@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:input="clr-namespace:Plugin.InputKit.Shared.Controls;assembly=Plugin.InputKit"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:imagens="clr-namespace:AppAptO.Models.AppHelpers;assembly=AppAptO" 
+             xmlns:chat="clr-namespace:AppAptO.Helpers.Chat"
+             xmlns:local="clr-namespace:AppAptO.Areas.ParticipanteNoVoluntariado.Chats" 
+             x:Class="AppAptO.Areas.ParticipanteNoVoluntariado.Chats.ChatPage">
+</ContentPage>

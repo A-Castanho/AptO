@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:input="clr-namespace:Plugin.InputKit.Shared.Controls;assembly=Plugin.InputKit"
+             xmlns:vm="clr-namespace:AppAptO.Areas.ParticipanteNoVoluntariado.Apoios.Pedidos.Gestao"
+             xmlns:imagens="clr-namespace:AppAptO.Models.AppHelpers;assembly=AppAptO" 
+             Title="Gestão do chat"
+             x:Class="AppAptO.Areas.ParticipanteNoVoluntariado.Apoios.Pedidos.Gestao.GestaoChatPage">
+    <ContentPage.BindingContext>
+        <vm:GestaoChatViewModel/>
+    </ContentPage.BindingContext>
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <Grid ColumnDefinitions="60,*,60" RowDefinitions="60" Margin="10">
+                    <Frame Style="{StaticResource MolduraCircular}" Grid.Column="0" Margin="0">
+                        <Image Source="{Binding ImagemSource}"/>
+                    </Frame>
+                    <Label Text="Alterar Imagem" Style="{DynamicResource TappableLabel}" VerticalOptions="EndAndExpand"
+                           HorizontalOptions="StartAndExpand" Grid.Column="1">
+                        <Label.GestureRecognizers>
+                            <TapGestureRecognizer Command="{Binding CommandSelectImagem}"/>
+                        </Label.GestureRecognizers>
+                    </Label>
+                    <ImageButton Source="{imagens:ImageResource check.png}" Grid.Column="2" Margin="10" 
+                                 Command="{Binding CommandMudarImagem}"/>
+                </Grid>
+                <BoxView Style="{DynamicResource LinhaHorizontal}"/>
+                <Grid ColumnDefinitions="*,60" RowDefinitions="60">
+                    <input:AdvancedEntry Title="Título do chat" TextFontSize="Caption" 
+                                         Text="{Binding ChatTitulo}" TextColor="Black"/>
+                    <ImageButton Source="{imagens:ImageResource check.png}" Grid.Column="1" Margin="10" 
+                                 VerticalOptions="EndAndExpand" Command="{Binding CommandMudarTitulo}"/>
+                </Grid>
+
+                <BoxView Style="{DynamicResource LinhaHorizontal}" Margin="0,10,0,10"/>
+                <Frame Padding="4" BorderColor="{DynamicResource PrimaryDark}">
+                    <StackLayout Orientation="Horizontal" HeightRequest="50">
+                        <Label Text="Utilizadores no chat" VerticalOptions="CenterAndExpand" FontSize="Medium"/>
+                        <ImageButton Source="{imagens:ImageResource plus.png}" Padding="5" WidthRequest="45"
+                             Aspect="AspectFit" HorizontalOptions="EndAndExpand" Margin="5"
+                             BackgroundColor="{DynamicResource PrimaryDark}" Command="{Binding CommandAddUtilizador}"/>
+                        <ImageButton Source="{imagens:ImageResource white-cross.png}" Padding="5" WidthRequest="45"
+                             Aspect="AspectFit" HorizontalOptions="EndAndExpand" Margin="5"
+                             BackgroundColor="{DynamicResource PrimaryDark}" Command="{Binding CommandRemoveUtilizador}"/>
+                    </StackLayout>
+                </Frame>
+                <StackLayout BindableLayout.ItemsSource="{Binding UtilizadoresChat}" >
+                    <BindableLayout.ItemTemplate>
+                        <DataTemplate>
+                            <Frame Style="{StaticResource ComponenteLista}" BackgroundColor="White" >
+                                <Grid Padding="0" ColumnDefinitions="*,0.5*">
+                                    <Frame HasShadow="False" BackgroundColor="White" BorderColor="AliceBlue"
+                                           Grid.Column="0">
+                                        <Label Text="{Binding Value.NomeExibicao}" 
+                                                    Style="{StaticResource Descricao}"/>
+                                    </Frame>
+                                    <Frame Style="{StaticResource MolduraCircular}" HeightRequest="70" WidthRequest="70"
+                                           Grid.Column="1">
+                                        <Image Source="{Binding Value.FotoUrl}" Aspect="AspectFill"/>
+                                    </Frame>
+                                </Grid>
+                            </Frame>
+                        </DataTemplate>
+                    </BindableLayout.ItemTemplate>
+                </StackLayout>
+                <BoxView Style="{StaticResource LinhaHorizontal}"/>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

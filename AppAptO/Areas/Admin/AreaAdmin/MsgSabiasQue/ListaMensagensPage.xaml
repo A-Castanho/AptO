@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             Title="Mensagens Iniciais"
+             xmlns:vm="clr-namespace:AppAptO.Areas.Admin.AreaAdmin.MsgSabiasQue"
+             x:Class="AppAptO.Areas.Admin.AreaAdmin.MsgSabiasQue.ListaMensagensPage">
+    <ContentPage.BindingContext>
+        <vm:ListaMensagensViewModel/>
+    </ContentPage.BindingContext>
+    <ContentPage.Content>
+        <StackLayout>
+            <Button Command="{Binding CommandGoToCreate}" Text="+"/>
+            <SearchBar Text="{Binding Pesquisa}"/>
+            <ListView ItemsSource="{Binding Mensagens}" ItemTapped="ListView_ItemTapped" 
+                      IsPullToRefreshEnabled="True" RefreshCommand="{Binding CommandRefresh}" IsRefreshing="{Binding IsBusy}"
+                      SelectedItem="{Binding MensagensSelecionada}"
+                          HasUnevenRows="True">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <Frame BorderColor="Black" Padding="5">
+                                <StackLayout>
+                                    <Label Text="{Binding Object.Texto}" 
+                                           FontAttributes="Italic"
+                                           VerticalOptions="StartAndExpand"/>
+                                    <Label HorizontalOptions="EndAndExpand">
+                                        <Label.Text>
+                                            <MultiBinding StringFormat="{}{0}-{1}-{2}">
+                                                <Binding Path="Object.DataAdicao.Day" />
+                                                <Binding Path="Object.DataAdicao.Month" />
+                                                <Binding Path="Object.DataAdicao.Year" />
+                                            </MultiBinding>
+                                        </Label.Text>
+                                    </Label>
+                                </StackLayout>
+                            </Frame>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

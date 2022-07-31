@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:imagens="clr-namespace:AppAptO.Models.AppHelpers;assembly=AppAptO" 
+             xmlns:input="clr-namespace:Plugin.InputKit.Shared.Controls;assembly=Plugin.InputKit"
+             xmlns:viewModel="clr-namespace:AppAptO.PopUps.Autenticacao"
+             x:Class="AppAptO.PopUps.Autenticacao.EscolherExperienciaPage">
+    <ContentPage.BindingContext>
+        <viewModel:AptidoesViewModel/>
+    </ContentPage.BindingContext>
+    <ContentPage.Content>
+        <StackLayout>
+            <StackLayout Margin="0,4,0,0" Orientation="Vertical">
+                <CollectionView ItemsSource="{Binding TitulosAreasEscolhidas}" SelectionMode="None"
+                                HeightRequest="200" x:Name="MinhasAreasCollectionView">
+                    <CollectionView.ItemsLayout>
+                        <LinearItemsLayout Orientation="Horizontal" />
+                    </CollectionView.ItemsLayout>
+                    <CollectionView.ItemTemplate>
+                        <DataTemplate>
+                            <Grid WidthRequest="200" HeightRequest="150">
+                                <Frame Padding="0" Margin="1,5,1,5" CornerRadius="20">
+                                    <Grid Padding="15" Background="{DynamicResource LGBPrimaryToDark}">
+                                        <Label  TextColor="White" Text="{Binding Texto}" 
+                                                FontSize="12"
+                                                VerticalOptions="CenterAndExpand" 
+                                                HorizontalTextAlignment="Center" 
+                                                HorizontalOptions="CenterAndExpand" />
+                                    </Grid>
+                                </Frame>
+                            </Grid>
+                        </DataTemplate>
+                    </CollectionView.ItemTemplate>
+                </CollectionView>
+                <ImageButton Source="{imagens:ImageResource check.png}" HeightRequest="40"  Command="{Binding CommandSubmeter}" 
+                                 HorizontalOptions="EndAndExpand" VerticalOptions="CenterAndExpand"
+                             WidthRequest="40" Aspect="Fill" Padding="0"/>
+            </StackLayout>
+            <Label Text="Selecione as suas áreas de experiência" Margin="10" FontSize="16"/>
+            <Grid RowDefinitions="*,120">
+                <ListView x:Name="ListGerais" ItemsSource="{Binding AreasGerais}" HasUnevenRows="True" Grid.RowSpan="2"
+                      SelectedItem="{Binding AreaGeralSelecionada}" ItemTapped="ListView_ItemTapped">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <ViewCell>
+                                <StackLayout>
+                                    <VisualStateManager.VisualStateGroups>
+                                        <VisualStateGroup Name="CommonStates">
+                                            <VisualState Name="Normal"/>
+                                            <VisualState Name="Selected">
+                                                <VisualState.Setters>
+                                                    <Setter Property="BackgroundColor" Value="White" />
+                                                </VisualState.Setters>
+                                            </VisualState>
+                                        </VisualStateGroup>
+                                    </VisualStateManager.VisualStateGroups>
+                                    <Frame Padding="0" Margin="1,2,1,2" CornerRadius="20">
+                                        <Grid Padding="15" Background="{DynamicResource LGBPrimaryToDark}">
+                                            <Label TextColor="White" Text="{Binding AreaExperiencia.Object.NomeGeral}"
+                                                   FontSize="12"
+                                               VerticalOptions="CenterAndExpand" 
+                                               HorizontalTextAlignment="Center" 
+                                               HorizontalOptions="CenterAndExpand" />
+                                        </Grid>
+                                    </Frame>
+                                    <CollectionView ItemsSource="{Binding  AreaExperiencia.Object.AreasEnglobadas}" 
+                                                    IsVisible="{Binding Visibilidade}" HeightRequest="100"
+                                                    SelectedItems = "{Binding TitulosAreasInterioresSelecionadas}"
+                                                    SelectionMode="Multiple" SelectionChanged="ListInteriores_SelectionChanged">
+                                        <CollectionView.ItemsLayout>
+                                            <LinearItemsLayout Orientation="Horizontal" />
+                                        </CollectionView.ItemsLayout>
+                                        <CollectionView.ItemTemplate>
+                                            <DataTemplate>
+                                                <Frame CornerRadius="20" Padding="3" Margin="1,5,1,5" BackgroundColor="Transparent">
+                                                    <VisualStateManager.VisualStateGroups>
+                                                        <VisualStateGroup Name="CommonStates">
+                                                            <VisualState Name="Normal"/>
+                                                            <VisualState Name="Selected">
+                                                                <VisualState.Setters>
+                                                                    <Setter Property="BackgroundColor" Value="LightGreen" />
+                                                                </VisualState.Setters>
+                                                            </VisualState>
+                                                        </VisualStateGroup>
+                                                    </VisualStateManager.VisualStateGroups>
+                                                    <Frame Padding="0"  CornerRadius="20" WidthRequest="200">
+                                                        <Grid Padding="0" Margin="0">
+                                                            <Grid.Background>
+                                                                <LinearGradientBrush EndPoint="0,1">
+                                                                    <GradientStop Color="#ff9966" Offset="0.1"/>
+                                                                    <GradientStop Color="#ff5e62" Offset="1.0"/>
+                                                                </LinearGradientBrush>
+                                                            </Grid.Background>
+                                                            <Label TextColor="White" Text="{Binding .}" 
+                                                                   FontSize="12" Margin="0"
+                                                                   VerticalOptions="CenterAndExpand" 
+                                                                   HorizontalTextAlignment="Center" 
+                                                                   HorizontalOptions="CenterAndExpand" />
+                                                        </Grid>
+                                                    </Frame>
+                                                </Frame>
+
+                                            </DataTemplate>
+                                        </CollectionView.ItemTemplate>
+                                    </CollectionView>
+                                </StackLayout>
+                            </ViewCell>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </Grid>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:imagens="clr-namespace:AppAptO.Models.AppHelpers;assembly=AppAptO" 
+             Title="Sobre"
+             x:Class="AppAptO.Areas.Geral.Configuracoes.AppSobrePage">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Style TargetType="Label">
+                <Setter Property="FontSize" Value="18"/>
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Consegues ver um mundo
+                   sem voluntários?" Margin="0,20,0,0" HorizontalOptions="CenterAndExpand"
+                  HorizontalTextAlignment="Center"  FontAttributes="Bold" FontSize="Title"/>
+            <Label Text="Uma sociedade que encoraja o voluntariado está apta a promover o bem-estar da sua comunidade, respondendo assim a valores humanistas, como: &#x0a;justiça, igualdade e liberdade, &#x0a;contribuindo para uma Cidadania Ativa. &#x0a;&#x0a;Se procuras um voluntariado em que sintas que podes fazer a diferença, então estás"
+                 Margin="19"
+                HorizontalOptions="CenterAndExpand" />
+            <Image Source="{imagens:ImageResource logo_simple.png}" HeightRequest="150" Aspect="AspectFit"/>
+            <Label Text="Exerce uma cidadania ativa, e aprende algo de novo.&#x0a;Encontra a tua causa e ajuda o próximo."
+                       HorizontalTextAlignment="Center"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

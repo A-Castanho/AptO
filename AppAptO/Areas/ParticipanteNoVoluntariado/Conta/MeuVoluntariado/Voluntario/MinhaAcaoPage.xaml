@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:viewModel="clr-namespace:AppAptO.ViewModels.Conta.MeuVoluntariado"
+             x:Class="AppAptO.Views.Conta.MeuVoluntariado.MinhaAcaoPage"
+             Title="{Binding Title}">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Sobre"
+                     Order="Secondary"
+                    Command="{Binding SelecionarViewCommand}" 
+                    CommandParameter="Sobre"/>
+        <ToolbarItem Text="Minhas Tarefas"
+                     Order="Secondary"
+                    Command="{Binding SelecionarViewCommand}" 
+                    CommandParameter="Minhas Tarefas"/>
+        <ToolbarItem Text="Participantes"
+                     Order="Secondary"
+                    Command="{Binding SelecionarViewCommand}" 
+                    CommandParameter="Participantes"/>
+        <ToolbarItem Text="Chat" 
+                     Order="Secondary"
+                    Command="{Binding SelecionarViewCommand}" 
+                    CommandParameter="Chat"/>
+    </ContentPage.ToolbarItems>
+    <ContentPage.BindingContext>
+        <viewModel:MinhaAcaoViewModel/>
+    </ContentPage.BindingContext>
+    <ContentPage.Content>
+            <ContentView Content="{Binding ViewAtual}"
+                         Margin="10"/>
+    </ContentPage.Content>
+</ContentPage>

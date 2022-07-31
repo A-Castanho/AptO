@@ -1,0 +1,173 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Application xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:Converters="clr-namespace:AppAptO.Converters"
+             xmlns:Imagens="clr-namespace:AppAptO.Models.AppHelpers;assembly=AppAptO" 
+             xmlns:resourceDictionaries ="clr-namespace:AppAptO.Themes;assembly=AppAptO"
+             xmlns:input="clr-namespace:Plugin.InputKit.Shared.Controls;assembly=Plugin.InputKit"
+             x:Class="AppAptO.App">
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <resourceDictionaries:VoluntarioTheme/>
+                <ResourceDictionary>
+                    <Converters:InverseBoolConverter x:Key="InverseBoolConverter"/>
+                    <Converters:AllTrueMultiConverter x:Key="AllTrueMultiConverter"/>
+                    <Imagens:ImageResource x:Key="ImageResource"/>
+
+                    <LinearGradientBrush x:Key="LGBPrimaryToDark" EndPoint="0,1">
+                        <GradientStop Color="{DynamicResource Primary}" Offset="0.1"/>
+                        <GradientStop Color="{DynamicResource PrimaryDark}" Offset="1.0"/>
+                    </LinearGradientBrush>
+
+                    <LinearGradientBrush x:Key="LGBLightToPrimary" EndPoint="0,1">
+                        <GradientStop Color="{DynamicResource Primary}" Offset="0.1"/>
+                        <GradientStop Color="{DynamicResource PrimaryLight}" Offset="1.0"/>
+                    </LinearGradientBrush>
+
+
+
+
+                    <Style TargetType="Label">
+                        <Setter Property="FontSize" Value="Small"/>
+                        <Setter Property="TextColor" Value="Black"/>
+                    </Style>
+
+                    <Style TargetType="Label" x:Key="TappableLabel">
+                        <Setter Property="TextDecorations" Value="Underline"/>
+                        <Setter Property="FontAttributes" Value="Bold"/>
+                        <Setter Property="TextColor" Value="{DynamicResource PrimaryDark}"/>
+                    </Style>
+
+                    <Style TargetType="Label" x:Key="Area">
+                        <Setter Property="HorizontalOptions" Value="Center"/>
+                        <Setter Property="VerticalOptions" Value="Center"/>
+                        <Setter Property="LineBreakMode" Value="CharacterWrap"/>
+                        <Setter Property="FontSize" Value="12"/>
+                        <Setter Property="TextColor" Value="White"/>
+                    </Style>
+
+                    <Style TargetType="Label" x:Key="Descricao">
+                        <Setter Property="FontSize" Value="Small"/>
+                        <Setter Property="VerticalOptions" Value="CenterAndExpand"/>
+                        <Setter Property="VerticalTextAlignment" Value="Center"/>
+                    </Style>
+
+                    <Style TargetType="Label" x:Key="Titulo">
+                        <Setter Property="TextColor" Value="{DynamicResource Primary}"/>
+                        <Setter Property="FontSize" Value="100"/>
+                        <Setter Property="HorizontalTextAlignment" Value="Center"/>
+                    </Style>
+
+
+
+
+
+                    <Style TargetType="Image">
+                        <Setter Property="Aspect" Value="Fill"/>
+                    </Style>
+
+                    <Style TargetType="ImageButton">
+                        <Setter Property="BackgroundColor" Value="White"/>
+                        <Setter Property="Aspect" Value="Fill"/>
+                    </Style>
+
+
+
+
+                    <Style TargetType="Frame" x:Key="FrameArea">
+                        <Setter Property="BackgroundColor" Value="{DynamicResource Primary}"/>
+                        <Setter Property="CornerRadius" Value="2"/>
+                        <Setter Property="Padding" Value="7"/>
+                        <Setter Property="Margin" Value="0"/>
+                    </Style>
+                    <Style TargetType="Frame" x:Key="MolduraCircular">
+                        <Setter Property="CornerRadius" Value="200"/>
+                        <Setter Property="HorizontalOptions" Value="CenterAndExpand"/>
+                        <Setter Property="Padding" Value="0"/>
+                        <Setter Property="Margin" Value="10"/>
+                        <Setter Property="IsClippedToBounds" Value="True"/>
+                    </Style>
+                    <Style TargetType="Frame" x:Key="ComponenteLista">
+                        <Setter Property="BackgroundColor" Value="WhiteSmoke"/>
+                        <Setter Property="BorderColor" Value="{DynamicResource Primary}"/>
+                        <Setter Property="Margin" Value="0"/>
+                        <Setter Property="Padding" Value="3"/>
+                    </Style>
+
+
+
+
+                    <Style TargetType="BoxView" x:Key="LinhaVertical">
+                        <Setter Property="BackgroundColor" Value="{DynamicResource Accent}"/>
+                        <Setter Property="WidthRequest" Value="1"/>
+                    </Style>
+                    <Style TargetType="BoxView" x:Key="LinhaHorizontal">
+                        <Setter Property="BackgroundColor" Value="{DynamicResource Accent}"/>
+                        <Setter Property="Margin" Value="0,10,0,0"/>
+                        <Setter Property="HeightRequest" Value="1"/>
+                    </Style>
+
+                    <Style TargetType="TimePicker">
+                        <Setter Property="Margin" Value="0"/>
+                        <Setter Property="TextColor" Value="Black"/>
+                        <Setter Property="FontSize" Value="Small"/>
+                    </Style>
+                    <Style TargetType="Button">
+                        <Setter Property="FontSize" Value="Small"/>
+                        <Setter Property="BackgroundColor" Value="{DynamicResource Primary}"/>
+                        <Setter Property="BorderWidth" Value="1"/>
+                        <Setter Property="TextColor" Value="White"/>
+                    </Style>
+
+
+
+                    <Style TargetType="ContentPage">
+                        <Setter Property="BackgroundColor" Value="White"/>
+                    </Style>
+                    <Style TargetType="ContentView">
+                        <Setter Property="BackgroundColor" Value="White"/>
+                    </Style>
+
+
+
+
+                    <Style TargetType="Editor">
+                        <Setter Property="FontSize" Value="Small"/>
+                        <Setter Property="TextColor" Value="Black"/>
+                    </Style>
+
+                    <Style TargetType="Entry">
+                        <Setter Property="TextColor" Value="Black"/>
+                        <Setter Property="BackgroundColor" Value="White"/>
+                        <Setter Property="PlaceholderColor" Value="Gray"/>
+                        <Setter Property="FontSize" Value="Small"/>
+                    </Style>
+
+
+                    <Style TargetType="input:Dropdown">
+                        <Setter Property="HeightRequest" Value="70"/>
+                        <Setter Property="Padding" Value="1"/>
+                        <Setter Property="TitleColor" Value="Black"/>
+                        <Setter Property="BorderColor" Value="Black"/>
+                        <Setter Property="Color" Value="{DynamicResource Primary}"/>
+                        <Setter Property="AnnotationColor" Value="{DynamicResource Accent}"/>
+                    </Style>
+
+                    <Style TargetType="input:CheckBox">
+                        <Setter Property="TextColor" Value="Black"/>
+                    </Style>
+                    <Style TargetType="EntryCell">
+                        <Setter Property="LabelColor" Value="White"/>
+                    </Style>
+
+                </ResourceDictionary>
+            </ResourceDictionary.MergedDictionaries>
+
+        </ResourceDictionary>
+
+
+
+
+    </Application.Resources>
+</Application>

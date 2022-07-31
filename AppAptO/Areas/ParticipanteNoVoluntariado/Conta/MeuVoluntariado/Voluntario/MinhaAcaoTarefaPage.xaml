@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:viewModel="clr-namespace:AppAptO.ViewModels.Conta.MeuVoluntariado"
+             x:Class="AppAptO.Views.Conta.MeuVoluntariado.MinhaAcaoTarefaPage"
+             Title="Minha Tarefa">
+    <ContentPage.BindingContext>
+        <viewModel:MinhaAcaoTarefaViewModel/>
+    </ContentPage.BindingContext>
+    <ContentPage.Content>
+        <StackLayout >
+            <Grid ColumnDefinitions="*,Auto" Margin="10" RowDefinitions="40">
+                <Label Text="{Binding Tarefa.Titulo}" FontSize="Medium"/>
+
+                <StackLayout Orientation="Horizontal" Grid.Column="1" VerticalOptions="CenterAndExpand">
+                    <Switch IsToggled="{Binding Tarefa.Estado}" Toggled="Switch_Toggled"/>
+                    <Label Text="{Binding NomeEstado, StringFormat='Estado: {0}'}"/>
+                </StackLayout>
+            </Grid>
+            <Label Text="{Binding Tarefa.Descricao}" Padding="10"/>
+            <BoxView Style="{StaticResource LinhaHorizontal}"/>
+            <Label Text="Participantes: " Padding="10"/>
+            <ListView  ItemsSource="{Binding ListaEnvolvidos}" HasUnevenRows="True"
+                            IsPullToRefreshEnabled="True" Margin="10"
+                            ItemTapped="ListView_ItemTapped"
+                            SelectedItem="{Binding ParticipanteSelecionado}">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <Frame Style="{StaticResource ComponenteLista}" BackgroundColor="White" >
+                                <StackLayout Padding="0" Orientation="Horizontal">
+                                    <Frame HasShadow="False" BackgroundColor="White" BorderColor="AliceBlue">
+                                        <Label Text="{Binding Object.NomeExibicao}" 
+                                                        Style="{StaticResource Descricao}"/>
+                                    </Frame>
+                                    <Frame Style="{StaticResource MolduraCircular}">
+                                        <Image Source="{Binding Object.FotoUrl}" 
+                                                        HeightRequest="50" 
+                                                        WidthRequest="50"/>
+                                    </Frame>
+                                </StackLayout>
+                            </Frame>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

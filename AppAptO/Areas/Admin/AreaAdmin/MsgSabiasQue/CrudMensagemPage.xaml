@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             Title="Mensagens Iniciais"
+             xmlns:input="clr-namespace:Plugin.InputKit.Shared.Controls;assembly=Plugin.InputKit"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:viewModel="clr-namespace:AppAptO.Areas.Admin.AreaAdmin.MsgSabiasQue"
+             x:Class="AppAptO.Areas.Admin.AreaAdmin.MsgSabiasQue.CrudMensagemPage">
+    <ContentPage.BindingContext>
+        <viewModel:CrudMensagemViewModel/>
+    </ContentPage.BindingContext>
+    <ContentPage.Content>
+        <StackLayout>
+            <StackLayout Margin="15" Padding="0">
+                <Label HorizontalOptions="EndAndExpand">
+                    <Label.Text>
+                        <MultiBinding StringFormat="{}Data de adição: {0}-{1}-{2}">
+                            <Binding Path="Mensagem.DataAdicao.Day" />
+                            <Binding Path="Mensagem.DataAdicao.Month" />
+                            <Binding Path="Mensagem.DataAdicao.Year" />
+                        </MultiBinding>
+                    </Label.Text>
+                </Label>
+                <input:AdvancedEntry CornerRadius="0" TitleColor="Black" TextFontSize="Caption"
+                   Text="{Binding Texto}" Title="Mensagem" TextColor="Black"/>
+                <input:AdvancedEntry CornerRadius="0" TitleColor="Black"
+                   Text="{Binding Anotacao}" Title="Anotação" TextColor="Black" TextFontSize="Caption"/>
+            </StackLayout>
+            <Grid x:Name="MainGrid" RowDefinitions="70,Auto,70" RowSpacing="0" 
+                  Background="{DynamicResource LGBPrimaryToDark}" VerticalOptions="CenterAndExpand">
+                <Label Text="Sabias que..." Grid.Row="0"
+                    VerticalOptions="CenterAndExpand"
+                    HorizontalTextAlignment="Center" TextColor="White"
+                    HorizontalOptions="CenterAndExpand"
+                    FontSize="Large"/>
+                <Grid RowSpacing="0" Grid.Row="1">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+                    <Frame Margin="15,0,15,0" Padding="0" Grid.Row="0" HeightRequest="160">
+                        <Label Text="{Binding Texto}" WidthRequest="300"
+                                    FontSize="15" Margin="0" Padding="0"
+                                    HorizontalTextAlignment="Center"
+                                    VerticalTextAlignment="Center"
+                                    VerticalOptions="CenterAndExpand"
+                                    HorizontalOptions="CenterAndExpand"/>
+                    </Frame>
+                </Grid>
+            </Grid>
+            <Grid VerticalOptions="EndAndExpand">
+                <Button Text="Submeter" Command="{Binding CommandSubmeter}"/>
+                <Button Text="Eliminar" Command="{Binding CommandEliminar}" Grid.Column="1"
+                        IsVisible="{Binding VisibilidadeEliminar}"/>
+            </Grid>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             xmlns:imagens="clr-namespace:AppAptO.Models.AppHelpers;assembly=AppAptO" 
+             x:Class="AppAptO.Areas.ParticipanteNoVoluntariado.Chats.ChatInputBarView" 
+             xmlns:controls="clr-namespace:AppAptO.Controls">
+    <Grid RowSpacing="0" RowDefinitions="Auto" ColumnDefinitions="*,Auto"
+           ColumnSpacing="0">
+        <Entry x:Name="chatTextInput" 
+                 Text="{Binding NovaMensagem}" 
+                 Margin="1"  
+                 TextColor="Black" 
+                 Keyboard="Chat"  
+                 HorizontalOptions="FillAndExpand" 
+                 PlaceholderColor="LightGray"
+                 Placeholder="Escreva a sua mensagem aqui"
+                 Grid.Row="0" 
+                 Grid.Column="0"
+                 Completed="Handle_Completed"/>
+        <ImageButton Source="{imagens:ImageResource send-message.png}" Margin="5,0,5,3"
+                     Grid.Row="0" Grid.Column="1" HeightRequest="25" WidthRequest="30"
+                     Command="{Binding OnSendCommand}"
+                     Clicked="Handle_Completed"/>
+    </Grid>
+</ContentView>

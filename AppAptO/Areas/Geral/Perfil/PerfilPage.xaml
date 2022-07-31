@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             x:Class="AppAptO.Views.Conta.PerfilPage"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:imagens="clr-namespace:AppAptO.Models.AppHelpers;assembly=AppAptO" 
+             xmlns:Converters="clr-namespace:AppAptO.Converters"
+             xmlns:myItems="clr-namespace:AppAptO.XamarinItems"
+             xmlns:viewModel="clr-namespace:AppAptO.ViewModels.Conta"
+             NavigationPage.HasBackButton="True"
+             NavigationPage.HasNavigationBar="True"
+             Title="Perfil">
+    <ContentPage.BindingContext>
+        <viewModel:PerfilViewModel/>
+    </ContentPage.BindingContext>
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Style TargetType="Button">
+                <Setter Property="BackgroundColor" Value="{DynamicResource PrimaryDark}"/>
+                <Setter Property="FontSize" Value="Caption"/>
+                <Setter Property="Padding" Value="0"/>
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    <ContentPage.Content>
+        <Grid RowDefinitions="Auto,Auto,*,Auto">
+            <Frame Padding="5" Margin="0" Grid.Row="0">
+                <Grid ColumnDefinitions="*,100" RowDefinitions="100">
+                    <Label Text="{Binding Utilizador.NomeExibicao}"
+                                   FontSize="Medium" Grid.Column="0"
+                           HorizontalOptions="CenterAndExpand"  TextColor="Black"
+                                   VerticalOptions="CenterAndExpand"/>
+                    <Frame Style="{StaticResource MolduraCircular}" Grid.Column="1">
+                        <Image Source="{Binding Utilizador.FotoUrl}"
+                            BackgroundColor="Black"/>
+                    </Frame>
+                </Grid>
+            </Frame>
+            <Grid ColumnDefinitions="*,*" 
+                  IsVisible="{Binding IsUtilizadorProprio, Converter={StaticResource InverseBoolConverter}}" 
+                  Grid.Row="1" Margin="0">
+                <Button Text="Enviar Email" Grid.Column="0"
+                    Command="{Binding CommandEnviarEmail}"/>
+                <Button Text="Enviar Mensagem" Grid.Column="1"
+                    Command="{Binding CommandEnviarMensagem}"/>
+            </Grid>
+            <Grid Grid.Row="2" >
+                <Grid Background="{DynamicResource LGBLightToPrimary}">
+                    <CarouselView IsScrollAnimated="True" IsBounceEnabled="False" ItemsSource="{Binding Views}" Loop="False" >
+                        <CarouselView.ItemTemplate>
+                            <DataTemplate>
+                                <Grid RowDefinitions="Auto,*">
+                                    <Label Text="{Binding Nome}" Grid.Row="0"
+                                       TextColor="White"
+                                       Padding="15" FontSize="16" FontAttributes="Italic,Bold" />
+                                    <ContentView Content="{Binding  View}" Grid.Row="1" />
+                                </Grid>
+                            </DataTemplate>
+                        </CarouselView.ItemTemplate>
+                    </CarouselView>
+                </Grid>
+            </Grid>
+            <Button Text="Pedir apoio" IsVisible="{Binding VisibilidadePedirApoio}" 
+                    Grid.Row="3" 
+                    Command="{Binding CommandSelectPedido}"/>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

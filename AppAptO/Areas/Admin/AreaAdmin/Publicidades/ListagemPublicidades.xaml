@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             Title="Publicidades"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:viewModel="clr-namespace:AppAptO.Areas.Admin.AreaAdmin.Publicidades"
+             x:Class="AppAptO.Areas.Admin.AreaAdmin.Publicidades.ListagemPublicidades">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="+" Clicked="ToolbarItem_Clicked"/>
+    </ContentPage.ToolbarItems>
+    <ContentPage.BindingContext>
+        <viewModel:ListagemPublicidadesViewModel/>
+    </ContentPage.BindingContext>
+    <ContentPage.Content>
+        <StackLayout>
+            <SearchBar Text="{Binding Pesquisa}"/>
+            <ListView ItemsSource="{Binding Publicidades}" ItemTapped="ListView_ItemTapped" IsPullToRefreshEnabled="True"
+                          HasUnevenRows="True" RefreshCommand="{Binding CommandRefresh}" IsRefreshing="{Binding IsBusy}">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <Frame BorderColor="Black" Padding="5">
+                                <StackLayout>
+                                    <Label Text="{Binding Object.Empresa}" 
+                                           FontAttributes="Italic"
+                                           VerticalOptions="StartAndExpand"/>
+                                    <Label Text="{Binding Object.Nome}" 
+                                           FontSize="Medium" Margin="10,0,0,0"/>
+                                    <Label HorizontalOptions="EndAndExpand">
+                                        <Label.Text>
+                                            <MultiBinding StringFormat="{}{0}-{1}-{2}">
+                                                <Binding Path="Object.DataAdicao.Day" />
+                                                <Binding Path="Object.DataAdicao.Month" />
+                                                <Binding Path="Object.DataAdicao.Year" />
+                                            </MultiBinding>
+                                        </Label.Text>
+                                    </Label>
+                                </StackLayout>
+                            </Frame>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

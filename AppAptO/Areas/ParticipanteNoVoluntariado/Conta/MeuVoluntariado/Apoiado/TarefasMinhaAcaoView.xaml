@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:Converters="clr-namespace:AppAptO.Converters"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:imagens="clr-namespace:AppAptO.Models.AppHelpers;assembly=AppAptO" 
+             xmlns:viewModel="clr-namespace:AppAptO.ViewModels.Conta.MeuVoluntariado"
+             x:Class="AppAptO.Views.Conta.MeuVoluntariado.TarefasMinhaAcaoView">
+    <ContentView.BindingContext>
+        <viewModel:TarefasMinhaAcaoViewModel/>
+    </ContentView.BindingContext>
+    <ContentView.Content>
+        <StackLayout>
+            <Label Text="Minhas Tarefas:"/>
+            <RefreshView Command="{Binding CommandReiniciar}"
+                       IsRefreshing="{Binding ConteudoIniciado, Converter={StaticResource InverseBoolConverter}}">
+                <ListView  ItemsSource="{Binding MinhasTarefas}" HasUnevenRows="True"
+                           ItemTapped="ListView_ItemTapped" 
+                           RefreshCommand="{Binding CommandReiniciar}"
+                           IsRefreshing="{Binding ConteudoIniciado, Converter={StaticResource InverseBoolConverter}}"
+                           SelectedItem="{Binding TarefaSelecionada}">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <ViewCell>
+                                <Frame Style="{StaticResource ComponenteLista}" BackgroundColor="White" >
+                                    <StackLayout Padding="0" Orientation="Horizontal">
+                                        <StackLayout>
+                                            <Label Text="{Binding Titulo}" Margin="10"
+                                                            Style="{StaticResource Descricao}"/>
+                                        </StackLayout>
+                                        <Image HorizontalOptions="EndAndExpand"
+                                               Margin="5"
+                                               HeightRequest="20"
+                                               WidthRequest="20"
+                                               Aspect="AspectFit"
+                                               IsVisible="{Binding Estado,Converter={StaticResource InverseBoolConverter}}"
+                                               Source="{imagens:ImageResource cross.png}" />
+                                        <Image HorizontalOptions="EndAndExpand"
+                                               IsVisible="{Binding Estado}"
+                                               HeightRequest="20"
+                                               Aspect="AspectFit"
+                                               WidthRequest="40" 
+                                               Margin="3"
+                                               Source="{imagens:ImageResource check.png}" />
+                                    </StackLayout>
+                                </Frame>
+                            </ViewCell>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </RefreshView>
+        </StackLayout>
+  </ContentView.Content>
+</ContentView>
